@@ -7,6 +7,8 @@ const rutasDepartamentos = [
     component: () => import('src/layouts/AplicacionLayout.vue'),
     meta: {
       sidebar: {
+        title: 'Departamentos',
+        icon: 'pi pi-sitemap',
         icon: 'pi pi-sitemap',
         groupTitle: 'Departamentos',
         visible: true,
@@ -14,12 +16,14 @@ const rutasDepartamentos = [
     },
     children: [
       {
+        path: '/Departamentos/GestionDepartamentos',
         path: '/Departamentos/Gestion',
         name: 'GestionDepartamentos',
         meta: {
           idModulo: idModuloDepartamentos,
           sidebar: {
             icon: 'pi pi-sitemap',
+            title: 'GestionDepartamentos',
             visible: true,
           },
         },

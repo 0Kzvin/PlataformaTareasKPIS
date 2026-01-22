@@ -7,6 +7,8 @@ const rutasTareas = [
     component: () => import('src/layouts/AplicacionLayout.vue'),
     meta: {
       sidebar: {
+        title: 'Tareas',
+        icon: 'pi pi-check-square',
         icon: 'pi pi-check-square',
         groupTitle: 'Tareas',
         visible: true,
@@ -14,6 +16,13 @@ const rutasTareas = [
     },
     children: [
       {
+        path: '/Tareas/MisTareas',
+        name: 'MisTareas',
+        meta: {
+          idModulo: idModuloTareas,
+          sidebar: {
+            icon: 'pi pi-check-square',
+            title: 'MisTareas',
         path: '/Tareas/Listado',
         name: 'ListadoTareas',
         meta: {

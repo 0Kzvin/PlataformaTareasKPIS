@@ -56,9 +56,15 @@ const routerGuard = async (to, from, next, store, Router) => {
       return
     }
 
-    const tienePermiso = permisosOtorgados.some((po) =>
-      to.matched.some((r) => r.meta.permisos?.includes(po.nombre) ?? false),
+    const rutasConPermiso = to.matched.filter(
+      (r) => Array.isArray(r.meta.permisos) && r.meta.permisos.length > 0,
     )
+    const requierePermiso = rutasConPermiso.length > 0
+    const tienePermiso =
+      !requierePermiso ||
+      permisosOtorgados.some((po) =>
+        rutasConPermiso.some((r) => r.meta.permisos?.includes(po.nombre) ?? false),
+      )
     const tieneAccesoModulo = modulosOtorgados.some((mo) => to.meta.idModulo === mo.id)
 
     ocultarLoadingGlobal()
@@ -134,7 +140,7 @@ export default defineRouter(function ({ store }) {
 })
 
 const enviarAModulo = async (modulosOtorgados, next, to = null, permisosOtorgados = null) => {
-  const moduloHome = modulosOtorgados.find((x) => x.id !== idModuloIds.idModuloAdmin)
+  const moduloHome = modulosOtorgados.find((x) => x.id !== idModuloIds.idModuloAdministracion)
   const detallesModulo = detallesModulos.find((x) => x.id == moduloHome?.id)
   const routeName = detallesModulo?.npPrincipal ?? 'Error404'
 

@@ -7,6 +7,8 @@ const rutasNotificaciones = [
     component: () => import('src/layouts/AplicacionLayout.vue'),
     meta: {
       sidebar: {
+        title: 'Notificaciones',
+        icon: 'pi pi-bell',
         icon: 'pi pi-bell',
         groupTitle: 'Notificaciones',
         visible: true,
@@ -14,12 +16,15 @@ const rutasNotificaciones = [
     },
     children: [
       {
+        path: '/Notificaciones/Inbox',
+        name: 'NotificacionesInbox',
         path: '/Notificaciones/Resumen',
         name: 'NotificacionesPrincipal',
         meta: {
           idModulo: idModuloNotificaciones,
           sidebar: {
             icon: 'pi pi-bell',
+            title: 'Notificaciones',
             visible: true,
           },
         },

@@ -1,3 +1,4 @@
+export const idModuloAdministracion = 1
 export const idModuloAdmin = 1
 export const idModuloDepartamentos = 2
 export const idModuloTareas = 3
@@ -7,6 +8,7 @@ export const idModuloNotificaciones = 6
 export const idModuloAuditoria = 7
 
 export const idModuloIds = {
+  idModuloAdministracion: 1,
   idModuloAdmin: 1,
   idModuloDepartamentos: 2,
   idModuloTareas: 3,
@@ -17,6 +19,7 @@ export const idModuloIds = {
 }
 
 export const nombresModulos = {
+  moduloAdministracion: 'moduloAdministracion',
   moduloAdmin: 'moduloAdmin',
   moduloDepartamentos: 'moduloDepartamentos',
   moduloTareas: 'moduloTareas',
@@ -33,22 +36,27 @@ export const Todos = () => {
 //// np = NOMBRE PÁGINA
 export const detallesModulos = [
   {
-    id: idModuloIds.idModuloAdmin,
+    id: idModuloIds.idModuloAdministracion,
     nombre: 'Administracion',
-    npPrincipal: 'Usuarios',
-    npNoAutorizado: 'NoAutorizadoAdmin',
-    npMantenimiento: 'MantenimientoAdmin',
+    npPrincipal: 'AdministracionUsuarios',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
   },
   {
     id: idModuloIds.idModuloDepartamentos,
     nombre: 'Departamentos',
     npPrincipal: 'GestionDepartamentos',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
     npNoAutorizado: 'NoAutorizadoDepartamentos',
     npMantenimiento: 'MantenimientoDepartamentos',
   },
   {
     id: idModuloIds.idModuloTareas,
     nombre: 'Tareas',
+    npPrincipal: 'MisTareas',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
     npPrincipal: 'ListadoTareas',
     npNoAutorizado: 'NoAutorizadoTareas',
     npMantenimiento: 'MantenimientoTareas',
@@ -57,12 +65,17 @@ export const detallesModulos = [
     id: idModuloIds.idModuloKpis,
     nombre: 'Kpis',
     npPrincipal: 'DashboardGlobal',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
     npNoAutorizado: 'NoAutorizadoKpis',
     npMantenimiento: 'MantenimientoKpis',
   },
   {
     id: idModuloIds.idModuloReportes,
     nombre: 'Reportes',
+    npPrincipal: 'ReportesListado',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
     npPrincipal: 'ReportesPrincipal',
     npNoAutorizado: 'NoAutorizadoReportes',
     npMantenimiento: 'MantenimientoReportes',
@@ -70,6 +83,9 @@ export const detallesModulos = [
   {
     id: idModuloIds.idModuloNotificaciones,
     nombre: 'Notificaciones',
+    npPrincipal: 'NotificacionesInbox',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
     npPrincipal: 'NotificacionesPrincipal',
     npNoAutorizado: 'NoAutorizadoNotificaciones',
     npMantenimiento: 'MantenimientoNotificaciones',
@@ -77,6 +93,9 @@ export const detallesModulos = [
   {
     id: idModuloIds.idModuloAuditoria,
     nombre: 'Auditoria',
+    npPrincipal: 'AuditoriaRegistros',
+    npNoAutorizado: 'NoAutorizado',
+    npMantenimiento: 'Mantenimiento',
     npPrincipal: 'AuditoriaTrazabilidad',
     npNoAutorizado: 'NoAutorizadoAuditoria',
     npMantenimiento: 'MantenimientoAuditoria',
@@ -86,9 +105,9 @@ export const detallesModulos = [
 export const modulosItems = [
   {
     mostrar: false,
-    idModulo: idModuloAdmin,
+    idModulo: idModuloAdministracion,
     icon: 'pi pi-shield',
-    text: 'Módulo de Administracion',
+    text: 'Módulo de Administración',
     ruta: '/Administracion/Usuarios',
     llave: 'Administracion',
     llaveAbreviacion: 'AdministracionAb',
@@ -98,6 +117,7 @@ export const modulosItems = [
     idModulo: idModuloDepartamentos,
     icon: 'pi pi-sitemap',
     text: 'Módulo de Departamentos',
+    ruta: '/Departamentos/GestionDepartamentos',
     ruta: '/Departamentos/Gestion',
     llave: 'Departamentos',
     llaveAbreviacion: 'DepartamentosAb',
@@ -107,6 +127,7 @@ export const modulosItems = [
     idModulo: idModuloTareas,
     icon: 'pi pi-check-square',
     text: 'Módulo de Tareas',
+    ruta: '/Tareas/MisTareas',
     ruta: '/Tareas/Listado',
     llave: 'Tareas',
     llaveAbreviacion: 'TareasAb',
@@ -115,6 +136,9 @@ export const modulosItems = [
     mostrar: false,
     idModulo: idModuloKpis,
     icon: 'pi pi-chart-line',
+    text: 'Módulo de KPIs',
+    ruta: '/Kpis/DashboardGlobal',
+    llave: 'Kpis',
     text: 'Módulo de KPIs y Analítica',
     ruta: '/Kpis/Global',
     llave: 'KpisAnalitica',
@@ -125,6 +149,7 @@ export const modulosItems = [
     idModulo: idModuloReportes,
     icon: 'pi pi-file',
     text: 'Módulo de Reportes',
+    ruta: '/Reportes/Reportes',
     ruta: '/Reportes/Resumen',
     llave: 'Reportes',
     llaveAbreviacion: 'ReportesAb',
@@ -134,6 +159,7 @@ export const modulosItems = [
     idModulo: idModuloNotificaciones,
     icon: 'pi pi-bell',
     text: 'Módulo de Notificaciones',
+    ruta: '/Notificaciones/Inbox',
     ruta: '/Notificaciones/Resumen',
     llave: 'Notificaciones',
     llaveAbreviacion: 'NotificacionesAb',
@@ -141,6 +167,9 @@ export const modulosItems = [
   {
     mostrar: false,
     idModulo: idModuloAuditoria,
+    icon: 'pi pi-history',
+    text: 'Módulo de Auditoría',
+    ruta: '/Auditoria/Registros',
     icon: 'pi pi-eye',
     text: 'Módulo de Auditoría y Trazabilidad',
     ruta: '/Auditoria/Trazabilidad',
@@ -150,6 +179,7 @@ export const modulosItems = [
 ]
 
 export default {
+  idModuloAdministracion,
   idModuloAdmin,
   idModuloDepartamentos,
   idModuloTareas,

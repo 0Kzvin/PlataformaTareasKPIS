@@ -27,6 +27,16 @@ const routes = [
   ...rutasNotificaciones,
   ...rutasAuditoria,
   {
+    path: '/no-autorizado',
+    name: 'NoAutorizado',
+    component: () => import('pages/NoAutorizado.vue'),
+  },
+  {
+    path: '/mantenimiento',
+    name: 'Mantenimiento',
+    component: () => import('pages/Mantenimiento.vue'),
+  },
+  {
     path: '/:catchAll(.*)*',
     component: () => import('pages/Error404.vue'),
   }

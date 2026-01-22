@@ -2,8 +2,7 @@ import { HubConnectionBuilder } from '@microsoft/signalr'
 import { obtenerDireccionAPI } from 'src/services/AxiosService.js'
 import { useSesionStore } from 'src/stores/sesion'
 
-// Get base URL without /api suffix for SignalR
-const baseUrl = obtenerDireccionAPI().replace('/api', '')
+const baseUrl = obtenerDireccionAPI()
 
 const obtenerTokenSesion = () => {
   const sesionStore = useSesionStore()

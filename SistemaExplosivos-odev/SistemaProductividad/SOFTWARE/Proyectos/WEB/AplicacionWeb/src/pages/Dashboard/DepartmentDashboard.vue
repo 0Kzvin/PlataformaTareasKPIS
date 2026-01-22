@@ -48,7 +48,6 @@
 import { ref, onMounted } from 'vue'
 import { api } from 'boot/axios'
 import { useQuasar } from 'quasar'
-import { obtenerDireccionAPI } from 'src/services/AxiosService.js' // Import helper
 
 const $q = useQuasar()
 // const sesionStore = useSesionStore()
@@ -68,11 +67,10 @@ const descargarReporte = () => {
   // Direct window open to download file (simple auth handled by browser cookies if applicable, or pass token in URL if permitted/secure enough for internal tool)
   // BETTER: Use axios to get blob and download.
   
-  const url = `${obtenerDireccionAPI()}/core/Reportes/Departamento/${deptId}`
-  
-  // For JWT Auth, we need to pass the header, so window.open might fail if API requires Header.
-  // Using Axios Blob approach:
-  api.get(url, { responseType: 'blob' })
+  api.post('/reportes/ExportarPDF', null, {
+    params: { departamentoId: deptId },
+    responseType: 'blob',
+  })
     .then((response) => {
        const href = URL.createObjectURL(response.data);
        const link = document.createElement('a');
@@ -90,7 +88,7 @@ const descargarReporte = () => {
 
 onMounted(async () => {
   try {
-    const { data } = await api.get(`/core/Dashboards/Departamento/${deptId}`)
+    const { data } = await api.get('/kpis/Departamento/Resumen', { params: { departamentoId: deptId } })
     Object.assign(stats.value, data)
   } catch (e) {
     console.error(e)

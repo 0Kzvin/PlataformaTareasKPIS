@@ -68,7 +68,7 @@ const onSubmit = async () => {
       departamentoId: props.departamentoId
     }
     
-    await api.post('/core/Tareas/Registrar', payload)
+    await api.post('/tareas/Crear', payload)
     
     $q.notify({ type: 'positive', message: 'Tarea creada correctamente' })
     emit('tareaCreada')

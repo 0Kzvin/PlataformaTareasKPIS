@@ -7,6 +7,8 @@ const rutasReportes = [
     component: () => import('src/layouts/AplicacionLayout.vue'),
     meta: {
       sidebar: {
+        title: 'Reportes',
+        icon: 'pi pi-file',
         icon: 'pi pi-file',
         groupTitle: 'Reportes',
         visible: true,
@@ -14,6 +16,13 @@ const rutasReportes = [
     },
     children: [
       {
+        path: '/Reportes/Reportes',
+        name: 'ReportesListado',
+        meta: {
+          idModulo: idModuloReportes,
+          sidebar: {
+            icon: 'pi pi-file',
+            title: 'Reportes',
         path: '/Reportes/Resumen',
         name: 'ReportesPrincipal',
         meta: {

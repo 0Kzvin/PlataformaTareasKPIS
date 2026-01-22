@@ -1,12 +1,14 @@
 using API.Database.Core;
 using API.Database.Core.DTOs.Auditoria;
+using API.Utilidades.Constantes;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/auditoria")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.AUDITORIA)]
+    [Route("auditoria")]
     [ApiController]
     public class AuditoriaControlador : Controller
     {

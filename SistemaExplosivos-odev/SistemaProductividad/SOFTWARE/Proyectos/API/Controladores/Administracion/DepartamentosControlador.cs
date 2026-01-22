@@ -2,13 +2,15 @@ using API.Database.Core;
 using API.Database.Core.DTOs.Departamentos;
 using API.Database.Core.Entidades;
 using API.Database.Core.Enums;
+using API.Utilidades.Constantes;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Administracion
 {
-    [Route("api/administracion/Departamentos")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.ADMINISTRACION)]
+    [Route("administracion/Departamentos")]
     [ApiController]
     public class DepartamentosControlador : Controller
     {

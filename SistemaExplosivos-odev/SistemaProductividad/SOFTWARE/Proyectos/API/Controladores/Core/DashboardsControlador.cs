@@ -2,13 +2,15 @@ using API.Database.Core;
 using API.Database.Core.DTOs.Dashboard;
 using API.Database.Core.Entidades;
 using API.Database.Core.Enums;
+using API.Utilidades.Constantes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/kpis")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.KPIS)]
+    [Route("kpis")]
     [ApiController]
     // [Authorize]
     public class DashboardsControlador : Controller

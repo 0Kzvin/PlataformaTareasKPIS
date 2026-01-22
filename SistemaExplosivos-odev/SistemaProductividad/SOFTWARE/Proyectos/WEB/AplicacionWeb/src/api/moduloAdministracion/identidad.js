@@ -64,7 +64,7 @@ export const recuperarCuenta = async (data) => {
 
 export const mantenerSesion = async (tokenInfo) => {
   try {
-    const resp = await axiosApiInstancia.post(`${controlador}/ActualizarToken`, tokenInfo)
+    const resp = await axiosApiInstancia.post(`${controlador}/MantenerSesion`, tokenInfo)
     if (resp) {
       return httpSuccessCatcher.catchSuccess(resp.data)
     }
