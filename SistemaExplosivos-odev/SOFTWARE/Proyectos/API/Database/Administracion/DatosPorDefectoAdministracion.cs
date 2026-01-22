@@ -31,41 +31,58 @@ namespace API.Database.Administracion
         {
             // INSERTANDO ROLES POR DEFECTO
             List<string> rolesDefault = new List<string>();
-
-            bool existenRoles = await roleManager.Roles.AnyAsync();
-
-            if (existenRoles)
+            var rolesPorDefecto = new List<Roles>
             {
-                return rolesDefault;
+                new Roles
+                {
+                    Name = ConstantesRoles.SUPER_USUARIO_G3,
+                    EstaOculto = true,
+                    Descripcion = "Rol por defecto para super usuarios",
+                    SuperUsuario = true
+                },
+                new Roles
+                {
+                    Name = ConstantesRoles.ADMINISTRADOR_PREDETERMINADO,
+                    Descripcion = "Rol por defecto para administradores del sistema",
+                },
+                new Roles
+                {
+                    Name = ConstantesRoles.SUPER_ADMIN,
+                    Descripcion = "Control global, KPIs globales y auditoría total.",
+                },
+                new Roles
+                {
+                    Name = ConstantesRoles.ADMINISTRADOR,
+                    Descripcion = "Administra departamento, KPIs locales y reportes.",
+                },
+                new Roles
+                {
+                    Name = ConstantesRoles.LIDER,
+                    Descripcion = "Lidera el departamento y gestiona KPIs locales.",
+                },
+                new Roles
+                {
+                    Name = ConstantesRoles.COLABORADOR,
+                    Descripcion = "Crea tareas, comenta y cambia estado sin campos privados.",
+                },
+                new Roles
+                {
+                    Name = ConstantesRoles.LIMITADO,
+                    Descripcion = "Rol por defecto si algún usuario no cuenta con ningún rol",
+                },
+            };
+
+            foreach (var rol in rolesPorDefecto)
+            {
+                var rolExistente = await roleManager.FindByNameAsync(rol.Name);
+                if (rolExistente == null)
+                {
+                    await roleManager.CreateAsync(rol);
+                }
             }
 
-            Roles rolSuperUsuario = new Roles
-            {
-                Name = ConstantesRoles.SUPER_USUARIO_G3,
-                EstaOculto = true,
-                Descripcion = "Rol por defecto para super usuarios",
-                SuperUsuario = true
-            };
-
-            Roles rolAdmin = new Roles
-            {
-                Name = ConstantesRoles.ADMINISTRADOR_PREDETERMINADO,
-                Descripcion = "Rol por defecto para administradores del sistema",
-            };
-
-            Roles rolLimitado = new Roles
-            {
-                Name = ConstantesRoles.LIMITADO,
-                Descripcion = "Rol por defecto si algún usuario no cuenta con ningún rol",
-            };
-
-
-            await roleManager.CreateAsync(rolSuperUsuario);
-            await roleManager.CreateAsync(rolAdmin);
-            await roleManager.CreateAsync(rolLimitado);
-
-            rolesDefault.Add(rolSuperUsuario.Name);
-            rolesDefault.Add(rolAdmin.Name);
+            rolesDefault.Add(ConstantesRoles.SUPER_USUARIO_G3);
+            rolesDefault.Add(ConstantesRoles.ADMINISTRADOR_PREDETERMINADO);
 
             return rolesDefault;
         }

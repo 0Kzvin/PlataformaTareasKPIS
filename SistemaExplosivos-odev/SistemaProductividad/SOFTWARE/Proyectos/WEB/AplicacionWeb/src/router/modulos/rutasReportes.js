@@ -9,6 +9,9 @@ const rutasReportes = [
       sidebar: {
         title: 'Reportes',
         icon: 'pi pi-file',
+        icon: 'pi pi-file',
+        groupTitle: 'Reportes',
+        visible: true,
       },
     },
     children: [
@@ -20,10 +23,34 @@ const rutasReportes = [
           sidebar: {
             icon: 'pi pi-file',
             title: 'Reportes',
+        path: '/Reportes/Resumen',
+        name: 'ReportesPrincipal',
+        meta: {
+          idModulo: idModuloReportes,
+          sidebar: {
+            icon: 'pi pi-file-excel',
             visible: true,
           },
         },
         component: () => import('pages/Reportes/Reportes.vue'),
+      },
+      {
+        path: '/Reportes/Mantenimiento',
+        name: 'MantenimientoReportes',
+        meta: {
+          idModulo: idModuloReportes,
+          sidebar: { visible: false },
+        },
+        component: () => import('pages/Mantenimiento.vue'),
+      },
+      {
+        path: '/Reportes/NoAutorizado',
+        name: 'NoAutorizadoReportes',
+        meta: {
+          idModulo: idModuloReportes,
+          sidebar: { visible: false },
+        },
+        component: () => import('pages/NoAutorizado.vue'),
       },
     ],
   },

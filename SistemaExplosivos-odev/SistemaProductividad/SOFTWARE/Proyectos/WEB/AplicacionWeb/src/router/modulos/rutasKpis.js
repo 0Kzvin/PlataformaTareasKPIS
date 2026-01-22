@@ -9,11 +9,15 @@ const rutasKpis = [
       sidebar: {
         title: 'Kpis',
         icon: 'pi pi-chart-line',
+        icon: 'pi pi-chart-line',
+        groupTitle: 'KpisAnalitica',
+        visible: true,
       },
     },
     children: [
       {
         path: '/Kpis/DashboardGlobal',
+        path: '/Kpis/Global',
         name: 'DashboardGlobal',
         meta: {
           idModulo: idModuloKpis,
@@ -27,6 +31,7 @@ const rutasKpis = [
       },
       {
         path: '/Kpis/DashboardDepartamento',
+        path: '/Kpis/Departamento',
         name: 'DashboardDepartamento',
         meta: {
           idModulo: idModuloKpis,
@@ -50,6 +55,22 @@ const rutasKpis = [
           },
         },
         component: () => import('pages/Kpis/GestionKpis.vue'),
+        path: '/Kpis/Mantenimiento',
+        name: 'MantenimientoKpis',
+        meta: {
+          idModulo: idModuloKpis,
+          sidebar: { visible: false },
+        },
+        component: () => import('pages/Mantenimiento.vue'),
+      },
+      {
+        path: '/Kpis/NoAutorizado',
+        name: 'NoAutorizadoKpis',
+        meta: {
+          idModulo: idModuloKpis,
+          sidebar: { visible: false },
+        },
+        component: () => import('pages/NoAutorizado.vue'),
       },
     ],
   },

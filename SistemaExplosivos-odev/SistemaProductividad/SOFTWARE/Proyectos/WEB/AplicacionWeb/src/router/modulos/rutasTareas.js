@@ -9,6 +9,9 @@ const rutasTareas = [
       sidebar: {
         title: 'Tareas',
         icon: 'pi pi-check-square',
+        icon: 'pi pi-check-square',
+        groupTitle: 'Tareas',
+        visible: true,
       },
     },
     children: [
@@ -20,10 +23,34 @@ const rutasTareas = [
           sidebar: {
             icon: 'pi pi-check-square',
             title: 'MisTareas',
+        path: '/Tareas/Listado',
+        name: 'ListadoTareas',
+        meta: {
+          idModulo: idModuloTareas,
+          sidebar: {
+            icon: 'pi pi-list',
             visible: true,
           },
         },
         component: () => import('pages/Tareas/ListadoTareas.vue'),
+      },
+      {
+        path: '/Tareas/Mantenimiento',
+        name: 'MantenimientoTareas',
+        meta: {
+          idModulo: idModuloTareas,
+          sidebar: { visible: false },
+        },
+        component: () => import('pages/Mantenimiento.vue'),
+      },
+      {
+        path: '/Tareas/NoAutorizado',
+        name: 'NoAutorizadoTareas',
+        meta: {
+          idModulo: idModuloTareas,
+          sidebar: { visible: false },
+        },
+        component: () => import('pages/NoAutorizado.vue'),
       },
     ],
   },
