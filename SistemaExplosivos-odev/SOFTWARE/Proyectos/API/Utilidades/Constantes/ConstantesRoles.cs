@@ -5,5 +5,9 @@
         public const string SUPER_USUARIO_G3 = "MantenimientoG3";
         public const string ADMINISTRADOR_PREDETERMINADO = "Administrador Predeterminado";
         public const string LIMITADO = "Limitado";
+        public const string SUPER_ADMIN = "SuperAdmin";
+        public const string ADMINISTRADOR = "Administrador";
+        public const string LIDER = "Lider";
+        public const string COLABORADOR = "Colaborador";
     }
 }
