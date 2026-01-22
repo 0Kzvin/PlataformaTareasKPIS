@@ -219,7 +219,9 @@ const cambiarToken = (tokenInfoX) => {
     stateSesion.$state.tokenInfo.actualizarToken = null
     stateSesion.$state.tokenInfo.expiracion = null
   } else {
-    var datosToken = jwtDecode(tokenInfoX.token)
+    const datosToken = jwtDecode(tokenInfoX.token)
+    const datosUsuario = tokenInfoX.datosUsuario || {}
+
     stateSesion.$state.tokenInfo.token = tokenInfoX.token
     stateSesion.$state.tokenInfo.actualizarToken = tokenInfoX.actualizarToken
     stateSesion.$state.tokenInfo.expiracion = tokenInfoX.expiracion
@@ -228,17 +230,17 @@ const cambiarToken = (tokenInfoX) => {
     stateSesion.$state.usuario.rol = datosToken.role
     stateSesion.$state.usuario.nombreCompleto = datosToken.NombreCompleto
     stateSesion.$state.usuario.correo = datosToken.email
-    stateSesion.$state.usuario.estado = tokenInfoX.datosUsuario.estado
-    stateSesion.$state.usuario.areaSeleccionada = tokenInfoX.datosUsuario.areaSeleccionada
-    stateSesion.$state.usuario.numeroTelefonico = tokenInfoX.datosUsuario.numeroTelefonico
-    stateSesion.$state.usuario.fechaRegistro = tokenInfoX.datosUsuario.fechaRegistro
-    stateSesion.$state.usuario.fechaModificacion = tokenInfoX.datosUsuario.fechaModificacion
-    stateSesion.$state.usuario.nombre = tokenInfoX.datosUsuario.nombre
-    stateSesion.$state.usuario.apellidos = tokenInfoX.datosUsuario.apellidos
-    stateSesion.$state.usuario.foto = tokenInfoX.datosUsuario.foto
+    stateSesion.$state.usuario.estado = datosUsuario.estado ?? null
+    stateSesion.$state.usuario.areaSeleccionada = datosUsuario.areaSeleccionada ?? null
+    stateSesion.$state.usuario.numeroTelefonico = datosUsuario.numeroTelefonico ?? null
+    stateSesion.$state.usuario.fechaRegistro = datosUsuario.fechaRegistro ?? null
+    stateSesion.$state.usuario.fechaModificacion = datosUsuario.fechaModificacion ?? null
+    stateSesion.$state.usuario.nombre = datosUsuario.nombre ?? null
+    stateSesion.$state.usuario.apellidos = datosUsuario.apellidos ?? null
+    stateSesion.$state.usuario.foto = datosUsuario.foto ?? null
     stateSesion.$state.usuario.configuracionesModulos =
-      tokenInfoX.datosUsuario.configuracionesModulos
-    stateSesion.$state.usuario.esMantenimiento = tokenInfoX.esMantenimiento
+      datosUsuario.configuracionesModulos ?? null
+    stateSesion.$state.usuario.esMantenimiento = tokenInfoX.esMantenimiento ?? false
   }
 }
 const cambiarMantenerSesion = (valor) => {

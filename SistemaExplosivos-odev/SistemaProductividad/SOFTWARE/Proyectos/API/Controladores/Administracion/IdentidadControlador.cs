@@ -122,16 +122,66 @@ namespace API.Controladores.Administracion
         }
         
         [HttpPost("MantenerSesion")]
-        public IActionResult MantenerSesion([FromBody] object data)
+        public IActionResult MantenerSesion([FromBody] MantenerSesionDTO data)
         {
-             // Simply echo back success/new token if needed
-             // For now just return true
-             return Ok(new { exito = true, payload = new { operacionExitosa = true, token = "refreshed_token", tokenExpirado = false } });
+            if (data == null || string.IsNullOrWhiteSpace(data.Token))
+            {
+                return Ok(new
+                {
+                    exito = false,
+                    payload = new
+                    {
+                        operacionExitosa = false,
+                        tokenExpirado = true,
+                        errores = new[] { "Token inválido" }
+                    }
+                });
+            }
+
+            return Ok(new
+            {
+                exito = true,
+                payload = new
+                {
+                    operacionExitosa = true,
+                    token = data.Token,
+                    actualizarToken = string.IsNullOrWhiteSpace(data.ActualizarToken) ? data.Token : data.ActualizarToken,
+                    expiracion = data.Expiracion ?? DateTime.Now.AddDays(1),
+                    datosUsuario = data.DatosUsuario,
+                    tokenExpirado = false
+                }
+            });
         }
     }
     
     public class LoginDTO {
         public string UsuarioOCorreo { get; set; }
         public string Password { get; set; }
+    }
+
+    public class MantenerSesionDTO
+    {
+        public string Token { get; set; }
+        public string ActualizarToken { get; set; }
+        public DateTime? Expiracion { get; set; }
+        public DatosUsuarioDTO DatosUsuario { get; set; }
+    }
+
+    public class DatosUsuarioDTO
+    {
+        public string Nombre { get; set; }
+        public string Apellidos { get; set; }
+        public string NombreCompleto { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public string[] Roles { get; set; }
+        public bool? Estado { get; set; }
+        public string AreaSeleccionada { get; set; }
+        public string NumeroTelefonico { get; set; }
+        public DateTime? FechaRegistro { get; set; }
+        public DateTime? FechaModificacion { get; set; }
+        public string Foto { get; set; }
+        public object ConfiguracionesModulos { get; set; }
     }
 }
