@@ -2,7 +2,10 @@
   <q-header class="bg-fondo2" style="padding-top: 24px; padding-left: 24px; padding-right: 16px">
     <div class="column q-gutter-md">
       <div class="row items-center justify-between">
-        <BotonModulos />
+        <div class="row items-center q-gutter-sm">
+          <q-btn dense round flat icon="menu" color="textprimary" @click="$emit('toggleDrawer')" />
+          <BotonModulos />
+        </div>
         <G3Cliente />
       </div>
       <div class="row q-mb-sm">
