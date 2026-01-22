@@ -75,15 +75,6 @@ export const modulosItems = [
   },
   {
     mostrar: false,
-    idModulo: idModuloAlmacenamiento,
-    icon: 'pi pi-database',
-    text: 'Módulo de Almacenamiento',
-    ruta: '/Almacenamiento/TableroAlmacenamiento',
-    llave: 'Almacenamiento',
-    llaveAbreviacion: 'AlmacenamientoAb',
-  },
-  {
-    mostrar: false,
     idModulo: idModuloRecepcion,
     icon: 'pi pi-truck',
     text: 'Módulo de Recepción',
