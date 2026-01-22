@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/core/Dashboards")]
+    [Route("api/kpis")]
     [ApiController]
     // [Authorize]
     public class DashboardsControlador : Controller
@@ -20,8 +20,8 @@ namespace API.Controladores.Core
             _context = context;
         }
 
-        [HttpGet("Global")]
-        public async Task<ActionResult<DashboardGlobalDTO>> GetGlobal()
+        [HttpGet("Global/Resumen")]
+        public async Task<ActionResult<DashboardGlobalDTO>> GetGlobalResumen()
         {
             // Verify SuperAdmin access here
             
@@ -37,13 +37,13 @@ namespace API.Controladores.Core
             return Ok(stats);
         }
 
-        [HttpGet("Departamento/{id}")]
-        public async Task<ActionResult<DashboardDepartamentoDTO>> GetDepartamento(int id)
+        [HttpGet("Departamento/Resumen")]
+        public async Task<ActionResult<DashboardDepartamentoDTO>> GetDepartamentoResumen([FromQuery] int departamentoId)
         {
-            var depto = await _context.Set<Departamentos>().FindAsync(id);
+            var depto = await _context.Set<Departamentos>().FindAsync(departamentoId);
             if (depto == null) return NotFound();
 
-            var tareasQuery = _context.Set<Tareas>().Where(t => t.DepartamentoId == id);
+            var tareasQuery = _context.Set<Tareas>().Where(t => t.DepartamentoId == departamentoId);
             
             var stats = new DashboardDepartamentoDTO
             {

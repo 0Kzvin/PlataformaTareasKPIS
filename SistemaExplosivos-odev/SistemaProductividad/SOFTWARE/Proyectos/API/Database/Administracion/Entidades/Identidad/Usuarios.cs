@@ -17,5 +17,6 @@ namespace API.Database.Administracion.Entidades.Identidad
         
         // Navigation properties
         public virtual API.Database.Core.Entidades.Departamentos Departamento { get; set; }
+        public virtual ICollection<API.Database.Core.Entidades.DepartamentoUsuario> Departamentos { get; set; }
     }
 }
