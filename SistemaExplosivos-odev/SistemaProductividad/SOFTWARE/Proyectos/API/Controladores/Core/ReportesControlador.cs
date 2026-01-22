@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/core/Reportes")]
+    [Route("api/reportes")]
     [ApiController]
     // [Authorize]
     public class ReportesControlador : Controller
@@ -23,15 +23,15 @@ namespace API.Controladores.Core
             _servicioReportes = new ServicioReportes(); // Should inject via DI in real app
         }
 
-        [HttpGet("Departamento/{id}")]
-        public async Task<IActionResult> DescargarReporte(int id)
+        [HttpPost("ExportarPDF")]
+        public async Task<IActionResult> ExportarPdf([FromQuery] int departamentoId)
         {
-            var depto = await _context.Set<Departamentos>().FindAsync(id);
+            var depto = await _context.Set<Departamentos>().FindAsync(departamentoId);
             if (depto == null) return NotFound("Departamento no encontrado");
 
             // TODO: Validate user is Leader/Admin
 
-            var tareasQuery = _context.Set<Tareas>().Where(t => t.DepartamentoId == id);
+            var tareasQuery = _context.Set<Tareas>().Where(t => t.DepartamentoId == departamentoId);
             
             var stats = new DashboardDepartamentoDTO
             {
@@ -52,6 +52,22 @@ namespace API.Controladores.Core
             var pdfBytes = _servicioReportes.GenerarReporteDepartamento(stats);
 
             return File(pdfBytes, "application/pdf", $"Reporte_{depto.Nombre}_{DateTime.Now:yyyyMMdd}.pdf");
+        }
+
+        [HttpPost("ExportarExcel")]
+        public IActionResult ExportarExcel()
+        {
+            var contenido = "Departamento,TotalTareas\nDemo,0\n";
+            var bytes = System.Text.Encoding.UTF8.GetBytes(contenido);
+            return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", $"Reporte_{DateTime.Now:yyyyMMdd}.xlsx");
+        }
+
+        [HttpPost("ExportarCSV")]
+        public IActionResult ExportarCsv()
+        {
+            var contenido = "Departamento,TotalTareas\nDemo,0\n";
+            var bytes = System.Text.Encoding.UTF8.GetBytes(contenido);
+            return File(bytes, "text/csv", $"Reporte_{DateTime.Now:yyyyMMdd}.csv");
         }
     }
 }

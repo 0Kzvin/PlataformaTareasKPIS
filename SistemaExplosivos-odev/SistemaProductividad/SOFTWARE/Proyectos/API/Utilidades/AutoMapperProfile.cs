@@ -12,12 +12,13 @@ namespace API.Utilidades
         {
             CreateMap<Departamentos, DepartamentoDTO>()
                 .ForMember(d => d.LiderNombre, o => o.MapFrom(s => s.Lider != null ? s.Lider.NombreCompleto : "Sin Líder"))
-                .ForMember(d => d.NumeroMiembros, o => o.MapFrom(s => s.Miembros != null ? s.Miembros.Count : 0));
+                .ForMember(d => d.NumeroMiembros, o => o.MapFrom(s => s.Miembros != null ? s.Miembros.Count : 0))
+                .ForMember(d => d.Activo, o => o.MapFrom(s => s.Activo));
 
             CreateMap<RegistrarDepartamentoDTO, Departamentos>();
 
             CreateMap<Tareas, TareaDTO>()
-                .ForMember(d => d.AsignadoNombre, o => o.MapFrom(s => s.Asignado != null ? s.Asignado.NombreCompleto : "Sin Asignar"))
+                .ForMember(d => d.ResponsablePrincipalNombre, o => o.MapFrom(s => s.ResponsablePrincipal != null ? s.ResponsablePrincipal.NombreCompleto : "Sin Asignar"))
                 .ForMember(d => d.CreadorNombre, o => o.MapFrom(s => s.Creador != null ? s.Creador.NombreCompleto : "Desconocido"));
 
             CreateMap<RegistrarTareaDTO, Tareas>();

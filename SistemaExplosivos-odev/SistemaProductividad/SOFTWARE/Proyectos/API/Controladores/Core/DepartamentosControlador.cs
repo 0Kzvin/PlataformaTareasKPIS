@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/core/Departamentos")]
+    [Route("api/departamentos")]
     [ApiController]
     // [Authorize] // Temporarily disabled for testing
     public class DepartamentosControlador : Controller
@@ -22,24 +22,61 @@ namespace API.Controladores.Core
             _mapper = mapper;
         }
 
-        [HttpGet("Listar")]
-        public async Task<ActionResult<IEnumerable<DepartamentoDTO>>> Listar()
+        [HttpGet("Detalle/Ver")]
+        public async Task<ActionResult<DepartamentoDetalleDTO>> VerDetalle([FromQuery] int id)
         {
-            var deptos = await _context.Set<Departamentos>()
+            var depto = await _context.Departamentos
                 .Include(d => d.Lider)
-                .Include(d => d.Miembros)
-                .ToListAsync();
+                .Include(d => d.Configuracion)
+                .FirstOrDefaultAsync(d => d.Id == id);
 
-            return Ok(_mapper.Map<IEnumerable<DepartamentoDTO>>(deptos));
+            if (depto == null) return NotFound();
+
+            return Ok(_mapper.Map<DepartamentoDetalleDTO>(depto));
         }
 
-        [HttpPost("Registrar")]
-        public async Task<ActionResult> Registrar([FromBody] RegistrarDepartamentoDTO modelo)
+        [HttpPost("Configuracion/Actualizar")]
+        public async Task<ActionResult> ActualizarConfiguracion([FromBody] ActualizarConfiguracionDepartamentoDTO modelo)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            var depto = _mapper.Map<Departamentos>(modelo);
-            _context.Add(depto);
+            var departamento = await _context.Departamentos
+                .Include(d => d.Configuracion)
+                .FirstOrDefaultAsync(d => d.Id == modelo.DepartamentoId);
+
+            if (departamento == null) return NotFound();
+
+            if (departamento.Configuracion == null)
+            {
+                departamento.Configuracion = new ConfiguracionDepartamento();
+            }
+
+            departamento.Configuracion.ModoAsignacion = modelo.ModoAsignacion;
+            departamento.Configuracion.PermiteAsignarOtros = modelo.PermiteAsignarOtros;
+            departamento.Configuracion.PermiteCamposPrivados = modelo.PermiteCamposPrivados;
+            departamento.Configuracion.KpisActivos = modelo.KpisActivos;
+
+            await _context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpPost("Usuarios/Invitar")]
+        public async Task<ActionResult> InvitarUsuario([FromBody] InvitarUsuarioDepartamentoDTO modelo)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var departamento = await _context.Departamentos.FindAsync(modelo.DepartamentoId);
+            if (departamento == null) return NotFound();
+
+            var relacion = new DepartamentoUsuario
+            {
+                DepartamentoId = modelo.DepartamentoId,
+                UsuarioId = modelo.UsuarioId,
+                RolDepartamento = modelo.RolDepartamento
+            };
+
+            _context.DepartamentosUsuarios.Add(relacion);
             await _context.SaveChangesAsync();
 
             return Ok();
