@@ -1,3 +1,9 @@
+import rutasAdministracion from './modulos/rutasAdministracion'
+import rutasAlmacenamiento from './modulos/rutasAlmacenamiento'
+import rutasRecepcion from './modulos/rutasRecepcion'
+import rutasAccesorio from './modulos/rutasAccesorio'
+import rutasGerencia from './modulos/rutasGerencia'
+
 const routes = [
   {
     path: '/',
@@ -40,6 +46,11 @@ const routes = [
       }
     ]
   },
+  ...rutasAdministracion,
+  ...rutasAlmacenamiento,
+  ...rutasRecepcion,
+  ...rutasAccesorio,
+  ...rutasGerencia,
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/Error404.vue'),
