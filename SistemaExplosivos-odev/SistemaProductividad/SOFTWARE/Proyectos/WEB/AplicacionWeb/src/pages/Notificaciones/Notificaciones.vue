@@ -30,18 +30,21 @@
         </q-item-section>
       </q-item>
     </q-list>
-  <q-page padding>
-    <div class="text-h5 text-weight-bold q-mb-sm">{{ traducir('Notificaciones') }}</div>
-    <div class="text-body1 text-textsecondary">
-      {{ traducir('NotificacionesDescripcion') }}
+    <div class="q-mt-lg">
+      <div class="text-h5 text-weight-bold q-mb-sm">{{ traducir('Notificaciones') }}</div>
+      <div class="text-body1 text-textsecondary">
+        {{ traducir('NotificacionesDescripcion') }}
+      </div>
     </div>
   </q-page>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { inject, onMounted, ref } from 'vue'
 import { api } from 'boot/axios'
 import { useQuasar } from 'quasar'
+
+defineOptions({ name: 'NotificacionesPage' })
 
 const $q = useQuasar()
 const notificaciones = ref([])
@@ -67,7 +70,6 @@ const marcarLeida = async (notificacion) => {
 }
 
 onMounted(cargarNotificaciones)
-import { inject } from 'vue'
 
 const traducir = inject('traducir', (key) => key)
 </script>

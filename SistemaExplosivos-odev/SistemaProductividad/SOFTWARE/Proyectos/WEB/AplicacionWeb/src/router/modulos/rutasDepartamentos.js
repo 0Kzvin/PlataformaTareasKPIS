@@ -9,7 +9,6 @@ const rutasDepartamentos = [
       sidebar: {
         title: 'Departamentos',
         icon: 'pi pi-sitemap',
-        icon: 'pi pi-sitemap',
         groupTitle: 'Departamentos',
         visible: true,
       },
@@ -17,7 +16,6 @@ const rutasDepartamentos = [
     children: [
       {
         path: '/Departamentos/GestionDepartamentos',
-        path: '/Departamentos/Gestion',
         name: 'GestionDepartamentos',
         meta: {
           idModulo: idModuloDepartamentos,

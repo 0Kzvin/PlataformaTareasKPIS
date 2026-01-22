@@ -9,26 +9,19 @@ const rutasReportes = [
       sidebar: {
         title: 'Reportes',
         icon: 'pi pi-file',
-        icon: 'pi pi-file',
         groupTitle: 'Reportes',
         visible: true,
       },
     },
     children: [
       {
-        path: '/Reportes/Reportes',
-        name: 'ReportesListado',
-        meta: {
-          idModulo: idModuloReportes,
-          sidebar: {
-            icon: 'pi pi-file',
-            title: 'Reportes',
         path: '/Reportes/Resumen',
         name: 'ReportesPrincipal',
         meta: {
           idModulo: idModuloReportes,
           sidebar: {
             icon: 'pi pi-file-excel',
+            title: 'Reportes',
             visible: true,
           },
         },

@@ -36,18 +36,21 @@
         </div>
       </q-card-section>
     </q-card>
-  <q-page padding>
-    <div class="text-h5 text-weight-bold q-mb-sm">{{ traducir('Reportes') }}</div>
-    <div class="text-body1 text-textsecondary">
-      {{ traducir('ReportesDescripcion') }}
+    <div class="q-mt-lg">
+      <div class="text-h5 text-weight-bold q-mb-sm">{{ traducir('Reportes') }}</div>
+      <div class="text-body1 text-textsecondary">
+        {{ traducir('ReportesDescripcion') }}
+      </div>
     </div>
   </q-page>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { inject, ref } from 'vue'
 import { api } from 'boot/axios'
 import { useQuasar } from 'quasar'
+
+defineOptions({ name: 'ReportesPage' })
 
 const $q = useQuasar()
 const departamentoId = ref(1)
@@ -85,7 +88,6 @@ const exportar = async (tipo) => {
     $q.notify({ type: 'negative', message: 'No se pudo generar el reporte.' })
   }
 }
-import { inject } from 'vue'
 
 const traducir = inject('traducir', (key) => key)
 </script>
