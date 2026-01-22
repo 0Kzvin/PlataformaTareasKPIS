@@ -9,26 +9,19 @@ const rutasTareas = [
       sidebar: {
         title: 'Tareas',
         icon: 'pi pi-check-square',
-        icon: 'pi pi-check-square',
         groupTitle: 'Tareas',
         visible: true,
       },
     },
     children: [
       {
-        path: '/Tareas/MisTareas',
-        name: 'MisTareas',
-        meta: {
-          idModulo: idModuloTareas,
-          sidebar: {
-            icon: 'pi pi-check-square',
-            title: 'MisTareas',
         path: '/Tareas/Listado',
         name: 'ListadoTareas',
         meta: {
           idModulo: idModuloTareas,
           sidebar: {
             icon: 'pi pi-list',
+            title: 'ListadoTareas',
             visible: true,
           },
         },

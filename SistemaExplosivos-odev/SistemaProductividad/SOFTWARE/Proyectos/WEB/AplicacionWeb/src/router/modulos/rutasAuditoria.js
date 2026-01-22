@@ -9,7 +9,6 @@ const rutasAuditoria = [
       sidebar: {
         title: 'Auditoria',
         icon: 'pi pi-history',
-        icon: 'pi pi-eye',
         groupTitle: 'Auditoria',
         visible: true,
       },
@@ -27,12 +26,15 @@ const rutasAuditoria = [
           },
         },
         component: () => import('pages/Auditoria/Auditoria.vue'),
+      },
+      {
         path: '/Auditoria/Trazabilidad',
         name: 'AuditoriaTrazabilidad',
         meta: {
           idModulo: idModuloAuditoria,
           sidebar: {
             icon: 'pi pi-book',
+            title: 'AuditoriaTrazabilidad',
             visible: true,
           },
         },

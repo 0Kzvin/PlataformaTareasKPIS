@@ -9,15 +9,12 @@ const rutasNotificaciones = [
       sidebar: {
         title: 'Notificaciones',
         icon: 'pi pi-bell',
-        icon: 'pi pi-bell',
         groupTitle: 'Notificaciones',
         visible: true,
       },
     },
     children: [
       {
-        path: '/Notificaciones/Inbox',
-        name: 'NotificacionesInbox',
         path: '/Notificaciones/Resumen',
         name: 'NotificacionesPrincipal',
         meta: {
