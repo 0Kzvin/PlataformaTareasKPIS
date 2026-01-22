@@ -38,7 +38,7 @@ const columns = [
 
 const cargarDepartamentos = async () => {
     try {
-    const { data } = await api.get('/core/Departamentos/Listar')
+    const { data } = await api.get('/administracion/Departamentos/Listar')
     departamentos.value = data
   } catch (e) {
     console.error(e)

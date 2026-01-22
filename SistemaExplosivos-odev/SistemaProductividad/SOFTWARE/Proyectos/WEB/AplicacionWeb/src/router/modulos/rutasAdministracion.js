@@ -1,95 +1,29 @@
-import { idModuloAdmin } from 'src/core/modulos'
-import permisosAD from 'src/core/permisos/moduloAdministracion'
+import { idModuloAdministracion } from 'src/core/modulos'
 
 const rutasAdministracion = [
   {
     path: '/Administracion',
     name: 'Administracion',
     component: () => import('src/layouts/AplicacionLayout.vue'),
+    meta: {
+      sidebar: {
+        title: 'Administracion',
+        icon: 'pi pi-shield',
+      },
+    },
     children: [
       {
-        path: '/Administracion/Auditoria',
-        name: 'Auditoria',
+        path: '/Administracion/Usuarios',
+        name: 'AdministracionUsuarios',
         meta: {
-          idModulo: idModuloAdmin,
-          permisos: permisosAD.pLogs.Todos(),
-          sidebar: {
-            icon: 'pi pi-list',
-            visible: false,
-          },
-        },
-        component: () => import('src/modules/administracion/pages/auditoria/Auditoria.vue'),
-      },
-      {
-        path: '/Administracion/Roles',
-        name: 'Roles',
-        meta: {
-          idModulo: idModuloAdmin,
-          permisos: permisosAD.pIdentidad.TodosRoles(),
+          idModulo: idModuloAdministracion,
           sidebar: {
             icon: 'pi pi-users',
+            title: 'Usuarios',
             visible: true,
           },
         },
-        component: () => import('src/modules/administracion/pages/roles/Roles.vue'),
-      },
-      {
-        path: '/Administracion/Usuarios',
-        name: 'Usuarios',
-        meta: {
-          idModulo: idModuloAdmin,
-          permisos: permisosAD.pIdentidad.TodosUsuarios(),
-          sidebar: {
-            icon: 'pi pi-user',
-            visible: true,
-          },
-        },
-        component: () => import('src/modules/administracion/pages/usuarios/Usuarios.vue'),
-      },
-      {
-        path: '/Administracion/CorreosAutomaticos',
-        name: 'CorreosAutomaticos',
-        meta: {
-          idModulo: idModuloAdmin,
-          permisos: permisosAD.pCorreosAutomaticosAD.Todos(),
-          sidebar: {
-            icon: 'pi pi-envelope',
-            visible: false,
-          },
-        },
-        component: () =>
-          import('src/modules/administracion/pages/correosAutomaticos/CorreosAutomaticos.vue'),
-      },
-      {
-        path: '/Administracion/Modulos',
-        name: 'Modulos',
-        meta: {
-          idModulo: idModuloAdmin,
-          permisos: permisosAD.pIdentidad.TodosUsuarios(),
-          sidebar: {
-            icon: 'pi pi-box',
-            visible: false,
-          },
-        },
-        component: () => import('src/modules/administracion/pages/modulos/Modulos.vue'),
-      },
-      {
-        path: '/Administracion/Mantenimiento',
-        name: 'MantenimientoAdmin',
-        meta: {
-          idModulo: idModuloAdmin,
-          sidebar: { visible: false },
-        },
-        component: () => import('pages/Mantenimiento.vue'),
-      },
-      {
-        path: '/Administracion/NoAutorizado',
-        name: 'NoAutorizadoAdmin',
-        meta: {
-          idModulo: idModuloAdmin,
-          sidebar: { visible: false },
-        },
-        component: () => import('pages/NoAutorizado.vue'),
+        component: () => import('pages/Administracion/Usuarios.vue'),
       },
     ],
   },

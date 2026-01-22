@@ -45,7 +45,7 @@ const onSubmit = async () => {
   try {
     // Assuming endpoint expects { nombre, descripcion }
     // Add validation for 'LiderId' if required later
-    await api.post('/core/Departamentos/Registrar', form.value)
+    await api.post('/administracion/Departamentos/Crear', form.value)
     
     $q.notify({ type: 'positive', message: 'Departamento creado correctamente' })
     emit('creado')

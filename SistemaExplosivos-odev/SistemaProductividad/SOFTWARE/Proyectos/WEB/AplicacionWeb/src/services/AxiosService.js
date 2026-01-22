@@ -14,7 +14,7 @@ export const obtenerDireccionAPI = () => {
   const userHost = window.location.hostname
   const cliente = datosClientes.obtenerDatosCliente(process.env.clienteActual)
   // const apiDev = 'http://192.168.1.71:8082'
-  const apiDev = 'http://localhost:5285/api'
+  const apiDev = 'http://localhost:5285'
 
   // 1. Si estamos en localhost (desarrollo)
   if (userHost === 'localhost' || userHost === '127.0.0.1') {
@@ -84,7 +84,7 @@ axiosApiInstancia.interceptors.request.use(async (request) => {
     'seconds',
   )
 
-  if (!request.url.includes('ActualizarToken') && segundosRestantes <= 300) {
+  if (!request.url.includes('MantenerSesion') && segundosRestantes <= 300) {
     try {
       const respuesta = await identidadGFuelAdmin.mantenerSesion(sesionStore.tokenInfo)
 

@@ -1,8 +1,10 @@
 import rutasAdministracion from './modulos/rutasAdministracion'
-import rutasAlmacenamiento from './modulos/rutasAlmacenamiento'
-import rutasRecepcion from './modulos/rutasRecepcion'
-import rutasAccesorio from './modulos/rutasAccesorio'
-import rutasGerencia from './modulos/rutasGerencia'
+import rutasDepartamentos from './modulos/rutasDepartamentos'
+import rutasTareas from './modulos/rutasTareas'
+import rutasKpis from './modulos/rutasKpis'
+import rutasReportes from './modulos/rutasReportes'
+import rutasNotificaciones from './modulos/rutasNotificaciones'
+import rutasAuditoria from './modulos/rutasAuditoria'
 
 const routes = [
   {
@@ -17,40 +19,23 @@ const routes = [
       },
     ],
   },
-  {
-    path: '/app',
-    component: () => import('layouts/AplicacionLayout.vue'), // Keep existing app layout
-    children: [
-      {
-        path: 'dashboard/global',
-        name: 'DashboardGlobal',
-        component: () => import('pages/Dashboard/GlobalDashboard.vue'),
-        meta: { requireAuth: true, roles: ['SuperAdmin'] }
-      },
-      {
-        path: 'dashboard/departamento',
-        name: 'DashboardDepartamento',
-        component: () => import('pages/Dashboard/DepartmentDashboard.vue'),
-        meta: { requireAuth: true, roles: ['Lider', 'Colaborador'] }
-      },
-      {
-        path: 'tareas',
-        name: 'ListadoTareas',
-        component: () => import('pages/Tareas/ListadoTareas.vue'),
-      },
-      {
-        path: 'departamentos',
-        name: 'GestionDepartamentos',
-        component: () => import('pages/Configuracion/Departamentos.vue'),
-        meta: { requireAuth: true, roles: ['SuperAdmin'] }
-      }
-    ]
-  },
   ...rutasAdministracion,
-  ...rutasAlmacenamiento,
-  ...rutasRecepcion,
-  ...rutasAccesorio,
-  ...rutasGerencia,
+  ...rutasDepartamentos,
+  ...rutasTareas,
+  ...rutasKpis,
+  ...rutasReportes,
+  ...rutasNotificaciones,
+  ...rutasAuditoria,
+  {
+    path: '/no-autorizado',
+    name: 'NoAutorizado',
+    component: () => import('pages/NoAutorizado.vue'),
+  },
+  {
+    path: '/mantenimiento',
+    name: 'Mantenimiento',
+    component: () => import('pages/Mantenimiento.vue'),
+  },
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/Error404.vue'),

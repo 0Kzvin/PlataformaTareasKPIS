@@ -1,6 +1,7 @@
 using API.Database.Core;
 using API.Database.Core.DTOs.Tareas;
 using API.Database.Core.Entidades;
+using API.Utilidades.Constantes;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,8 @@ using System.Security.Claims;
 
 namespace API.Controladores.Core
 {
-    [Route("api/tareas")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.TAREAS)]
+    [Route("tareas")]
     [ApiController]
     // [Authorize]
     public class TareasControlador : Controller

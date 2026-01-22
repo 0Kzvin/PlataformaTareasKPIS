@@ -165,8 +165,13 @@ export const useSesionStore = defineStore('sesion', {
       // Hardcode for development if empty
       if (!Array.isArray(modulosOtorgadosResp) || modulosOtorgadosResp.length === 0) {
         modulosOtorgadosResp = [
-          { id: 1, nombre: 'Core', activo: true },
-          { id: 2, nombre: 'Admin', activo: true }
+          { id: 1, nombre: 'Administracion', activo: true },
+          { id: 2, nombre: 'Departamentos', activo: true },
+          { id: 3, nombre: 'Tareas', activo: true },
+          { id: 4, nombre: 'Kpis', activo: true },
+          { id: 5, nombre: 'Reportes', activo: true },
+          { id: 6, nombre: 'Notificaciones', activo: true },
+          { id: 7, nombre: 'Auditoria', activo: true },
         ]
       }
 

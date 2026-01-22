@@ -1,6 +1,7 @@
 using API.Database.Core;
 using API.Database.Core.DTOs.Departamentos;
 using API.Database.Core.Entidades;
+using API.Utilidades.Constantes;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/departamentos")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.DEPARTAMENTOS)]
+    [Route("departamentos")]
     [ApiController]
     // [Authorize] // Temporarily disabled for testing
     public class DepartamentosControlador : Controller

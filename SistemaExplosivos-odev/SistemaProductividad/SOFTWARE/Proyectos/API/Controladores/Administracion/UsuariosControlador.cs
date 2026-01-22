@@ -1,13 +1,15 @@
 using API.Database.Administracion.Entidades.Identidad;
 using API.Database.Core;
 using API.Database.Core.DTOs.Administracion;
+using API.Utilidades.Constantes;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Administracion
 {
-    [Route("api/administracion/Usuarios")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.ADMINISTRACION)]
+    [Route("administracion/Usuarios")]
     [ApiController]
     public class UsuariosControlador : Controller
     {

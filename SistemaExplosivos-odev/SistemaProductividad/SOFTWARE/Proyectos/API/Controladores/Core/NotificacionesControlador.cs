@@ -1,5 +1,6 @@
 using API.Database.Core;
 using API.Database.Core.DTOs.Notificaciones;
+using API.Utilidades.Constantes;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +8,8 @@ using System.Security.Claims;
 
 namespace API.Controladores.Core
 {
-    [Route("api/notificaciones")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.NOTIFICACIONES)]
+    [Route("notificaciones")]
     [ApiController]
     public class NotificacionesControlador : Controller
     {

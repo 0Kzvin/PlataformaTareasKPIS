@@ -4,10 +4,12 @@ using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using API.Utilidades.Constantes;
 
 namespace API.Controladores.Administracion
 {
-    [Route("api/administracion/Identidad")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.ADMINISTRACION)]
+    [Route("administracion/Identidad")]
     [ApiController]
     public class IdentidadControlador : Controller
     {

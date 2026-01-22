@@ -1,5 +1,6 @@
 using API;
 using API.Servicios;
+using API.Utilidades.Constantes;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,16 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.ADMINISTRACION}/swagger.json", "Administración");
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.DEPARTAMENTOS}/swagger.json", "Departamentos");
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.TAREAS}/swagger.json", "Tareas");
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.KPIS}/swagger.json", "KPIs & Analítica");
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.REPORTES}/swagger.json", "Reportes");
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.NOTIFICACIONES}/swagger.json", "Notificaciones");
+        options.SwaggerEndpoint($"/swagger/{ConstantesModulos.AUDITORIA}/swagger.json", "Auditoría");
+    });
 }
 
 app.UseHttpsRedirection();

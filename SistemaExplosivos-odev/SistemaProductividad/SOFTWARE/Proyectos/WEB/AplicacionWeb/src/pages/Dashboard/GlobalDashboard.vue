@@ -27,7 +27,7 @@ const stats = ref([
 
 onMounted(async () => {
   try {
-    const { data } = await api.get('/core/Dashboards/Global')
+    const { data } = await api.get('/kpis/Global/Resumen')
     stats.value[0].value = data.totalDepartamentos
     stats.value[1].value = data.totalUsuarios
     stats.value[2].value = data.totalTareas

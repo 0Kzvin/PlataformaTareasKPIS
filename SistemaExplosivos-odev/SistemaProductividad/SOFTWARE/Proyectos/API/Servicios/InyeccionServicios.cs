@@ -1,5 +1,7 @@
+using API.Utilidades.Constantes;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using System.Reflection;
 
 namespace API.Servicios
@@ -56,7 +58,48 @@ namespace API.Servicios
             });
 
             servicios.AddEndpointsApiExplorer();
-            servicios.AddSwaggerGen();
+            servicios.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc(ConstantesModulos.ADMINISTRACION, new OpenApiInfo
+                {
+                    Title = "Administración",
+                    Version = "v1"
+                });
+                options.SwaggerDoc(ConstantesModulos.DEPARTAMENTOS, new OpenApiInfo
+                {
+                    Title = "Departamentos",
+                    Version = "v1"
+                });
+                options.SwaggerDoc(ConstantesModulos.TAREAS, new OpenApiInfo
+                {
+                    Title = "Tareas",
+                    Version = "v1"
+                });
+                options.SwaggerDoc(ConstantesModulos.KPIS, new OpenApiInfo
+                {
+                    Title = "KPIs & Analítica",
+                    Version = "v1"
+                });
+                options.SwaggerDoc(ConstantesModulos.REPORTES, new OpenApiInfo
+                {
+                    Title = "Reportes",
+                    Version = "v1"
+                });
+                options.SwaggerDoc(ConstantesModulos.NOTIFICACIONES, new OpenApiInfo
+                {
+                    Title = "Notificaciones",
+                    Version = "v1"
+                });
+                options.SwaggerDoc(ConstantesModulos.AUDITORIA, new OpenApiInfo
+                {
+                    Title = "Auditoría",
+                    Version = "v1"
+                });
+                options.DocInclusionPredicate((docName, apiDesc) =>
+                {
+                    return apiDesc.GroupName == docName;
+                });
+            });
             
             // AutoMapper
             servicios.AddAutoMapper(typeof(Program));

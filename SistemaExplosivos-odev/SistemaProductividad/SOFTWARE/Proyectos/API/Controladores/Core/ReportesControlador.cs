@@ -3,13 +3,15 @@ using API.Database.Core.DTOs.Dashboard;
 using API.Database.Core.Entidades;
 using API.Database.Core.Enums;
 using API.Servicios.Reportes;
+using API.Utilidades.Constantes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controladores.Core
 {
-    [Route("api/reportes")]
+    [ApiExplorerSettings(GroupName = ConstantesModulos.REPORTES)]
+    [Route("reportes")]
     [ApiController]
     // [Authorize]
     public class ReportesControlador : Controller
