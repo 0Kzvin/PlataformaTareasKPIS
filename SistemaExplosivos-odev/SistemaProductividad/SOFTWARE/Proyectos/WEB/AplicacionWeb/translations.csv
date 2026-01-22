@@ -35,6 +35,29 @@ ActualizarTodosLosDatosTableroBoton,Actualizar Datos del Tablero,Update Dashboar
 AdjuntarImagenISO,Imagen Ticket ISO,ISO Ticket Image
 Administracion,Administración,Administration
 AdministracionAb,ADM,ADM
+Departamentos,Departamentos,Departments
+DepartamentosAb,DEP,DEP
+Tareas,Tareas,Tasks
+TareasAb,TAR,TSK
+KpisAnalitica,KPIs y Analítica,KPIs & Analytics
+Kpis,KPIs y Analítica,KPIs & Analytics
+KpisAb,KPI,KPI
+Reportes,Reportes,Reports
+ReportesAb,REP,REP
+Notificaciones,Notificaciones,Notifications
+NotificacionesAb,NOT,NOT
+Auditoria,Auditoría y Trazabilidad,Audit & Traceability
+AuditoriaAb,AUD,AUD
+GestionDepartamentos,Gestión de Departamentos,Department Management
+ListadoTareas,Listado de Tareas,Task List
+DashboardGlobal,Dashboard Global,Global Dashboard
+DashboardDepartamento,Dashboard por Departamento,Department Dashboard
+ReportesPrincipal,Reportes,Reports
+NotificacionesPrincipal,Notificaciones,Notifications
+AuditoriaTrazabilidad,Registro de Auditoría,Audit Log
+ReportesDescripcion,"Genera y exporta reportes en formatos PDF, Excel y CSV.","Generate and export reports in PDF, Excel, and CSV formats."
+NotificacionesDescripcion,Consulta alertas internas y estado de notificaciones del sistema.,Review internal alerts and notification status across the system.
+AuditoriaTrazabilidadDescripcion,Revisa el historial de acciones y trazabilidad por usuario.,Review the action history and user traceability.
 Agosto,Agosto,August
 AgostoCortos,AGO,AUG
 AgregaCampoSelloMaximo4,Agrega un campo de sello con un máximo de 4,Add a stamp field with a maximum of 4
