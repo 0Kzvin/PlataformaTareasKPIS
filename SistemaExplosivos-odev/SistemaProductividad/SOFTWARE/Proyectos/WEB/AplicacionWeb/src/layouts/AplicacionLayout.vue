@@ -26,7 +26,7 @@ import { ref, watch, onMounted } from 'vue' // added onMounted
 import { useQuasar } from 'quasar'
 import G3Drawer from 'src/components/Disenio/DrawerLayout/G3Drawer.vue'
 import G3Header from 'src/components/Disenio/HeaderLayout/G3Header.vue'
-import { iniciarSignalR } from 'src/services/SignalRService.js'
+import { iniciarSignalR, detenerSignalR } from 'src/services/SignalRService.js'
 import { useSesionStore } from 'src/stores/sesion'
 
 const $q = useQuasar()
@@ -38,6 +38,17 @@ onMounted(() => {
     iniciarSignalR()
   }
 })
+
+watch(
+  () => storeSesion.estaAutentificado,
+  (estaAutentificado) => {
+    if (estaAutentificado) {
+      iniciarSignalR()
+    } else {
+      detenerSignalR()
+    }
+  },
+)
 
 // Estado Inicial
 const leftDrawerOpen = ref($q.screen.gt.sm)
