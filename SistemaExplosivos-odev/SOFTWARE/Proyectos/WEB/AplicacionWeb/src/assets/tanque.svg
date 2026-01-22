@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 316 540">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #d8d8d8;
+      }
+
+      .st1 {
+        fill: #bfbebf;
+      }
+
+      .st2 {
+        fill: url(#Degradado_sin_nombre_3);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="31.38" y1="321.55" x2="260.57" y2="321.55" gradientTransform="translate(0 542) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#fff" stop-opacity=".1"/>
+      <stop offset=".16" stop-color="#bfbebf" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#343434" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <rect class="st0" x="8.08" y="391.48" width="21.93" height="147.84"/>
+  <rect class="st0" x="285.54" y="391.48" width="21.93" height="147.84"/>
+  <rect class="st0" x=".02" y="49.4" width="315.95" height="342.08"/>
+  <rect class="st1" x=".02" y="186.14" width="315.95" height="67.12"/>
+  <rect class="st1" x=".02" y="263.7" width="315.95" height="67.12"/>
+  <polygon class="st1" points="315.96 342.76 315.96 391.48 242.29 391.48 188.79 438.18 188.79 465.66 126.95 465.66 126.95 438.18 127.19 438.18 73.71 391.48 .02 391.48 .02 342.76 315.96 342.76"/>
+  <rect class="st1" x=".02" y="108.57" width="315.95" height="67.12"/>
+  <polygon class="st1" points="315.96 49.4 315.96 98.13 .02 98.13 .02 49.4 3.25 48.4 157.98 .68 312.73 48.4 315.96 49.4"/>
+  <rect class="st2" x=".02" y="49.4" width="315.95" height="342.09"/>
+</svg>

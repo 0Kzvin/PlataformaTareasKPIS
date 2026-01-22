@@ -1,0 +1,6 @@
+Usando el ICONGENIE de QUASAR
+https://next.quasar.dev/icongenie/introduction
+usar algo similar a 
+icongenie generate -i /path/to/icon.png
+//EL QUE USE YO
+icongenie g -i -m ./src/assets/G3Icono.png

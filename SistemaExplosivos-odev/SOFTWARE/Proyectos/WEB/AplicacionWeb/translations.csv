@@ -1,0 +1,1713 @@
+Key,"Spanish (Mexico), es_MX","English, en-US"
+AñadirFactura,Añadir Factura,Add Invoice
+Abril,Abril,April
+AbrilCortos,ABR,APR
+AbrirNavegacion,Abrir Navegación,Open Navigation
+AccesoAlSistema,Acceso al Sistema,Access to the system
+AccesoDenegado,Acceso Denegado,Access Denied
+Accion,Acción,Action
+Aceite,Aceite,Oil
+Aceites,Aceites,Oils
+AceitesAb,ACEI,OIL
+AceptaAditivo,Acepta Aditivo,Accepts Additive
+AceptaCargasRecurrentes,Acepta Cargas Recurrentes,Allows Recurring Transactions
+AceptaModoMantenimiento,Acepta modo mantenimiento,Allows maintenance mode
+AceptaModoManual,Acepta Modo Manual,Enable Manual Mode
+AceptaPreset,Acepta Preset,Accept Preset
+Aceptar,Aceptar,Accept
+Activado,Activado,Activated
+ActivaFuncionalidadAgregarTareasEnChecklist,Habilita la creación de Tareas desde un Checklist en la Aplicación Móvil.,Enables creation of Tasks from a Checklist in the Mobile Application.
+ActivaFuncionalidadesSoprte,Habilita funcionalidades de soporte en la aplicación móvil.,Enable support features in the mobile application.
+ActivarCombustiblePregunta,¿Desea activar el combustible?,Are you sure you want to activate the specified fuel?
+ActivarEquipoEstacionPregunta,¿Desea activar el registro de Equipo de Estación?,Are you sure you want to activate the specified station equipment record?
+ActivarEquipoPipaPregunta,¿Desea activar el registro de Pipa Móvil?,Are you sure you want to activate the specified tank truck record?
+ActivarEstacionPregunta,¿Desea activar la estación?,Are you sure you want to activate the specified station?
+ActivarModoMantenimiento,Activar Modo Mantenimiento,Activate maintenance mode
+ActivarOperadorPregunta,¿Desea activar el registro de operador?,Are you sure you want to activate the specified operator?
+ActivarPipaPregunta,¿Desea activar la pipa?,Are you sure you want to activate the specified tank truck?
+ActivarRegistro,Activar Registro,Activate record
+ActivarRegistroPregunta,¿Desea activar este registro?,Are you sure you want to activate this record?
+ActivarRolPregunta,¿Desea activar el rol?,Are you sure you want to activate the specified role?
+ActivarUsuarioPregunta,¿Desea activar el usuario?,Are you sure you want to activate the specified user?
+ActualizarTabla,Actualizar Información,Update Information
+ActualizarTablaDescripcion,Realiza una consulta para refrescar la información de la tabla usando los parámetros de la última búsqueda realizada,Performs a query to refresh the information in the table using the parameters of the last lookup performed
+ActualizarTodosLosDatosTableroBoton,Actualizar Datos del Tablero,Update Dashboard
+AdjuntarImagenISO,Imagen Ticket ISO,ISO Ticket Image
+Administracion,Administración,Administration
+AdministracionAb,ADM,ADM
+Agosto,Agosto,August
+AgostoCortos,AGO,AUG
+AgregaCampoSelloMaximo4,Agrega un campo de sello con un máximo de 4,Add a stamp field with a maximum of 4
+Agregar,Agregar,Add
+Agrupado,Agrupado,Group
+AgrupaElementosToolTip,Agrupa todos los eventos de despacho en un solo registro y suma sus despachos en un total.,It groups all the transaction events in a single record and adds its transactions in a total.
+AgruparEquipos,Agrupar Equipos,Group Equipment
+AjusteConfiguracionesEquipo,Ajuste las Configuraciones del Equipo,Adjust Equipment Settings
+Al,al,to
+Almacen,Almacén,Storage
+Almacenamiento,Almacenamiento,Storage
+Altas,Altas,Setup
+Altura,Altura,Height
+AlturaAgua,Altura Agua,Water Height
+AlturaFinal,Altura Final,Final Height
+AlturaInicial,Altura Inicial,Initial Height
+AlturaMaxima,Altura Máxima,Max. Height
+AlturaOperativa,Altura Operativa,Operational Height
+AlturaOperativaRegla,Altura operativa no puede ser mayor que altura máxima,Operational height cannot be bigger than maximum height
+Analisis,Análisis,Analysis
+AnalisisEntreObtenidoCalculado,Análisis entre obtenido y calculado,Analysis between obtained and calculated
+AnalisisEstatus,Análisis Estatus,Status Analysis
+AnalisisEtapas,Análisis de Servicios por Etapas,Services Analysis by Stages
+AnalisisPorTipoEquipoChecklist,Análisis de Respuestas por Tipo Equipo,Analysis of Responses by Equipment Type
+AnalisisSemana,Análisis de la Semana,Weekly analysis
+AnalisisSinEtapas,Análisis de Servicios sin Etapas,Services Analysis without Stages
+AnalisisTotalizados,Analisis de Totalizados,Analysis of Totals
+AnalisisVolumen,Análisis de volumen,Volume analysis
+Ano,Año,Year
+Apariencia,Apariencia,Appearance
+Apellido,Apellidos,Last Name
+Aplicacion,Aplicación,Application
+Apodo,Apodo,Nickname
+Area,Área,Area
+AreaAceites,Area Aceites,Oil Area
+AreaDeDescarga,Area de Descarga,Discharge Area
+AreaPipa,Área Pipa,Tank Truck Location
+AreaPipas,Area de Pipas,Tank Truck Locations
+Areas,Áreas,Areas
+AreasAsignadas,Areas Asignadas (Pipas),Assigned Areas (Thank Trucks)
+AreasOtorgadas,Areas Otorgadas,Assigned Areas
+AreasPipasAsignadas,Areas de Pipa,Thank Truck Areas
+AreasSeleccionadas,Areas Seleccionadas,Selected Areas
+AsignaCargaManual,Asigna Carga Manual,Manual Consumption
+AsignacionExistosa,Asignacion Existosa,Successful Assignment
+Asignado,Asignado,Assigned
+AsignadoA,Asignado A,Assigned to
+AsignarCargaManualPregunta,¿Desea asignar esta carga manual?,Are you sure you want to assign the manual consumption?
+AsignarGerencias,Asignar Gerencias,Assign Managements
+AsignarGerenciasUsuarioPregunta,¿Desea asignar esta gerencia al usuario?,Are you sure you want to assign this management to the user?
+AsignarImagenPregunta,¿Desea asignar la imagen al usuario?,Do you want to assign the image to the user?
+AtencionAFuturo,Atencion a Futuro,Check Later
+Auditoria,Auditoria,Audit
+Autorizado,Autorizado,Authorized
+AutorizadoFechaHora,Fecha de autorización,Authorization date
+AutorizadoSupervisor,Autorizado Supervisor,Authorized by Supervisor
+Autorizar,Autorizar,Authorize
+AutorizarCargaManual,Autorizar Carga Manual,Authorize Manual dispatch
+AutorizarPregunta,¿Quiere enviar su firma de autorización?,Do you want to send your Authorization signature?
+Bahia,Bahía,Bay
+BancoTareas,Banco de Tareas,Tasks Bank
+BitacoraConsumos,Bitácora de Consumos,Consumptions' Logbook
+Bitacoras,Bitácoras,Logbooks
+BitacoraServicios,Bitácora de Servicios,Services Log
+BitacoraTags,Bitácora de Tags,Tags' Logbook
+BombaFueraLinea,Bomba fuera de línea,Pump is offline
+BombeadoPor,Bombeado Por,Pumped By
+Bombeo,Bombeo,Pumping
+Borrar,Borrar,Delete
+BorrarAreaPregunta,¿Desea borrar el Área?,Are you sure you want to delete the area permanently?
+BorrarEquipoEstacionPregunta,¿Desea borrar el registro de Equipo de Estación?,Are you sure you want to delete the specified station equipment record?
+BorrarEquipoPipaPregunta,¿Desea borrar el registro de Operador?,Are you sure you want to delete the specified tank truck record?
+BorrarEstacionPregunta,¿Desea borrar la estación?,Are you sure you want to delete the specified station?
+BorrarGerenciaPregunta,¿Desea borrar la Gerencia?,Are you sure you want to delete the management permanently?
+BorrarOperadorPregunta,¿Desea borrar el registro de Operador?,Are you sure you want to delete the specified operator?
+BorrarProductoPregunta,¿Desea borrar el registro de Producto?,Are you sure you want to delete the specified Product?
+BorrarRegistroPregunta,¿Desea borrar este registro?,Are you sure you want to delete this record?
+BorrarRolConfirmacion,Si quiero borrarlo,Yes I want to delete it
+BorrarRolPregunta,¿Desea borrar el rol permanentemente?,¿Are you sure you want to delete the role permanently?
+BorrarTareaListaToolTip,Borrar tarea de la lista.,Delete task from list
+BorrarUsuarioPregunta,¿Desea borrar el usuario?,Are you sure you want to delete the user permanently?
+BotonCerrarSesion,Cerrar Sesión,Sign off
+Buscar,Buscar,Search
+CadaCuantasHoras,Cada cuantas horas,Every how many hours
+CambiadoConExitoMensaje,¡Cambio existosamente!,Changed successfully!
+CambiaEstadoMantenimientoHastasSiguienteCarga,Cambia el equipo a estado de mantenimiento hasta que se registre la siguiente carga,Switches the equipment to maintenance state until the next charge is registered
+CambiarContrasenia,Cambiar contraseña,Change password
+CambiarEstadoEstacionConfirmacion,Si quiero cambiar su estado,Yes I want to change its status
+CambiarEstadoMantenimiento,Cambiar Estado a Mantenimiento,Change Status to Maintenance
+CambioEstado,Cambio de estado actual,Change the current status
+CanacelarReservacionActual,Canacelar reservacion actual,Cancel current reservation
+Cancelado,Cancelado,Cancelled
+Cancelar,Cancelar,Cancel
+CancelaReservaActual,Cancela Reserva Actual,Cancfel current reservation
+Cantidad,Cantidad,Quantity
+CantidadenLtsAAsignar,Cantidaden Lts a asignar,Quantity to assign (Lts)
+CantidadFacturada,Cantidad Facturada,Invoiced Amount
+CantidadFacturadaPorProveedor,CANTIDAD FACTURADA POR PROVEEDOR,AMOUNT INVOICED BY SUPPLIER
+CantidadLTS,Cantidad Lts,Quantity Lts
+CantidadMermaGeneradaPorProveedor,CANTIDAD MERMA GENERADA POR PROVEEDOR,LOSSES PER SUPPLIER
+CantidadMermaProveedor,CANTIDAD DE MERMA GENERADA POR PROVEEDOR,AMOUNT OF WASTE GENERATED BY SUPPLIER
+CantidadReservaEnLts,Cantidad reserva en Lts,Reserve quantity in liters
+CantidadRespuestas,Cantidad de Respuestas,Number of Answers
+CantidadTareasActual,Cantidad actual de tareas,Current amount of tasks
+Capacidad,Capacidad,Capacity
+Capacidades,Capacidades,Capacities
+CapacidadMaxima,Capacidad Máxima,Operational Maximum
+CapacidadOperativa,Capacidad Operativa,Operational Capacity
+CapacidadOperativaRegla,Capacidad operativa no puede ser mayor que capacidad máxima,Operational capacity cannot be bigger than maximum capacity
+CapacidadTanque,Capacidad del Tanque,Tank capacity
+CargaFinalizada,Carga Finalizada,Finished Transaction
+Cargando,Cargando,Loading
+CargandoEstadoBahia,Cargando estado de Bahía,Loading Bay State
+Cargas,Cargas,Delivery
+CargasBombeo,Cargas Bombeo,Pumping Consumption
+CargasManualesSinAsignar,Cargas manuales sin asignar,Unassigned manual consumptions
+CargasSinAsignar,Cargas sin asignar,Unassigned consumptions
+CargasTanques,Cargas Tanques,Tanks Consumption
+CartaPorte,Carta Porte,Waybill
+Categorias,Categorias,Categories
+Cerrar,Cerrar,Close
+CerrarNavegacion,Cerrar Navegación,Close Navigation
+CheckboxErrorConfirmacion,Necesitas confirmar la acción,You need to confirm the action
+ChecklistEntradaSinRespuestas,El checklist de entrada no tiene respuestas,Recption checklist has no answers
+ChecklistMAN,Checklist Mantenimiento,Maintenance Checklist
+ChecklistSalidaSinRespuestas,El checklist de salida no tiene respuestas,The Departure checklist has no answers
+ChecklistsCompleatadosSinEntradaTooltip,Checklist sin revisión de entrada completados.,Checklists completed without reception review.
+ChecklistsCompleatadosTooltip,Checklist de entrada y salida completados.,Reception and departure checklists completed.
+ChecklistsEnProcesoTooltip,Checklist de salida en progreso.,Departure checklist in progress.
+ChecklistSinRespuestaRegistrada,CheckList sin respuestas registrada,CheckList with no answers registered
+ChecklistSinRespuestas,Los checklists de entrada y salida no tienen respuestas,The reception and departure Checklists have no answers
+CheckListSinRespuestasRegistrada,Checklist sin respuestas registradas,Unanswered checklist recorded
+ChecklistsPendienteTooltip,En espera de revisón de salida.,Awaiting departure review.
+ChecklistsSalidaEnProcesoTooltip,Checklist de salida  sin revisión de entrada en progreso.,Departure checklist without reception review in progress.
+Clave,Clave,Key
+ClaveAcceso,Clave de acceso,Access code
+ClickParaMasDetalles,Click aquí para ver más detalles,Click here to see more details
+Codigo,Código,Code
+CodigoAplicacion,Codigo Aplicación,App Code
+ColoqueSuNuevoPassword,Coloque sus nuevas credenciales,Place your new credentials
+CombinarConVehiculosPesados,Combinar con Vehículos Pesados,Combine with Heavy Vehicles
+CombinarPipas,Combinar con Pipas,Combine with Tank trucks
+CombinaVehiculosPesadosTooltip,Combina todos los despachos de Vehículos Pesados con Pipas para generar un solo reporte con información general.,Combine all the Heavy Vehicles with Pipes transactions to generate a single report with general information.
+Combustible,Combustible,Fuel
+Combustibles,Combustibles,Fuels
+Comentario,Comentario,Comment
+ComenzoCargaFechaHora,Fecha-Hora inicio carga,Transaction start time and date
+ComparacionDestinos,Comparación Destinos,Destination Comparison
+ComparacionDispositivos,"""Comparación Dispositivos""","""Device Comparison"""
+Compensacion,Compensación,Compensation
+CompensacionDespachos,Compensaciones de Consumos,Consumption Compensation
+CompletarCampo,"Por favor, complete este campo.",This field cannot be empty.
+CompruebaLaEstacionLocal,"Si esto no sucede, compruebe la conexión de red de la estación local","If this does not happen, check the network connection of the local station"
+Conductor,Conductor,Driver
+Conductores,Conductores,Drivers
+ConectadoSinDatosEnTiempoReal,Conectado a la estación pero no se reciben datos en tiempo real. Se muestra la última lectura registrada,Connected to the station but no real time data is received. The last recorded reading is displayed
+ConectandoseEstacion,Conectandose a la Estación,Connecting to the Station
+ConEspoPodemosConectarnos,Con eso podremos conectarnos y monitorearla remotamente,"With that, we can connect and monitor it remotely"
+Configuracion,Configuración,Settings
+ConfigurarActividades,Configurar Actividades,Tasks Settings
+ConfiguraReporte,Configura tu Reporte,Set your Report
+Confirmar,Confirmar,Confirm
+ConfirmarContraNueva,Confirme contraseña nueva,Confirm new password
+ConfirmarDatosEquipoCorrectosPregunta,¿Desea confirmar que los datos actuales del equipo son correctos?,Do you want to confirm that the current device data is correct?
+ConsulaNoEncontroInformacion,La consulta realizada no encontró información,No data has been found with the parameters specified
+Consulta,Consulta,Query
+ConsultaDel,Consulta del día,Query On
+ConsultaEntre,Consulta Entre,Query Between
+ConsultaMes,Consulta del Mes,Month's data
+ConsultraEntre,Consulta Entre,Query Between
+Consumo,Consumo,Consumption
+ConsumoCombustibleContraCargado,Consumo contra cargado en tanque,Fuel Consumption vs refueled
+ConsumoDiario,Consumo diario,Daily fuel consumption
+ConsumoDiarioCombutible,Consumo Diario de Combustible,Daily Fuel Consumption
+ConsumoDiarioDispositivo,Consumo Diario por Dispositivo,Daily Consumption per Device
+ConsumoDiarioSemana,Consumo diario de la Semana,Daily fuel consumption per week
+ConsumoEnLitros,Consumos en Litros,Consumption in Liters
+ConsumoHoraDispositivo,Consumo Por Dispositivo,Consumption by Device
+ConsumoMensual,Consumo Mensual,Monthly Consumption
+ConsumoPlaneadoProveedor,CONSUMO PLANEADO POR PROVEEDOR,PLANNED CONSUMPTION BY SUPPLIER
+ConsumoPorHora,Consumo por Hora,Consumption per hour
+ConsumoProductosEstaciones,Consumo de Productos por Estaciones,Product Consumption per Station
+Consumos,Consumos,Consumption
+ConsumosAceites,Consumos de Aceites,Oil Consumption
+ConsumosAceitesTipoEquipo,Consumos de Aceites por Tipo de Equipo,Oil consumption per equipment type
+ConsumosCombustibleEstaciones,Consumos de combustible por Estaciones,Fuel consumption per Station
+ConsumosCombustiblePipas,Consumos de combustible por Pipas,Fuel Consumption per Tank Truck
+ConsumosCombustibleSitio,Consumos de combustible por Sitio,Fuel Consumption per Site
+ConsumosCombustibleTipoEquipo,Consumos de combustible por Tipo de Equipo,Fuel Consumption per Equipment Type
+ConsumosDiarioAceites,Consumos diario de aceites,Daily oil consumption
+ConsumoSemanal,Consumo Semanal,Weekly Consumption
+ConsumosMensualesProducto,Consumos Mensuales por Producto,Monthly Consumption per Product
+ConsumosMensualesTipoAceite,Consumos Mensuales por Tipo de Aceite,Monthly consumption per oil type
+ConsumosOrquesta,Consumos de Orquesta,Orquesta Consumption
+ConsumosVehiculos,Consumos Vehículos,Vehicle Consumption
+ConsumosVL,Consumos VL,Consumption VL
+ContenidoRestringido,Contenido Restringido,Content unavailable
+Continuar,Continuar,Continue
+ContraIguales,* Las contraseñas deben ser iguales,* Passwords must be the same
+ContraLongitud,* Las contraseñas deben tener al menos 5 caracteres.,* Passwords must be at least 5 characters long.
+ContraNueva,Contraseña nueva,New password
+ControlDiesel,Control Diesel,Diesel Control
+Coriolis,Coriolis,Coriolis
+CoriolisOFF,Coriolis sin flujo,Coriolis without flow
+CoriolisON,Coriolis con flujo,Coriolis with flow
+Corregido,CORREGIDO,CORRECTED
+Correo,Correo,Email
+CorreoAutomatico,Correo Automático,Automated Email
+CorreoElectronico,Correo Electronico,Email
+CorreosAutomaticos,Correo automáticos,Automated emails
+CortesDiarios,Cortes Diarios,Daily Consumption
+CortesPorHora,Cortes por hora,Hourly Consumption
+CRÍTICO,CRÍTICO,CRITICAL
+Crear,Crear,Create
+CrearArea,Crear Area,Create Area
+CrearAreaAceite,Crear Area Aceite,Create Oil Area
+CrearAreaPipaPregunta,¿Desea crear el registro de Area de Pipa?,Are you sure you want to create a new tank truck location record?
+CrearAreaPipas,Crear Area de Pipas,Create Tank Truck Location
+CrearAreaPregunta,¿Desea crear una area nueva?,Are you sure you want to create a new area record?
+CrearAreaVP,Crear Área VP,Create HV Area
+CrearChecklist,Crear Checklist,Create Checklist
+CrearCompensacionDespacho,Crear Compensación de Despacho,Create Consumption Compensation
+CrearCompensacionDespachoPregunta,¿Desea crear la entrada de Compensación de Despacho?,Are you sure you want to create a Consumption Compensation record?
+CrearConductor,Crear Conductor,Create Driver
+CrearCorreoAutomatico,Crear correo automático,Create automated email
+CrearCorreoAutomaticoPregunta,¿Desea crear el registro de correo automático?,Are you sure you want to create the automated email record?
+CrearDispositivo,Crear Dispositivo,Create Device
+CrearEditarUsuarioAreaPipaHint,Esta opción solo es utilizada por usuarios que editarán o crearán Equipos de Pipas. Restringe el listado solo a los equipos de las áreas asignadas al usuario. Se puede dejar en blanco si no utilizará esta función,This option is only used for users who will edit or create Thank Truck Equipments. Restricts the listing and filters equipments whose area he's been assigned to. It can be left blank if the user will not tamper with these parameters
+CrearEntradaBitacora,Crear entrada en Bitácora,Create Logbook Entry
+CrearEntradaBitacoraPregunta,¿Desea crear la entrada en Bitácora de Tags?,Are you sure you want to create a Tag Logbook record?
+CrearEquipo,Crear Equipo,Create Equipment
+CrearEquipoEstacion,Crear Equipo de Estación,Create Station Equipment
+CrearEquipoEstacionPregunta,¿Desea crear el registro de Equipo de Estación?,Are you sure you want to create a station equipment record?
+CrearEquipoPipa,Crear Equipo Pipa,Create Tank Truck Equipment
+CrearEquipoPipaPregunta,¿Desea crear el registro de Equipo de Pipa Móvil?,Are you sure you want to create a tank truck equipment record?
+CrearEstacion,Crear Estación,Create Station
+CrearEstacionPregunta,¿Desea crear el registro de estación?,Are you sure you want to create a new station record?
+CrearFactura,Crear Factura,Create Invoice
+CrearFamilia,Crear Familia,Create Family
+CrearFamiliaPregunta,¿Desea crear el registro de familia?,Are you sure you want to create a new family record?
+CrearGerencia,Crear Gerencia,Create Top Management
+CrearGerenciaPregunta,¿Desea crear una nueva gerencia?,Are you sure you want to create a new management record?
+CrearLimiteConsumo,Crear limite consumo,Create consumption limit
+CrearLimiteConsumoPregunta,¿Desea crear el límite de consumo seleccionado?,Are you sure you want to create the consumption limite record?
+CrearMedicion,Crear Medición de Particulas,Create Particle Measurement
+CrearNivel,Crear Nivel,Create Level
+CrearOperador,Crear Operador,Create Operator
+CrearOperadores,Crear Operadores,Create Operators
+CrearOperadorPregunta,¿Desea crear el registro de Operador?,Are you sure you want to create an operator record?
+CrearOrigen,Crear Origen,Create Origin
+CrearOrquesta,Crear Orquesta,Create Station
+CrearPersonal,Crear Personal,Create Staff Membrer
+CrearPersonaResponsable,Registrar persona responsable,Registrar persona responsable
+CrearPipa,Crear Pipa,Create Tank Truck
+CrearPipaPregunta,¿Desea crear el registro de Pipa?,Are you sure you want to create a tank truck record?
+CrearPlantillas,Crear Plantillas,Create Templates
+CrearPregunta,¿Desea crear el registro especificado?,Are you sure you want to create the specified record?
+CrearPreungta,¿Desea crear el registro especificado?,Are you sure you want to create the specified record?
+CrearProducto,Crear Producto,Create Product
+CrearProveedor,Crear Proveedor,Create Supplier
+CrearRegistroPregunta,¿Desea crear este registro?,Are you sure you want to create this record?
+CrearReserva,Crear Reserva,Create Reserve
+CrearResponsables,Crear Responsable,Create Responsible
+CrearRolPregunta,¿Desea crear el Rol?,Are you sure you want to create the specified role?
+CrearTanque,Crear Tanque,Create Tank
+CrearTarea,Crear Tarea,Create Task
+CrearTipo,Crear Tipo,Create Type
+CrearTipoEquipo,Crear Tipo de Equipo,Create Equipment Type
+CrearTipoEquipoPregunta,¿Desea crear el tipo de equipo?,Are you sure you want to create the type of equipment record?
+CrearTipoEstacion,Crear Tipo Estación,Create station type
+CrearTipoEstacionPregunta,¿Desea crear el registro de tipo de estación?,Are you sure you want to create a new station type record?
+CrearTipoPlantilla,Crear Tipo de Plantilla,Create template type
+CrearTransportista,Crear Transportista,Create Carrier
+CrearUsuario,Crear Usuario,Create User
+CrearUsuarioPregunta,¿Desea registrar al usuario?,Are you sure you want to create a new user?
+Critico,Crítico,Critical
+Cuenta,Cuenta,Profile
+DatellesDeFactura,Datelles de Factura,Invoice details
+DatoActualizado,Dato Actualizado,Updated Data
+DatoAnterior,Dato Anterior,Previous Data
+Datos,Datos,Data
+DatosCarga,Datos de Carga,Transaction Data
+DatosDeFactura,Datos de Factura,Invoice Data
+DatosDeProveedor,Datos de Proveedor,Supplier Data
+DatosEquipo,Datos de Equipo,Equipment's Information
+DatosGenerales,Datos Generales,General Data
+DatosMerma,Datos Merma,Shrinkage Data
+DatosPipa,Datos de Pipa,Tank Truck's Information
+DeactivarPipaPregunta,¿Desea desactivar la pipa?,Are you sure you want to disable the specified tank truck?
+DebeIngresarNombre,Debe ingresar un nombre de plantilla,Enter the template name
+DebeIngresarNombreRol,Debe ingresar un nombre para el rol,You must enter a name for the role
+DebeIngresarTipo,Debe ingresar tipo de plantilla,You must enter type of template
+DebeSeleccionarModulo,Debe seleccionar al menos un módulo,You must select at least one module
+Del,del,of
+DelAnio,Del,During
+DelFinalDia,del final del día,the end of the day
+DelMes, Del Mes, Of the month
+Densidad,Densidad,Density
+DensidadCalculada,Densidad Calculada,Calculated Density
+DensidadFinal,Densidad Final,Final Density
+DensidadInicial,Densidad Inicial,Initial Density
+Desactivado,Desactivado,Deactivated
+DesactivarCombustiblePregunta,¿Desea desactivar el combustible?,Are you sure you want to disable the specified fuel?
+DesactivarEquipoEstacionPregunta,¿Desea desactivar el registro de Equipo de Estación?,Are you sure you want to disable the specified station equipment record?
+DesactivarEquipoPipaPregunta,¿Desea desactivar el registro de Pipa Móvil?,Are you sure you want to disable the specified tank truck record?
+DesactivarEstacionPregunta,¿Desea desactivar la estación?,Are you sure you want to disable the specified station?
+DesactivarModoMantenimiento,Desactivar Modo Mantenimiento,Disable maintenance mode
+DesactivarOperadorPregunta,¿Desea desactivar el registro de operador?,Are you sure you want to disable the specified operator?
+DesactivarRegistro,Desactivar Registro,deactivate record
+DesactivarRegistroPregunta,¿Desea desactivar este registro?,Are you sure you want to deactivate this record?
+DesactivarRolPregunta,¿Desea desactivar el rol?,Are you sure you want to disable the specified role?
+DesactivarUsuarioPreguntna,¿Desea desactivar el usuario?,Are you sure you want to disable the specified user?
+DescargarReporte,Descargar reporte,Download report
+DescargarReporteServicios,Descargar Reporte de Servicio,Download Service Report
+Descripcion,Descripción,Description
+DescripcionEquipo,Descripcion Equipo,Equipment Description
+DescripcionEstatusTareasAF,Tareas que no necesitan atencion de manera inmediata,Tasks that do not need immediate attention
+DescripcionEstatusTareasCritico,Tareas que necesitan antención urgente,Tasks that need urgent attention
+DescripcionEstatusTareasNA,Tareas que no pueden ser realizadas a este equipo,Tasks that cannot be apply on this vehicle
+DescripcionEstatusTareasOK,Tareas realizadas satisfactoriamente,Tasks Completed Satisfactorily
+DescripcionFirmaAutorizadoEntrega,"Al firmar, el supervisor autoriza la finalizacion del checklist de Entrega","When signing, the supervisor authorizes the completion of the Delivery checklist."
+DescripcionFirmaAutorizadoRecepcion,"Al firmar, el supervisor autoriza la finalizacion del checklist de Recepción","When signing, the supervisor authorizes the completion of the Reception checklist."
+DescripcionTarea,Descripción Tarea,Task Description
+DeseaActivarModoMantenimientoPregunta,¿Desea activar modo mantenimiento?,Do you want to activate the maintenance mode?
+DeseaCambiarEstadoEquipoPregunta,¿Desea cambiar el estado del equipo a modo mantenimiento?,Do you want to change the status of the equipment to maintenance mode?
+DeseaCancelarReservaPregunta,¿Desea cancelar la reserva?,Do you want to cancel this reservation?
+DeseaDesctivarModoMantenimientoPregunta,¿Desea desactivar modo mantenimiento?,Do you want to disable the maintenance mode?
+DeseaHacerReserva,¿Desea realizar la reserva?,Do you want to create this reservation?
+Despachado,Despachado,Dispatched
+DespachadoContraTotalizados,Despachado Contra Totalizados,Consumed vs Totalized
+DespachoDiarioOperador,Despacho diario por operador,Daily consumption per operator
+DespachosMensualOperadores,Despachos Mensual de Operadores,Monthly consumption per operator
+Destinatarios,Destinatarios,Addressees
+Detalles,Detalles,Details
+DetallesTareaPendiente,Detalles Tarea Pendiente,Pending Task Details
+DetenerMonitoreo,DETENER MONITOREOS,STOP MONITORING
+Dia,Día,Day
+DiaAnterior,Dia Anterior,Yesterday
+DiasDeLaSemana,Días de la Semana,Days of the Week
+DiaSiguiente,Dia Siguiente,Tomorrow
+DiasInspeccionados,Días inspeccionados,Days inspected
+DiasSeleccionados,Días Seleccionados,Selected days
+Diciembre,Diciembre,December
+DiciembreCortos,DIC,DEC
+Diferencia,Diferencia,Difference
+DiferenciaComparativa,Diferencia de la comparación,Comparison difference
+DiferenciaEntreDespachado,Diferencia Entre Despachado,Differences Between Transactions
+Diferencias,Diferencias,Differences
+DiferenciaTotalizados,Diferencia Totalizados,Totalizers Difference
+Disciplina,Disciplina,Discipline
+Dispensario,Dispensario,Pump
+Disponible,Disponible,Available
+DisponibleProx,Disponible Proximamente...,It will be available soon...
+Dispositivo,Dispositivo,Device
+DispositivoDeMedicion,Dispositivo de Medicion,Measuring Device
+Dispositivos,Dispositivos,Devices
+Documentacion,Documentación,Documentation
+Domingo,Domingo,Sunday
+DomingoCorto,DOM,SUN
+Duracion,Duración,Duration
+Economico,Económico,Economic
+Editar,Editar,Edit
+EditarArea,Editar Area,Edit Area
+EditarAreaAceite,Editar Area Aceite,Edit Oil Area
+EditarAreaPipaPregunta,¿Desea editar el registro de Area Pipa?,Are you sure you want to modify the tank truck location record?
+EditarAreaPipas,Editar Area de Pipas,Edit Tank Truck Location
+EditarAreaPregunta,¿Desea editar el area?,Are you sure you want to modify the area record?
+EditarAreaVP,Editar Área VP,Edit HV Area
+EditarChecklist,Editar Checklist,Edit Checklist
+EditarCompensacionDespacho,Editar Compensación de Despacho,Edit Consumption Compensation
+EditarCompensacionDespachoPregunta,¿Desea modificar la entrada de Compensación de Despacho?,Are you sure you want to modify the Consumption Compensation record?
+EditarConductor,Editar Conductor,Edit Driver
+EditarCorreoAutomatico,Editar correo automático,Edit automated email
+EditarCorrreoAutomaticoPregunta,¿Desea editar el registro de correo automático?,Are you sure you want to modify the automated email record?
+EditarDespacho,Editar Despacho,Edit Consumption
+EditarDespachoPregunta,¿Desea editar el despacho?,Are you sure you want to modify the consumption record?
+EditarDispositivo,Editar Dispositivo,Edit Device
+EditarEquipo,Editar Equipo,Edit Equipment
+EditarEquipoEstacion,Editar Equipo de Estación,Edit Station Equipment
+EditarEquipoEstacionPregunta,¿Desea editar el registro de Equipo de Estación?,Are you sure you want to modify a station equipment record?
+EditarEquipoPipa,Editar Equipo Pipa,Edit Tank Truck Equipment
+EditarEquipoPipaPregunta,¿Desea editar el registro de Equipo de Pipa Móvil?,Are you sure you want to modify a tank truck equipment record?
+EditarEstacion,Editar Estación,Edit Station
+EditarEstacionPregunta,¿Desea editar el registro de estación?,Are you sure you want to modify the station record?
+EditarFactura,Editar Factura,Edit Invoice
+EditarFamilia,Editar Familia,Edit Family
+EditarFamiliaPregunta,¿Desea editar el registro de familia?,Are you sure you want to modify the family record?
+EditarGerencia,Editar Gerencia,Edit Top Management
+EditarInformacion,Editar Información,Edit Information
+EditarLimiteConsumo,Editar límite de consumo,Edit Consumption Limit
+EditarLimiteConsumoPregunta,¿Desea editar el límite de consumo seleccionado?,Are you sure you want to edit the selected consumption limit record?
+EditarNivel,Editar Nivel,Edit Level
+EditarOperador,Editar Operador,Edit Operator
+EditarOperadores,Editar Operadores,Edit Operators
+EditarOperadorPregunta,¿Desea editar el registro de Pipa?,Are you sure you want to edit an operator record?
+EditarOrigen,Crear Editar,Edit Origin
+EditarPerfil,Editar Perfil,Edit Profile
+EditarPersonal,Editar Personal,Edit Staff Member
+EditarPipa,Editar EPipa,Edit Tank Truck
+EditarPipaPregunta,¿Desea editar el registro de Pipa?,Are you sure you want to modify a tank truck record?
+EditarPlantilla,Editar Plantilla,Edit Template
+EditarPlantillas,Editar Plantillas,Edit Templates
+EditarPregunta,¿Desea editar el registro especificado?,Are you sure you want to edit the specified record?
+EditarProducto,Editar Producto,Edit Product
+EditarProveedor,Editar Proveedor,Edit Supplier
+EditarRegistroPregunta,¿Desea editar este registro?,Are you sure you want to modify this record?
+EditarResponsables,Editar Responsable,Edit Responsible
+EditarRolPregunta,¿Desea editar el Rol?,Are you sure you want to modify the specified role?
+EditarTanque,Editar Tanque,Editar Tank
+EditarTarea,Editar Tarea,Edit Task
+EditarTareaTootTip,Editar esta tarea,Edit this task
+EditarTipo,Editar Tipo,Edit Type
+EditarTipoEquipo,Editar Tipo de Equipo,Edit Equipment Type
+EditarTipoEquipoPregunta,¿Desea editar el tipo de equipo?,Are you sure you want to edit the type of equipment record?
+EditarTipoEstacion,Editar Tipo Estación,Edit station type
+EditarTipoEstacionPregunta,¿Desea editar el registro de tipo de estación?,Are you sure you want to modify the station type record?
+EditarTransaccionesAsignadas,Edita las transacciones asignadas a la factura.,Edits the transactions assigned to this invoice.
+EditarTransportista,Editar Transportista,Edit Carrier
+EditarUsuarioPregunta,¿Desea editar al usuario?,Are you sure you want to edit the specified user?
+EjemploToleranciaProveedorPista,Ejemplo: 0.02% equivale a 2 lts de tolerancia por cada 100 lts entregados,Example: 0.02% equals to 2 lts of tolerance per every 100 lts delivered
+ElegirDias,Elegir Días,Choose days
+ElegirReporte,Elegir Reporte,Select Report
+ElegirTarea,Elegir Tarea,Select Task
+EliminarRegistro,Eliminar Registro,Delete record
+EnCurso,En Curso,In progress
+EnDespacho,En Despacho,In Transaction
+Enero,Enero,January
+EneroCortos,ENE,JAN
+EnEstacionEstaciones,En Estación o Estaciones,At Station or Stations
+EnMantenimiento,En Mantenimiento,Maintenance
+EnPipaPipas,En Pipa o Pipas,In Tank Truck or Tank Trucks
+EnProgreso,En Proceso,In progress
+EnProgresoSinEntrada,En Proceso SIN ENTRADA,In progress without reception
+EnRaca,En estación,At station
+Enterado,Enterado,Confirm
+Entrada,Entrada,Entry
+Entrega,Entrega,Delivery
+ENTREGADOS,ENTREGADOS,DELIVERED
+EnUnTotalDe,En un total de,In a total of
+EnviarCambios,Enviar Cambios,Send Changes
+Equipo,Equipo,Equipment
+EquipoDesactivado,Equipo Desactivado,Deactivated equipment
+EquipoEstacion,Equipo de Estación,Station Equipment
+EquipoNoTieneCargasEnSistema,Este Equipo aún no cuenta con alguna carga en el Sistema,This Equipment does not yet have any dispatch in the System
+EquipoPipa,Equipo de Pipa Móvil,Tank Truck Equipment
+Equipos,Equipos,Equipment
+EquiposEstaciones,Equipos de Estaciones,Station Equipments
+EquiposMAN,Equipos Mantenimiento,Maintenance Equipment
+EquiposMayorConsumo,Equipos con mayor consumo,Equipment with the highest consumption
+EquiposMayorConsumoDiesel,Equipos con Mayor Consumo de Diesel,Equipment with Higher Diesel Consumption
+EquiposMayorTiempoMuertoEntreCargas,Equipos con Mayor Tiempo Muerto entre Cargas,Equipment with Longer Time-outs between Charges
+EquiposPipas,Equipos,Equipments
+ErrorAlLigarFactura,Error al ligar factura.,Error while linking invoice.
+ErrorFormatearFrecuenciaCorreo,Ocurrió un error inesperado al formatear la frecuencia del trabajo automático,An unexpected error occurred while formatting the automatic job frequency
+EsManual,Es Manual,Is Manual
+Espanol,Español (México),Spanish (Mexico)
+EspecifiqueLasHoras,Especifique las Horas,Specify the Hours
+EspecifiqueLosDias,Especifique los días,Specify the Days
+EsperarCorreo,"Este correo podría tardar unos momentos en llegar, sea paciente.","This email may take a few moments to arrive, please be patient."
+EsSupervisor,Es Supervisor,Supervisor
+EsSupervisorToggleDescripcion,Activa funcionalidades especiales solo para supervisores o personal autorizado.,Enable special features only for supervisors or authorized personnel.
+Establezca,Establezca,Set
+Estacion,Estación,Station
+Estaciones,Estaciones,Stations
+EstacionesApp,Estaciones,Stations
+EstacionesMoviles,Estaciones Móviles,Mobile Stations
+EstacionesReal,Estaciones,Stations
+Estado,Estado,Status
+EstadoControlCombustibles,Estado de Control de Combustibles,Diesel Control Status
+EstadoCorreoExito,Se cambio el estado del correo automático con éxito,Automatic mail status changed successfully
+EstamosRecuperandoInformacioEstacion,Estamos recuperando la información de la estación,We are retrieving the station information
+Estatus,Estatus,Status
+EstatusCombustibles,Estatus Combustibles,Fuel Status
+EstatusCritico,Crítico,Critical
+EstatusDisponibles,Estatus Disponibles,Available Status
+EstatusOk,Estatus Ok,Status Ok
+EstatusRespuesta,Estatus de Respuesta,Answer Status
+EstatusTareas,Estatus Tareas,Tasks Status
+EstatusTLS,Estatus de sistema,System status
+EstaViendoLaInformacionDe,Se encuentra viendo la información ,You are viewing the information for 
+EsteTanqueRecibeBombeado,Este tanque recibe bombeado,This tank receives pumping
+Eventos,Eventos,Events
+Evidencia,Evidencia,Evidence
+Excepcion,Excepción,Exception
+Explicacion0700HoraCorte,Al seleccionar 07:00 se toma en cuenta jornada laboral Ej: 01/01/22 = [01/01/22 07:00 - 02/01/22 07:00],Upon selecting 07:00 it'll take into account a complete shift Eg: 01/01/22 = [01/01/22 07:00 - 02/01/22 07:00]
+Explicacion2359HoraCorte,Al seleccionar 23:59 se toman en cuenta días completos,Upon selecting 23:59 it'll take the complete days
+ExportarReporte,Exportar reporte,Export Report
+ExportarReporteBoton,Exportar reporte,Export Report
+ExportarReporteMermaBoton,Exportar reporte merma,Export Shrinkage Report
+FactorCorreccion,Factor de Corrección,Correction Factor
+FactorCorreccionDispositivo,Factor de Corrección Dispositivo,Device Correction Factor
+FactorCorregido,Factor Corregido,Corrected Factor
+FactorDeCorreccion,Factor de Correccción,Correction Factor
+FactorDeCorreccionDispositivo,Factor de Correccción Dispositivo,Device Correction Factor
+Factura,Factura,Invoice
+FacturaLigadaConExito,Factura ligada con éxito.,Invoice linked successfully.
+Facturas,Facturas,Invoices
+FacturasSinAsignar,Facturas sin Asignar,Unassigned Invoices
+FacturaTransaccionCreada,La factura de esta transacción ya se encuentra creada,The invoice for this transaction has already been created
+Familia,Familia,Family
+Familias,Familias,Families
+Fase,Fase,Phase
+FaseUnica,Fase Única,Single Phase
+FavorCompletarCampo,Favor de completar el campo,Please complete the pending field
+Febrero,Febrero,February
+FebreroCortos,FEB,FEB
+Fecha,Fecha,Date
+FechaDespacho,Fecha de Despacho,Consumption Date
+FechaEntrada,Fecha Entrada,Entry Date
+FechaHora,Fecha Hora,Date Time
+FechaHoraCreacion,Fecha Hora Creación,Creation Date Time
+FechaHoraFinal,Fecha Hora Final,Final date
+FechaHoraFinalizacion,Fecha Hora Finalización,Ending Date Time
+FechaHoraInicial,Fecha Hora Inicial,Initial date
+FechaModificacion,Fecha Modificación,Modified Date
+FechaProximaCarga,Cargar antes de la siguiente fecha,Load before the following date
+FechaRegistro,Fecha Registro,Date Created
+Fechas,Fechas,Dates
+FechaUltimaCarga,Última fecha de carga,Last Load Date
+Filtrar,Filtrar,Filter
+FiltrarGraficoPipa,Filtrar gráfico por pipa,Filter graph per tank truck
+FiltrarGraficoPorTanque,Filtrar gráfico por tanque,Filter graph per tank
+FiltrarModulos,Filtrar Módulos,Filter Modules
+FiltrarNombreOperador,Filtrar por nombre de operador,Filter by operator name
+FiltrarPorNombre,Filtrar por nombre,Filter by name
+Fin,Fin,End
+FinalCarga,Finalización Carga,End Dispatch
+FinalizacionCarga,Finalización Carga,Load Completion
+Finalizado,Finalizado,Finished
+FinalizadoSinEntrada,Finalizado SIN ENTRADA,Finished without reception
+Firma,Firma,Signature
+FirmaAutorizado,Firma de autorizado,Authorization signature
+FirmaDescripcion,Proporcionada en el proceso,Provided in the process
+FirmaOperador,FirmaOperador,Operator Signature
+FirmaPersonalResponsable,Firma persona responsable,Responsible staff member signature
+FirmarParaAutorizar,Firmar para Autorizar Checklist.,Sign to authorize checklist.
+FirmaSupervisor,Firma Supervisor,Supervisor Signature
+Flujo,Flujo,Flow
+Folio,Folio,Document Number
+FolioBascula,Folio Bascula,Folio Scale
+FolioFactura,Folio Factura,Invoice Number
+FolioNumTransaccion,Folio/# Transacción,Folio/# Transaction
+FormularioDeRecuperacion,Formulario de Recuperación,Recovery Form
+FormularioInvalido,El formulario contiene datos inválidos,The form contains invalid data
+Foto,Foto,Photo
+FotoDescripcionEquipo,Imagen tomada del equipo en el evento,Imagen tomada del equipo en el evento
+Frecuencia,Frecuencia,Frecuency
+Friday,Viernes,Friday
+Funcionalidades,Funcionalidades,Funcionalities
+Garza,Garza,Garza
+Gasolina,Gasolina,Gasoline
+GenerarReporte,Generar Reporte,Generate Report
+GenerarReporteConTodosEquiposListados,Genera un reporte con todos los equipos listados,Generate a report with all the equipment listed
+Gerencia,Gerencia,Management
+GerenciaAsignada,Gerencia Asignada,Assigned Management
+Gerencias,Gerencias,Managements
+GestionAltas,Altas,Setup
+GestionEquipos,Gestión de Equipos,Equipment Managment
+GFuelTitulo,Sistema G+Fuel,G+Fuel System
+Grupos,Grupos,Groups
+Guardar,Guardar,Save
+HaConsumido,Ha consumido,Has consumed
+HaDespachado,Ha Despachado,Has dispatched
+HistorialConsumos,Historial de Consumos,Consumption History
+Historiales,Historiales,History
+HistorialEventos,Historial de Eventos,Event History
+HistorialFacturas,Historial de Facturas,Invoice History
+HistorialMerma,Historial Merma,Shrinkage History
+HoraCorte,Hora de Corte,Cut-off Time
+HoraCorteToolTip,Toma en cuenta la hora de corte para generar el reporte y delimita registros,Takes into account the hours displayed for a cut-off time and generate a report with it
+HoraDeCorte,Hora de corte,Cut-off time
+HoraFija,Hora Fija,Fixed Time
+Horas,Horas,Hours
+HorasTolerancia,Horas de Tolerancia,Tolerance Hours
+Horometro,Horómetro,Hourmeter
+HubName,Nombre Hub,Hub Name
+Imagen,Imagen,Image
+ImagenActual,Imagen Actual,Assigned Image
+ImagenDeParticulas,Imagen de Partículas,Particle Image
+ImagenDeSellos,Imagen de Sellos,Stamp Image
+ImagenIngresar,Imagen a ingresar,Image
+ImportarEquiposPipas,Importar Equipos Pipas,Import Equipments Tank truks
+ImportarExcel,Importar Excel,Import Excel
+InfoDetalladaISO,Información Detallada de Registro ISO,Detailed ISO Registration Information
+InformacionDetallada,Información Detallada,Detailed Information
+InformacionDetalladaConsumo,Información Detallada de Consumo,Detailed Consumption Information
+InformacionDetalladaDelUsuario,Información Detallada del usuario,User's Detailed Information
+InformacionDetalladaLog,Información Detallada del Log,Detailed Log Information
+InformacionEnLitros,Informacion en Litros,Information in Liters
+InformacionEstacion,Información de la Estación,Station's General Information
+InformacionGeneral,Información General,General Information
+InformacionGeneralChecklist,Información General Checklist,Checklist General Information
+InformacionGeneralPlantilla,Información General de la Plantilla,Template General Information
+InformacionServicio,Información del Servicio,Service Information
+InformacionVehiculo,Información del Vehículo,Vehicle Information
+InformaconGeneral,Informacon General,General information
+Ingles,Inglés,English
+InicialM,InicialM,InitialM
+IniciarSesion,Iniciar Sesión,Login
+Inicio,Inicio,Start
+InicioCarga,Inicio Carga,Dispatch Start
+Inventario,Inventario,Inventory
+InventarioCalculado,Inventario Calculado,Calculated inventory
+InventarioObtenido,Inventario Obtenido,Obtained inventory
+IP,IP,IP
+IrAModulo,Ir al Módulo:,Go to the Module:
+JefeResponsable,Jefe Responsable,Responsible Supervisor
+Jueves,Jueves,Thursday
+JuevesCorto,JUE,THU
+Julio,Julio,July
+JulioCortos,JUL,JUL
+Junio,Junio,June
+JunioCortos,JUN,JUN
+RevisionEntrada,La revisión de entrada no se llevó a cabo,The reception review was not carried out
+LaSesionHaExpirado,La sesión ha expirado,The session has expired
+LasEstacionesYProductoAsignado,Las estaciones y el producto asignado.,The stations and the assigned product.
+LectoraAsignada,Lectora Asignada,Assigned Reader
+Lenguaje,Lenguaje,Language
+Leyenda,Leyenda,Legend
+LigarRecepcion,Ligar Recepción,Reassign Reception
+LigarTransacciones,Ligar Transacciones,Bind Transactions
+Limite,Limite,Limit
+LimiteDia,Limite del Día,Daily Limit
+LimiteDiario,Limite Diario,Daily limit
+LimiteMensual,Limite Mensual,Monthly Limit
+LimitesCarga,"Los limites de carga del equipo, si los hay.",The load limits of the equipment if any.
+LimitesCargaDelEquipo,Los limites de carga del equipo si los hay.,"The load limits of the equipment, if any"
+LimitesConsumos,Límite de Consumos,Consumption Limits
+LimiteSemanal,Limite Semanal,Weekly Limit
+LimpiarTodosFiltros,Limpiar todos los filtros,Clear all filters
+ListaDeUsuarios,Lista de Usuarios,User List
+ListaRespuestas,Lista de Respuestas,Answer List
+ListaTareas,Lista de Tareas,Tasks List
+ListrosFacturados,Litros Facturados,Billed Liters
+Litros,Litros,Liters
+LitrosFactura,Litros Factura,Liters Invoice
+LitrosFacturados,LITROS FACTURADOS,INVOICED LITERS
+LitrosInventario,Litros,Inventory
+LitrosNaturales,Litros Naturales,Natural Liters
+LitrosPorHoraAbreviado,L/H,L/H
+LitrosPreestablecidos,Litros Preestablecidos,Preset Liters
+LitrosRecibidos,Litros Recibidos,Liters Received
+LitrosRecibidosPorProveedor,LITROS RECIBIDOS POR PROVEEDOR,LITERS BY SUPPLIER
+Lunes,Lunes,Monday
+LunesCorto,LUN,MON
+MantenerSesionIniciada,Mantener sesión iniciada,Keep me logged in
+Mantenimiento,Mantenimiento,Maintenance
+MantenimientoAb,MANTO,MANTO
+Manual,Manual,Manual
+ManualUsuario,Manual de Usuario,User's Manual
+MapaDespachos,Mapa de Despachos,Consumptions Map
+Marca,Marca,Brand
+Martes,Martes,Tuesday
+MartesCorto,MAE,TUE
+Marzo,Marzo,March
+MarzoCortos,MAR,MAR
+Masa,Masa,Mass
+Mascara,Máscara,Mask
+MasModulos,Más Modulos,More Modules
+Matutino,Matutino,Morning
+Mayo,Mayo,May
+MayoCortos,MAY,MAY
+MayorConsumos,Equipos con mayor consumo de combustible,Equipment with higher fuel consumption
+Mensaje,Mensaje,Message
+Mensual,Mensual,Monthly
+Merma,Merma,Shrinkage
+MermaEn$MXN,Merma en $MXN,Shrinkage in $MXN
+MermaObtenida,Merma Obtenida,Obtained Shrinkage
+MermaPermisible,Merma Permisible,Allowable Shrinkage
+MermaRecibida,Merma Recibidos,Received Shrinkage
+Mermas,Mermas,Shrinkage
+Mes,Mes,Month
+MesActual,Mes Actual,This Month
+MesAnterior,Mes Anterior,Prev Month
+MesSiguiente,Mes Siguiente,Next Month
+Miércoles,Miércoles,Wednesday
+Miercoles,Miércoles,Wednesday
+MiercolesCorto,MIE,WED
+Minutos,Minutos,Minutes
+MiPerfil,Mi Perfil,My Profile
+Modelo,Modelo,Model
+ModificacionPor,Modificado Por,Modified by
+ModoMantenimiento,Modo Mantenimiento,Maintenance Mode
+ModoMantenimientoActivadoConExitoMensaje,¡Modo mantenimiento activado!,Maintenance mode activated!
+ModoMantenimientoDesactivadoConExitoMensaje,¡Modo mantenimiento desactivado!,Maintenance mode disabled!
+ModoManual,Modo Manual,Manual Mode
+Modulo,Módulo,Module
+Modulos,Módulos,Modules
+ModulosHabilitados,Módulos Habilitados,Enabled Modules
+Monday,Lunes,Monday
+Monitoreo,Monitoreo,Monitoring
+MonitoreoBombeo,"""Monitoreo Bombeo""","""Pumping Monitoring"""
+MonitoreoEntiempoReal,Monitoreo en tiempo real activado,Real-time monitoring activated
+MonitoreoReal,Monitoreo en Tiempo Real,Real Time Monitoring
+MonitoreoTanques,Monitoreo Tanques,Tank Monitoring
+MostrarDetalles,Mostrar Detalles,Show details
+MostrarEquipos,Elegir equipo,Select a vehicle
+MostrarFacturasSinAsignarHint,Click aquí para mostrar las facturas sin asignar.,Click here to show the unassigned invoices.
+MostrarImagenToolTip,Mostrar Imagen,Display Image
+MostrarInformaciónDetalladaToolTip,Mostrar Información Detallada,Show more information
+MostrarTransaccionesSinAsignarHint,Click aquí para mostrar las facturas sin asignar.,Click here to show the unassigned transactions.
+Motivo,Motivo,Motive
+MotivoMovimiento,Motivo,Motive
+NameDB,Nombre Base de Datos,Name DB
+NecesitaCargar,Necesita Cargar,Needs to refuel
+NecesitaConfirmarLaCancelacion,Necesita confirmar la cancelación.,I need to confirm the cancelation.
+NecesitaraCargarPronto,Necesitará cargar pronto,Will need to refuel soon
+NecesitaSeleccionarGerencia,Necesita seleccionar una gerencia obligatoriamente,Select management
+Nivel,Nivel,Level
+NivelesPrioridad,Niveles de Prioridad,Priority Levels
+NivelesPrioridadTareasMAN,Niveles de Prioridad de Tareas Mantenimiento,Priority Levels of Maintenance Tasks
+No,No,No
+NoApiResult,No se encontró información,There was no Information found
+NoAplica,No Aplica,Does not apply
+NoAsignado,No asignado,Unassigned
+NoAutorizado,No Autorizado,Not Authorized
+NoCuentaConConexion,No cuenta con conexión a la Estación,You do not have connection to the station
+NoDespachosParaExportar,No se encuentran despachos para exportar,There are no transactions to expoert.
+NoEncontrado,NO ENCONTRADO,NOT FOUND
+NoEncontradoCargasEquipos,No se han encontrado cargas de equipos,No equipment dispatch found
+NoHaDespachado,No ha despachado,Has not dispatched
+NoHayCoincidencias,No hay coincidencias con tu busqueda...,There are no matches with your search...
+NoHayImagenActual,No hay imagen,There is not an image
+NoHayImagenMostrarToolTip,No hay imagen para mostrar,There is no image to display
+NoHayRespuestasParaMostrar,No hay respuestas para mostrar.,There are no answers yet.
+NoImagenPervia,No hay imagen previa,There is not an previous image
+Nombre,Nombre,Name
+NombreAccionAutomatica,Favor de especificar el nombre de la acción automática,Please specify the name of the automatic action
+NombreArea,Nombre del área,Area name
+NombreAreaPipas,Nombre del Area de Pipas,Tank truck location's name
+NombreCompleto,Nombre Completo,Full Name
+NombreEquipo,Nombre Equipo,Equipment's name
+NombreEstacion,Nombre de la Estación,Station's name
+NombreOperador,Nombre de Operador,Operator's name
+NombrePersona,Nombres,First Name
+NombrePipa,Nombre Pipa,Tank Truck's Name
+NombrePrioridad,Nombre de Prioridad,Priority Name
+NombreRemoto,Nombre Remoto,Remote Name
+NombreRol,Nombre Rol,Role Name
+NombreRolAvisoEspecificar,Favor de especificar el nombre del rol,Please specify the role's name
+NombreTareaDuplicado,¡Nombre de tarea duplicado!,Duplicate task name!
+NombreUsuario,Nombre de Usuario,Username
+NoNecesitaCargar,No necesita cargar,Doesn't need to refuel
+NoRecibe,No Recibe,Does not receive
+NORESUELTOS,NO RESUELTOS,NOT SOLVED
+NoSeDetectaFlujo,"No se detecta flujo, bombeo inactivo","No flow detected, inactive pump"
+NosEncontramosEnLaSemana,Nos encontramos en la Semana,We are in the week
+NoSeRecibenDatosActualizados,No se reciben datos actualizados. Favor de verificar la estación,No updated data is received. Please check the station
+Notificaciones,Mostrar Notificaciones,Show Notifications
+NoVehiculoPresente,No hay Vehículo Presente,No Vehicle Present
+Noviembre,Noviembre,November
+NoviembreCortos,NOV,NOV
+NuevaPlaneacion,Nueva Planeación,New Planning
+NuevoRegistro,Nuevo Registro,New record
+Numero,Número,Number
+NumeroDeTransaccion,Número de Transacción,Transaction Number
+NumeroDeTransacciones,Número de Transacción,Transaction Number
+NumeroEconomico,Número económico,Economic Number
+NumeroFactura,Número de Factura,Invoice Number
+NumeroPrioridad,Número de Prioridad,Priority Number
+NumeroReservaEnAlamacen,Número de reserva del Tag en almacen físicamente,Tag reservation number in storage
+NumeroSerie,Número de Serie,Serial Number
+NumeroTag,Nmero de tag,Tag number
+NumeroTransaccionesLigadas,# Transacciones Ligadas,# Linked Transactions
+Observaciones,Observaciones,Observations
+Obtenida,Obtenida,Obtained
+Octubre,Octubre,October
+OctubreCortos,OCT,OCT
+OlvideMiContraseña,¿Olvidaste tu contraseña?,Forgot your password?
+Opciones,Opciones,Options
+OpcionesLogin,Configuración de la apariencia,Appearance Settings
+Operador,Operador,Operator
+Operadores,Operadores,Operators
+OperadoresMAN,Operadores Mantenimiento,Maintenance Operators
+OperadoresPipa,Operadores,Operators
+OPresioneAquiParaMonitorearTodas,¡O Presione aquí para monitorear todas a la vez!,Or Click here to monitor all at once!
+Orden,Orden,Order
+OrdenPMMX,Orden PMMX,Order PMMX
+OrdenTrabajo,Orden de Trabajo,Work order
+OrdenZPMA,Orden ZPMA,ZPMA Order
+Origen,Origen,Origin
+Origenes,Orígenes,Origins
+Pagina40,Pagina 404,404 Page
+PaginaMantenimiento,Pagina Mantenimiento,Maintenance Page
+PaginaNoAutorizado,Pagina No Autorizado,Unauthorized Page
+ParaModificarLaEstacionAsignada,"Para modificar las estaciones asignadas, dirigirse directamente a la página de las mismas","To modify the assigned stations, go directly to their page"
+Parar,Parar,Stop
+Password,Contraseña,Password
+PasswordDB,Contraseña Base de Datos,PasswordDB
+PasswordRemota,Password Remota,Remote Password
+Pedido,Pedido,Order
+Pendiente,Pendiente,Pending
+pendientesRevision,Pendientes de Revisión,Pending Review
+Permisible,Permisible,Allowable
+Permisos,Permisos,Permissions
+PermisosAvisoEspecificar,Favor de especificar permisos del rol,Please specify role's permissions
+PermisosOtorgados,Permisos Otorgados,Permissions Granted
+Personal,Personal,Staff Members
+PersonalMAN,Personal Mantenimiento,Maintenance personnel
+PersonalResponsable,Persona Responsable,Responsible staff Member
+PesoBruto,Peso Bruto,Gross Weight
+PesoNeto,Peso Neto,Net Mass
+PesoTara,Peso Tara,Tare Weight
+Pipa,Pipa,Tank Truck
+Pipas,Pipas,Tank Truck
+PipasAb,PIPAS,TT
+Planeacion,Planeación,Planning
+PlaneacionRecepcion,Planeación Recepción,Reception Planning
+Plantilla,Plantilla,Template
+Plantillas,Plantillas,Templates
+PlantillaSinTareas,"Esta plantilla no tiene tareas aún. Cree una, por favor...",This template has no tasks yet. Create one please...
+PlantillasMAN,Plantillas Mantenimiento,Maintenance Templates
+PodraSolicitarOtroCodigo,Podrá solicitar otro código en,You will be able to request another code within
+Porcentaje,Porcentaje,Percentage
+PorcentajeAlmacenRegla,El porcentaje introducido no puede ser mayor a 99.99%,
+PorcentajeBajo,Porcentaje Bajo,Low Percentage
+PorcentajeCriticas,Porcentaje de tareas críticas,Critical tasks percentage
+PorcentajeCritico,Porcentaje Crítico,Critical percentage
+PorcentajeCriticoRegla,El porcentaje crítico no puede ser mayor que el porcentaje bajo,Critical percentage cannot be bigger than low percentage
+PorcentajeCumplimiento,% Cumplimiento,% Fulfillment
+PorcentajeEfectividad,Porcentaje estatus OK,Percentage OK status
+PorcentajePermisible,Porcentaje Permisible,Allowable Percentage
+PorcentajeTareasNoaplican,Porcentaje de tareas que no aplican,Tasks percentage that do not apply
+PorcentajeTareasPendientes,Porcentaje de tareas que requieren atención,Tasks percentage requiring attention
+PorFavorEspere, Por favor espere...,Please wait...
+Posicion,Posición,Position
+PrecioUnitario,Precio Unitario,Unit Price
+PresetLitros,PresetLitros,PresetInventory
+Presion,Presión,Pressure
+PresioneAutorizar,Presione para autorizar checklist.,Press to authorize checklist
+PresioneParaCambiarContra,Presione para establecer su nueva contraseña de inició de sesión,Press to set your new login password
+PresioneParaMasInformacion,Presione para ver más información,Press to see more information
+PresioneParaRevisarSuCodigo,Presioné para verificar si su código de recuperación es correcto,Press to verify if your recovery code is correct.
+PresioneParaVerListaRespuestasToolTip,Presione para ver mas detalles,Press to see more details
+Prioridad,Prioridad,Priority
+ProcentajeCritico,Procentaje Crítico,Critical Percentage
+Producto,Producto,Product
+Productos,Productos,Products
+ProductosOrquesta,Productos Orquesta,Orquesta Products
+PromedioConsumosMensuales,Promedio de Consumos Mensuales,Average monthly Consumption
+PromedioMensual,Promedio Mensual,Monthly Average
+PromedioSemanal,Promedio Semanal,Weekly Average
+Prorrateo,Prorrateo,Proration
+Proveedor,Proveedor,Supplier
+Proveedores,Proveedores,Suppliers
+PuedeAgregarTareas,Puede agregar tareas,You can add tasks
+PuedeAgregarTareasDesdeElChecklist,Puede agregar nuevas tareas,You can add new tasks
+PuedeAgregarTareasExtra,Puede agregar tareas extra al checklist,Add extra task
+PuedeRealizarCargasManuales,Si este equipo puede realizar cargas manuales.,If this equipment can perform manual transactions.
+ReadMe,Leéme,Read me
+Realizado,Realizado,Finished
+RealizadoPor,RealizadoPor,Made by
+RealizandoConsulta,Realizando consulta,Running query
+RealizandoSolicitudCargaRemota,Realizando Solicitud de Carga Remota,Making Remote Transaction Request
+RealizandoSolicitudCargaRemotaProceso,Solicitud de Carga Remota En Proceso,Remote Transaction Request In Process
+ReAsignar,Re-Asignar,Re-Assign
+ReasignarRecepcion,Reasignar Recepción,Reassign Reception
+ReasignarTransacciones,Reasignar Transacciones,Reassign Transactions
+Recepcion,Recepción,Reception
+RecepcionAb,REC,REC
+RecepcionDiariaLtsCaturados,RECEPCIÓN DIARIA DE DIESEL (LITROS FACTURADOS) POR PROVEEDOR,DAILY DIESEL RECEPTION (INVOICED LITERS) BY SUPPLIER
+RecepcionDiariaSemana,Recepción diaria de la Semana,Daily reception of the week
+RecepcionTanques,Recepción Tanques,Reception
+Recibe,Recibe,Receive
+RecibeBombeo,Recibe Bombeo,Receives Pumping
+RecibeDe,Recibe De,Receives From
+Recibido,Recibido,Received
+RECIBIDOS,RECIBIDOS,RECEIVED
+RecibiendoInformacionDeBahias,Recibiendo información de Bahías de la Estación,Receiving Bay information from Station
+RecibiendoInformacionDeEstados,Recibiendo información de Estados de la Estación,Receiving State information from Station
+RecibirTodosChecklist,Recibe Todos los Checklist,Receives all Checklist
+ReconectadoEstacion,Estamos reconectandonos la estación,We are reconnecting the station
+RecuperandoInformacionEstacion,Estamos recuperando la información de la estación,We are retrieving the station information
+RecuperarCredenciales,Recuperación de Cuenta,Account Recovery
+RecuperarCuenta,Recuperar mi cuenta,Recover my account
+RegistradoPor,Registrado Por,Registered By
+RegistroActivadoConExitoMensaje,¡Registro activado existosamente!,This record has been successfully activated!
+RegistroBorradoConExitoMensaje,¡Registro borrado existosamente!,This record has been successfully deleted!
+RegistroCreadoConExitoMensaje,¡Registro creado existosamente!,This record has been successfully created!
+RegistroDesactivadoConExitoMensaje,¡Registro desactivado existosamente!,This record has been successfully deactivated!
+RegistroEditadoConExitoMensaje,¡Registro editado existosamente!,This record has been successfully modified!
+RegistroPor,Registro Por,Created by
+Remanente,Remanente,Remainder
+Remision,Remisión,Remission
+RemoverTransacciones,Remover Transacciones,Remove Transactions
+RemoverTransaccionesDescripcion,Desasocia las transacciones de la factura completamente y deja las transacciones/factura libres.,Splits the transactions from the invoice completely and leaves the transactions/invoice free.
+RemueveSelloMinimo2,Se remueve un campo de sello dejando un mínimo de 2,"Remove a stamp, leaving a minimum of two"
+Reporte,Reporte,Report
+ReporteConsumos,Reporte de Consumos,Consumption Report
+ReporteDelMes,Reporte del Mes,Monthly report
+ReporteDeSemana,Reporte de la Semana,Report of the Week
+ReporteExcel,Reporte EXCEL,EXCEL Report
+ReporteFactura,Reporte de Factura,Invoice Report
+ReporteGeneradoPorFechaUbicacion,Reporte generado por fecha y/o ubicación seleccionados,Report based on the selected date and/or time
+ReportePorFechas,Reporte por fechas,Report by dates
+ReportesRecepcion,Reportes Recepcion,Reception reports
+REPOSICION,Reposición,Replacement
+RequeridoNumero,El campo debe de ser número,The field has to be a number
+RequerimientosParaAutorizarCarga,Los requerimientos del equipo para autorizar la carga.,Equipment requirements to authorize loading.
+RequiereFirmaCliente,Requiere firma del cliente,Customer signature required
+RequiereFirmaOperador,Requiere firma operador,Operator signature required
+RequiereFoto,Requiere foto,Requires photo
+RequiereHorometro,Requiere Horometro,Hourmeter required
+Reserva,Reserva,Reservation
+ReservacionCancelada,Reservación cancelada.,Reservation cancelled.
+Reservas,Reservas,Reservations
+RESERVED_CHANGEPASSWORD,Cambio de Contraseña,Password Change
+RESERVED_EMAIL,Email,Email
+RESERVED_INCORRECT_LOGIN,Login Incorrecto,Incorrect Login
+RESERVED_MMS_PASSWORD_RESET_EMAIL_SUBJECT,Restablece tu contraseña de G+MMS,Reset your G+MMS password
+RESERVED_MMS_REGISTRATION_EMAIL_SUBJECT,Bienvenido a G+MMS,Welcome to G+MMS
+RESERVED_MMS_USER_CREATED_EMAIL_SUBJECT,Tu cuenta G+MMS ha sido creada,Your G+MMS account has been created
+RESERVED_NAME,Nombre,Name
+RESERVED_PASSWORD,Contraseña,Password
+RESERVED_PASSWORD_RESET,Contraseña Restablecida,Password Reset
+RESERVED_PASSWORD_RESET_CODE,Código de restablecimiento de contraseña,Password reset code
+RESERVED_REGISTER,Registro,Registration
+RESERVED_TELEPHONE,Teléfono,Telephone
+RESERVED_USERNAME,Nombre de Usuario,Username
+RESERVED_VERIFICATION_CODE,Código de Verificación,Verification Code
+RESERVED_WELCOME,Bienvenido,Welcome
+Responsable,Responsable,Responsible
+ResponsableEquipo,Responsable del Equipo,Responsible of the Vehicle
+Responsables,Responsables,Responsible
+RespuestasChecklist,Respuestas Checklist,Checklist Answer
+RestablecerCampos,Restablecer,Empty fields
+RESUELTOS,RESUELTOS,SOLVED
+Resultados,Resultados,Results
+Resumen,Resumen,Summary
+ResumenDia,Resumen del día,Daily summary
+RevisarAFuturo,Revisar a Futuro,Check later
+RevisarBandeja,Revise su bandeja de entrada y coloque él código de recuperación que se la ha enviado.,Check your inbox and enter the recovery code that was sent to you.
+RevisarCodigo,Verificar código,Verify code
+Rol,Rol,Role
+Roles,Roles,Roles
+Sábado,Sábado,Saturday
+Sabado,Sábado,Saturday
+SabadoCorto,SAB,SAT
+Salida,Salida,Departure
+Salidas,Salidas,Exits
+Salio,Salió,Left
+SalioFechaHora,Fecha-Hora de salida,Departure Date-Time
+Saturday,Sábado,Saturday
+SeccionMantenimiento,Sección en mantenimiento,Section under maintenance
+SeDetectaBombeo,Se detecta flujo de bombeo activo,Active pump flow detected
+SeEncuentraSeleccionada,Se encuentra seleccionada,Selected
+SeguiremosIntentandoRestablecerConexion,Seguiremos intentando reestablecer la comunicación automaticamente...,We will continue trying to establish communication automatically...
+Segundos,segundos,seconds
+SeleccionaGerencia,Selecciona una Gerencia,Select a management department
+SeleccionaNumEconomico,Selecciona un número económico,Select an economic number
+SeleccionarDiasAccionAutomatica,Favor de seleccionar uno o varios días para la acción automática,Please select one or several days for automatic action
+SeleccionarFechas,Seleccionar Fechas,Select Dates
+SeleccionarFechaValida,Favor de escoger una fecha válida,Select a valid date
+SeleccionarHoraAccionAutomatica,Favor de seleccionar una hora para la acción automática,Please select a time for automatic action
+SeleccionaTipoEquipo,Selecciona un tipo de Equipo,Select an equipment type
+SeleccioneEstacion,Seleccione una Estación del Listado,Select a Station from the List
+SeleccioneTareasInstruccion,Seleccione una o más tareas.,Select one more task.
+SeleccioneTransaccionesInstruccion,Seleccione una o varias transacciones de la lista.,Select one or several transactions from this list.
+SeleccioneUnaImagen,Seleccione una Imagen,Select an Image
+SeleccioneUnaOpcion,Seleccione una opción.,Select an option
+SellDatellesDeFactura,Datelles de Factura,Invoice Details
+Sello,Sello,Stamp
+Sello1,Sello 1,Stamp 1
+Sello2,Sello 2,Stamp 2
+Sello3,Sello 3,Stamp 3
+Sello4,Sello 4,Stamp 4
+Sello5,Sello 5,Stamp 5
+Sellos,Sellos,Stamps
+Semaforo,Semáforo,Transaction color code
+SemaforoDeCargas,Semáforo de Cargas,Dispatch Color Code
+Semana,Semana,Week
+SemanaAnterior,Semana Anterior,Prev Week
+Semanal,Semanal,Weekly
+SemanaSiguiente,Semana Siguiente,Next Week
+SePerdioConexion,"Ooooops... Algo ocurrió, se perdió la conexión","Oooooops... Something happened, the connection was lost"
+Septiembre,Septiembre,September
+SeptiembreCortos,SEP,SEP
+SePuedeSeleccionar,Se puede seleccionar,Can be selected
+Serie,Serie,Serie
+SERVICIOS,SERVICIOS,SERVICES
+ServiciosResueltos,Tareas Resueltas,Solved Tasks
+Si,Si,Yes
+SiDeseoCancelarla,Sí deseo cancelarla.,"Yes, I want to cancel."
+SinAsignar,Sin Asignar,Unassigned
+SinComentario,Sin Comentario,No Comment
+SinConsulta,Sin datos de consulta,No query data
+SinDescripcion,SIN DESCRIPCIÓN,NO DESCRIPTION PROVIDED
+SinOpciones,Sin Opciones,No options
+SinPermisos,No cuenta con permisos suficientes,Your account does not have enough permissions
+SinResultados,Sin Resultados,No Results
+SinValor,Sin Valor,No value
+SiQuieroCambiarElEstado,"Sí, quiero cambiar el estado de este registro.","Yes, I want to change the status of this record."
+SistemaMSS,Sistema MMS,System MMS
+Solicitado,Solicitado,Ordered
+SolicitadoDomingo,Solicitado Domingo,Sunday Order
+SolicitadoJueves,Solicitado Jueves,Thursday Order
+SolicitadoLunes,Solicitado Lunes,Monday Order
+SolicitadoMartes,Solicitado Martes,Tuesday Order
+SolicitadoMiercoles,Solicitado Miércoles,Wednesday Order
+SolicitadoSabado,Solicitado Sábado,Saturday Order
+SolicitadoViernes,Solicitado Viernes,Friday Order
+SolicitarNuevoCodigo,¿No ha recibido el correo? Solicite uno nuevo,Did you not receive the mail? Request a new one
+SoloSeMuestranAnalisisDeTanquesQueNoAceptanBombeado,Solo se muestran tanques que no aceptan bombeado,Only tanks that don't receive pumping are shown
+Sunday,Domingo,Sunday
+TablaSinDatos,Tabla vacía,The table is empty
+TablaSinResultadosFiltro,No se han encontrado resultados en los filtros,No matching results were found based on the criteria
+Tablero,Tablero,Dashboard
+TableroConsumos,Tablero de Consumos,Consumption Dashboard
+TableroConsumosEstaciones,Consumos de Estaciones,Stations' Consumption
+TableroConsumosPipas,Consumos de Pipas,Tank Truck's Consumption
+TableroDeConsumosOrquesta,Tablero de Consumos Orquesta,Orquesta Consumption Dashboard
+TableroMAN,Tablero Mantenimiento,Maintenance Board
+TableroMonitoreoRecepcion,Tablero de Monitoreo de Recepción,Reception Monitoring Dashboard
+Tableros,Tableros,Dashboards
+TableroSinData,No se encontró información en este rango de fechas,No information found in this date range
+Tag,Tag,Tag
+Tanque,Tanque,Tank
+Tanques,Tanques,Tanks
+Tarea,Tarea,Task
+TareaBorradaExito,¡Tarea borrada con éxito!,Task successfully deleted!
+TareaCreadaExito,¡Tarea creada con éxito!,Task successfully created!
+TareaEditadaExito,¡Tarea editada con éxito!,Task successfully modified!
+Tareas,Tareas,Tasks
+TareasMAN,Tareas Mantenimientos,Maintenance Tasks
+TareasNoResueltas,Tareas No Resueltas,Unfinished Tasks
+TareasQueNoAplican,Tareas que no Aplican,Task does not Apply
+TareasResueltas,Tareas Resueltas,Finished Tasks
+Telefono,Teléfono,Phone
+Tema,Tema,Theme
+TemaAceites,Tema Ligero,Light Theme
+TemaBrillante,Tema Brillante,Light Theme
+TemaG3,Tema G3,Theme G3
+TemaOscuro,Tema Oscuro,Dark Theme
+TemaQ,Tema Azul,Blue Theme
+Temperatura,Temperatura,Temperature
+TemperaturaFinal,Temperatura Final,Final Temperature
+TemperaturaInicial,Temperatura Inicial,Initial Temperature
+Terminada,Terminada,Finished
+TerminoCarga,Termino Carga,Dispatch end
+TerminoCargaFechaHora,Fecha-Hora fin carga,End of transaction date-time
+TextoChico,Texto Pequeño,Small Text
+TextoExtraLargo,Texto Extra Largo,Extra Long Text
+TextoLargo,Texto Largo,Long Text
+TextoMediano,Texto Mediano,Medium Text
+TextoProporcion,Tamaño de Texto,Text Size
+Thursday,Jueves,Thursday
+TiempoCargaAbreviado,T.Carga,Transaction T.
+TiempoEnDespacho,Tiempo en Despacho,Transaction Time
+TiempoEnRaca,Tiempo en Estación,Time at Station
+TiempoMuerto,Tiempo muerto,Idle time
+TiempoMuertoEnHoras,Horas,Hours
+Tiempos,Tiempos,Times
+TiemposMuertos,Tiempos muertos,Idle Time
+TieneLimiteCapacidadDeTanque,Tiene limite de capacidad de tanque,Has a capacity limit
+TieneLimiteCapacidadTanque,Tiene Limite Capacidad de Tanque,Has limit capacity
+TieneLimiteDiario,Tiene Limite Diario,Has daily limit
+TieneLimiteMensual,Tiene Limite Mensual,Has monthly limit
+TieneLimiteSemanal,Tiene Limite Semanal,Has weekly limit
+Tipo,Tipo,Type
+TipoChecklist,Tipo de Checklist,Checklist Type
+TipoCombustible,Tipo de Combustible,Gas Type
+TipoEquipo,Tipo de Equipo,Equipment Type
+TipoEquipoPipa,Tipo de Equipo,Type of Equipment
+TipoEstacion,Tipo de Estación,Type of Station
+TipoEvento,Tipo de Evento,Type of Event
+TipoMovimiento,Tipo de Movimiento,Movement Type
+TipoPersonal,Tipo de Personal,Type of Staff Member
+TipoPlantilla,Tipo de Plantilla,Template Type
+TiposCheckist,Tipos Checklist,Checklist Types
+TiposDispositivos,Tipos Dispositivos,Types of Devices
+TiposEquipos,Tipos de Equipos,Equipment Types
+TiposEquiposMAN,Tipos de Equipos Mantenimiento,Types of Maintenance Equipment
+TiposEstaciones,Tipos Estaciones,Station types
+TiposPlantillaMAN,Tipos de Plantillas Mantenimiento,Types of Maintenance Templates
+TiposPlantillas,Tipos de Plantillas,Template Types
+TiposPlantillasMAN,Tipos de Plantillas Mantenimiento,Types of Maintenance Templates
+TiposReportes,Tipos de Reportes,Report Type
+TiposTareas,Tipos de Tareas,Task Types
+TiposTareasMAN,Tipos de Tareas Mantenimiento,Types of Maintenance Tasks
+TipoTarea,Tipo de Tarea,Task Type
+TipoVehiculo,Tipo de Vehículo,Vehicle Type
+Todos,Todos,All
+TodosLosDias,Todos los días,Everyday
+TodoTiempoReal,¡Todo en Tiempo Real!,Everything in Real Time!
+Tolerancia,Tolerancia,Tolerance
+TonelTanque,Tonel Tanque,Barrel Tank
+Total,Total,Total
+TotalAAsignar,Total a asignar,Total to assign
+TotalAsignado,Total Asignado,Total Assigned
+TotalBombeado,Total Bombeado,Total Pumped
+TotalBombeado20,Total Bombeado a 20°C,Total Pumped at 20°C
+TotalCorregido,Total 20° C,Total 20° C
+TotalDespachado,Total Despachado,Total Dispensed
+TotalEventos,En un total de,In a total of
+Totalizado,Totalizado,Totalizer
+TotalizadoCorregido,Totalizado Corregido,Corrected Totalized
+TotalizadoFinal,Totalizado Final,Final Totalized
+TotalizadoInicial,Totalizado Inicial,Initial Totalized
+Totalizados,Totalizados,Totalize
+TotalizadosPorTurno,Totalizados por Turno,totalized per Shift
+TransaccionConsecutiva,Transacción consecutiva,Consecutive transaction
+Transacciones,Transacciones,Transactions
+TransaccionesSinAsignar,Transacciones sin Asignar,Unassigned Transactions
+TransaccionSiguiente,Transacción Sig. a la consecutiva,Next transaction
+Transporte,Transporte,Transportation
+Transportista,Transportista,Carrier
+Transportistas,Transportistas,Carriers
+Tuesday,Martes,Tuesday
+Turno,Turno,Shift
+Ubicacion,Ubicación,Ubication
+UltimaActualizacion,Última actualización,Last update
+UltimasCargas,Últimas Cargas,Latest Consumptions
+UltimaSincronizacion,Última Sincronización,Last Synchronization
+UltimaTransaccion,Ultima Transacción,Last Transaction
+UltimoDespacho,Último Despacho,Last dispatch
+UltimosChecklistSalida,Últimos Checklist,Latest Checklist
+UltimosChecklistSalidaSinFases,Últimos Checklist sin Fases,Latest Checklist without Phases
+UsoAditivo,Uso Aditivo,Uses Additives
+UsoCombustible,Estado de Combustible,Fuel Status
+UsoCombustiblePorLimite,Uso de Combustible por Limite,Use of Fuel per Limit
+UsoPorEstacion,Combustible despachado por Estación,Fuel consumed by station
+UsoPorPipas,Combustible despachado por Pipa,Fuel consumed by Tank Truck
+UsoTiemposVehiculosEstaciones,Uso de Tiempos de Vehículos en Estaciones,Use of Vehicles Time at Stations
+Usuario,Usuario,User
+UsuarioOCorreo,Usuario o Correo,Username or Email
+UsuarioRecibiraCorreoChecklist,"El personal recibirá un correo cada vez que se cree un checklist, aunque no sea el responsable.","The staff member will receive an email every time a checklist is created, even if they are not responsible for it."
+Usuarios,Usuarios,Users
+UsuariosEncargados,Usuarios Encargados,Users in charge
+Utilizado,Utilizado,Used
+UtilizaNumFolio,Utiliza Numero de Folio,Uses folio number
+VaA,Va A,Departs to
+Variacion,Variación,Variation
+Vehiculo,Vehículo,Vehicle
+VehiculoAutorizado,Vehículo Autorizado,Authorized Vehicle
+VehiculoCargando,Vehículo Cargando,Vehicle Loading
+VehiculoFueAutorizado,Se autorizó el vehiculo,The vehicle was authorized
+VehiculoPosicion,Vehiculo en Posición,Vehicle in place
+VehiculoPresente,Vehículo Presente,Vehicle Present
+Vehiculos,Vehículos,Vehicles
+VehiculoSaliendo,Vehículo Saliendo,Vehicle Leaving
+VehiculosLigeros,Vehiculos Ligeros,Light Vehicles
+VehiculosPesados,Vehículos Pesados,Heavy Vehicles
+VehiculosPesadosAb,VP,HV
+VehiculosPesadosVP2,Vehículos Pesados,Heavy Vehicles
+VerFirmaTooltip,Presione aquí para ver la firma.,Click here to show the signature.
+VerImagenActual,Ver imagen actual,Open assigned image
+VerListaTareas,Ver/Editar Lista de Tareas,See/Edit Tasks List
+VerManualUsuario,Ver Manual de Usuario,Show User's Manual
+VerReporte,Ver Reporte,Show Report
+VerReporteDescripcion,Visualiza el reporte y permite imprimirlo desde la web.,Shows report and allows to print it.
+Vespertino,Vespertino,Evening
+VieneDe,Viene De,Arrives from
+Viernes,Viernes,Friday
+ViernesCorto,VIE,FRI
+Volumen,Volumen,Volume
+Volumen20,Volumen a 20°C,Volume 20°C
+Volumen20Grad,Volumen a 20 Grados,Volume at 20 Degrees
+Volumena20Grados,VOLUMEN A 20°,VOLUME AT 20°
+Volumena20GradosPorProveedor,CANTIDAD DE VOLUMEN A 20°C POR PROVEEDOR,VOLUME AT 20°C BY SUPPLIER
+VolumenActual,Volumen Actual,Current Volume
+VolumenAgua,Volumen Agua,Water Volume
+VolumenCargado,Volumen Cargado,Consumed Volume
+VolumenCargadoCorregido,Volumen Consumido Corregido,Corrected Consumed Volume
+VolumenCargadoCorregidoDispositivo,Volumen Consumido Corregido Dispositivo,Device Corrected Consumed Volume
+VolumenCorregido,Volumen Corregido,Corrected Volume
+VolumenCorregidoDispositivo,Volumen Corregido Dispositivo,Device Corrected Volume
+VolumenCorregidoFinal,Volumen Corregido Final,Corrected Final Volume
+VolumenCorregidoInicial,Volumen Corregido Inicial,Corrected Initial Volume
+VolumenEnLitros,Volumen en Litros,Volume
+VolumenFinal,Volumen Final,Final Volume
+VolumenInicial,Volumen Inicial,Initial Volume
+VolumenNatural,Volumen Natural,Natural Volume
+VolumenPorDias,Volumen por día,Volume per day
+VolumenPorLlenar,Volumen por Llenar,Volume to Fill
+Volver,Volver,Go Back
+VolverAPaginaAnterior,Volver a la página anterior,Go back to previous page
+Wednesday,Miércoles,Wednesday
+YaAsignadsaAFactura,Ya se encuentra Asignado a una factura,It is assigned to an invoice already
+YaCuentasConUnaCuentaIniciaSesion,"¿Ya tienes una cuenta?, Inicia Sesión",Already have an account?
+Zona,Zona,Zone
+RecuperacionCredenciales,Recuperación de Credenciales,Credential Recovery
+IngresaUsuarioCorreo,Ingresa tu usuario o correo,Enter your username or email
+UsuarioCorreo,Usuario o Correo,Username or Email
+Contrasena,Contraseña,Password
+MantenerSesion,Mantener sesión iniciada,Keep me logged in
+Limpiar,Limpiar,Clear
+OlvideContrasena,¿Olvidaste tu contraseña?,Forgot your password?
+InstruccionesRecuperacion,Ingresa tu usuario o correo electrónico asociado para buscar tu cuenta y enviarte las instrucciones.,Enter your associated username or email to search for your account and send you instructions.
+Recuperar,Recuperar,Recover
+DerechosReservados,G3 Ingeniería 2026 - G+Blast,G3 Ingeniería 2026 - G+Blast
+PorFavorIngresaUsuario,Por favor ingresa tu usuario o correo,Please enter your username or email
+NoModulosUsuario,No se encontraron módulos para el usuario,No modules found for the user
+TooltipSeleccionarRango,Presione para seleccionar un rango de fechas,Click to select a date range
+EtiquetaFecha,Fecha,Date
+EsteMes,Este Mes,This Month
+ExpandirMenu,Expandir menú,Expand menu
+ContraerMenu,Contraer menú,Collapse menu
+VerPerfilAjustes,Ver perfil y ajustes,View profile and settings
+VerMasInformacion,Ver más información,See more information
+MonitoreoTiempoRealActivo,Monitoreo en tiempo real activo,Real-time monitoring active
+UltimoGuardadoBD,Último guardado en la base de datos,Last saved to database
+UltimoCambio,Último cambio,Last change
+CerrarSesion,Cerrar Sesión,Sign out
+Hola,Hola,Hello
+BuenosDias,Buenos Días,Good Morning
+BuenasTardes,Buenas Tardes,Good Afternoon
+BuenasNoches,Buenas Noches,Good Evening
+LimpiarFiltros,Limpiar Filtros,Clear Filters
+ActualizarDatosTablero,Actualizar los datos del Tablero,Update Dashboard Data
+ModuloNoEncontrado,No se encontró el módulo,Module not found
+SinTextoDefinido,Sin texto definido,Undefined text
+TooltipSeleccionarHoraCorte,Presione para seleccionar una hora de corte,Click to select a cutoff time
+EtiquetaHoraCorte,Hora Corte,Cutoff Time
+Silos,Silos,Silos
+Piso,Piso,Floor
+Entradas,Entradas,Inbound
+TotalSemanaAnterior,Total (Semana Anterior),Total (Last Week)
+Nitrato,NITRATO,NITRATE
+Movimientos,Movimientos,Movements
+Accesorios,Accesorios,Accessories
+Configuraciones,Configuraciones,Configurations
+Descargas,Descargas,Unloads
+Supersacos,Supersacos,Super Sacks
+AlmacenamientoAb,ALM,STR
+AccesariosAb,ACC,ACC
+GerenciaAb,GER,MGT
+LimitesSedena,Límites SEDENA,SEDENA Limits
+GestionDeAltas,Altas,Setup
+ConfiguracionAplicacion,Configuración de Aplicación,Application Settings
+Ajustes,Ajustes,Settings
+OlvidasteContrasena,¿Olvidaste tu contraseña?,Forgot password?
+IngresaTuUsuario,Por favor ingresa tu usuario o correo,Please enter your username or email
+ActualizarLosDatosDelTablero,Actualizar los datos del Tablero,Update Dashboard Data
+Temaaceites,TemaAceites,Oils Theme
+Temaq,TemaQ,QA Theme
+Temag3,TemaG3,G+Fuel Theme
+Temaoscuro,TemaOscuro,Dark Mode
+Temabrillante,TemaBrillante,Light Mode
+Textochico,TextoChico,Small Text
+Textomediano,TextoMediano,Medium Text
+Textolargo,TextoLargo,Large Text
+Textoextralargo,TextoExtraLargo,Extra Large Text
+Textoproporcion,TextoProporcion,Proportional Text
+Cerrarsesion,CerrarSesion,Logout
+NoSeEncontroElModulo,No se encontró el módulo,Module not found
+PresioneParaSeleccionarUnaHoraDeCorte,Presione para seleccionar una hora de corte,Click to select a cutoff time
+Adm,ADM,ADM
+Alm,ALM,STR
+Rec,REC,REC
+Acc,ACC,ACC
+Ger,GER,MGT
+ConfiguracionDeAplicacion,Configuración de Aplicación,Application Settings
+RecuperacionDeCredenciales,Recuperación de Credenciales,Credentials Recovery
+IngresaTuUsuarioOCorreo,Ingresa tu usuario o correo,Enter your username or email
+OlvidasteTuContrasena,¿Olvidaste tu contraseña?,Forgot password?
+IngresaTuUsuarioOCorreoElectronicoAsociadoParaBuscarTuCuentaYEnviarteLasInstrucciones,Ingresa tu usuario o correo electrónico asociado para buscar tu cuenta y enviarte las instrucciones.,Enter your username or associated email to search for your account and send you instructions.
+G3Ingenieria2025SistemaControlDeExplosivos,G3 Ingeniería 2025 - Sistema Control de Explosivos ©,
+NoSeEncontraronModulosParaElUsuario,No se encontraron modulos para el usuario,No modules found for user
+PorFavorIngresaTuUsuarioOCorreo,Por favor ingresa tu usuario o correo,Please enter your username or email
+SeccionEnMantenimiento,Sección en Mantenimiento,Section Under Maintenance
+DisponibleProximamente,Disponible Próximamente,Available Soon
+VerPerfilYAjustes,Ver perfil y ajustes,View profile and settings
+Recuperacion,Recuperación,Recovery
+CambiarContrasena,Cambiar Contraseña,Change Password
+IngresaElCodigoEnviadoATuCorreo,Ingresa el código enviado a tu correo,Enter the code sent to your email
+DefineTusNuevasCredenciales,Define tus nuevas credenciales,Define your new credentials
+RevisaTuBandejaDeEntradaOSpam,Revisa tu bandeja de entrada o spam.,Check your inbox or spam folder.
+ListoParaReenviar,Listo para reenviar,Ready to resend
+NoLlego,¿No llegó?,Didn't arrive?
+ReenviarCodigo,Reenviar código,Resend code
+Espere,Espere,Wait
+LasContrasenasDebenTenerAlMenos5Caracteres,Las contraseñas deben tener al menos 5 caracteres,Passwords must be at least 5 characters long
+LasContrasenasNoCoinciden,Las contraseñas no coinciden,Passwords do not match
+CambiarFotoDePerfil,Cambiar Foto de Perfil,Change Profile Photo
+Nueva,Nueva,New
+VistaPreviaDeLaNuevaImagen,Vista previa de la nueva imagen,New image preview
+SeleccionarImagen,Seleccionar imagen,Select image
+PorFavorSeleccioneUnaImagenValida,Por favor seleccione una imagen válida,Please select a valid image
+GuardarFoto,Guardar Foto,Save Photo
+EstaSeguroDeAsignarEstaImagen,¿Está seguro de asignar esta imagen?,Are you sure you want to assign this image?
+ErrorAlSubirImagen,Error al subir imagen,Error uploading image
+RolNoAsignado,Rol no asignado,Role not assigned
+FechaDeRegistro,Fecha de Registro,Registration Date
+VacioParaMantenerActual,Vacío para mantener actual,Empty to keep current
+ContrasenaOpcional,Contraseña (Opcional),Password (Optional)
+EstaSeguroDeEditarEsteUsuario,¿Está seguro de editar este usuario?,Are you sure you want to edit this user?
+LimpiarFiltrosDescripcion,Limpiar Filtros Descripción,Clear Filters Description
+OpcionesMenuFiltros,Opciones Menú Filtros,Filter Menu Options
+ReestablecerBusquedas,Reestablecer Búsquedas,Reset Searches
+ReestablecerBusquedasDescripcion,Reestablecer Búsquedas Descripción,Reset Searches Description
+ReestablecerOpcionesFiltrado,Reestablecer Opciones Filtrado,Reset Filtering Options
+ReestablecerOpcionesFiltradoDescripcion,Reestablecer Opciones Filtrado Descripción,Reset Filtering Options Description
+ReestablecerOpcionesTotales,Reestablecer Opciones Totales,Reset Total Options
+ReestablecerOpcionesTotalesDescripcion,Reestablecer Opciones Totales Descripción,Reset Total Options Description
+ExportarTabla,Exportar Tabla,Export Table
+ExportarTablaDescripcion,Exportar Tabla Descripción,Export Table Description
+OpcionesMenuExportacion,Opciones Menú Exportación,Export Menu Options
+Csv,CSV,CSV
+Excel,EXCEL,EXCEL
+Pdf,PDF,PDF
+OpcionesTablaDescripcion,Opciones Tabla Descripción,Table Options Description
+OpcionesMenuDeTabla,Opciones Menú De Tabla,Table Menu Options
+GuardarConfiguracionesTabla,Guardar Configuraciones Tabla,Save Table Configurations
+GuardarFiltrosDeTabla,Guardar Filtros De Tabla,Save Table Filters
+GuardarOrdenDeTabla,Guardar Orden De Tabla,Save Table Order
+Seleccionadas,Seleccionadas,Selected
+ColumnasOcultas,Columnas Ocultas,Hidden Columns
+SeparadorCeldas,Separador Celdas,Cell Separator
+QuitarPantallaCompleta,Quitar Pantalla Completa,Exit Full Screen
+ColocarPantallaCompleta,Colocar Pantalla Completa,Enter Full Screen
+ColumnaBloqueada,Columna Bloqueada,Locked Column
+TooltipMoverColumna,Tooltip Mover Columna,Drag to Move Column
+DeseleccionarTodaTabla,Deseleccionar Toda Tabla,Deselect All
+SeleccionarTodaTabla,Seleccionar Toda Tabla,Select All
+ContraerTodaTabla,Contraer Toda Tabla,Collapse All
+ExpandirTodaTabla,Expandir Toda Tabla,Expand All
+OpcionFiltradoDescripcion,Opción Filtrado Descripción,Filter Option Description
+OpcionFiltrado,Opción Filtrado,Filter Option
+FiltroSelectorDescripcion,Filtro Selector Descripción,Selector Filter Description
+Filtro,Filtro,Filter
+FiltroDescripcion,Filtro Descripción,Filter Description
+FiltroTimeDescripcion,Filtro Time Descripción,Time Filter Description
+FiltroDateDescripcion,Filtro Date Descripción,Date Filter Description
+Hoy,Hoy,Today
+DeseleccionarRegistroTabla,Deseleccionar Registro Tabla,Deselect Row
+SeleccionarRegistroTabla,Seleccionar Registro Tabla,Select Row
+ContraerRegistroTabla,Contraer Registro Tabla,Collapse Row
+ExpandirRegistroTabla,Expandir Registro Tabla,Expand Row
+TituloSelect,Título Select,Select Title
+GestionarPerfil,Gestionar Perfil,Manage Profile
+ActualizarTablero,Actualizar Tablero,Update Dashboard
+Information,Information,Information
+Warning,Warning,Warning
+NombreDelRol,Nombre del rol,Role Name
+SeleccioneUnModulo,Seleccione un módulo,Select a module
+SeleccionarTodos,Seleccionar todos,Select all
+ModulosOperativos,Módulos operativos,Operational modules
+LlenarDatosRequeridos,Llenar datos requeridos,Fill required data
+Ip,IP,IP
+EditarProductos,Editar Productos,Edit Products
+CrearProductos,Crear Productos,Create Products
+Color,Color,Color
+CrearCorreo,Crear correo,Create Email
+EditarCorreo,Editar Correo,Edit Email
+NoEco,No. Eco,Eco No.
+CantidadActual,Cantidad Actual,Current Quantity
+EsExterno,Es Externo,Is External
+Externo,Externo,External
+Local,Local,Local
+FechaDeCreacion,Fecha de Creación,Creation Date
+Alturas,Alturas,Heights
+Limites,Limites,Limits
+Maximo,Máximo,Maximum
+Alto,Alto,High
+Bajo,Bajo,Low
+Minimo,Mínimo,Minimum
+Operativa,Operativa,Operating
+Maxima,Máxima,Maximum
+LaCapacidadDelEquipoDebeDeSerMayorA0,La capacidad del equipo debe de ser mayor a 0,Equipment capacity must be greater than 0
+LaCantidadActualDelEquipoDebeDeSerMayorA0,La cantidad actual del equipo debe de ser mayor a 0,Current equipment quantity must be greater than 0
+LimiteMaximo,Límite Máximo,Maximum Limit
+LimiteAlto,Límite Alto,High Limit
+LimiteBajo,Límite Bajo,Low Limit
+LimiteMinimo,Límite Mínimo,Minimum Limit
+NoPuedeSerMayorALaCapacidadMaximo,No puede ser mayor a la capacidad máximo,Cannot be greater than maximum capacity
+NoPuedeSerMayorALaAlturaMaxima,No puede ser mayor a la altura máxima,Cannot be greater than maximum height
+NoPuedeSerMayorALimiteMaximo,No puede ser mayor a límite máximo,Cannot be greater than maximum limit
+NoPuedeSerMayorALimiteAlto,No puede ser mayor a límite alto,Cannot be greater than high limit
+TodosLosLimitesDebenTenerUnValorNumerico,Todos los límites deben tener un valor numérico,All limits must have a numeric value
+ConfigureLimitesValidosParaEsteDeposito,Configure límites válidos para este depósito,Configure valid limits for this deposit
+ElLimiteAltoNoPuedeSerMayorQueElLimiteMaximo,El límite alto no puede ser mayor que el límite máximo,High limit cannot be greater than maximum limit
+ElLimiteBajoNoPuedeSerMayorQueElLimiteAlto,El límite bajo no puede ser mayor que el límite alto,Low limit cannot be greater than high limit
+ElLimiteMinimoNoPuedeSerMayorQueElLimiteBajo,El límite mínimo no puede ser mayor que el límite bajo,Minimum limit cannot be greater than low limit
+ElLimiteMaximoDebeSerMayorQueElLimiteMinimo,El límite máximo debe ser mayor que el límite mínimo,Maximum limit must be greater than minimum limit
+LleneLosDatosRequeridos,LLene los datos requeridos,Fill required data
+ALas,A las,At
+CadaHoras,Cada Horas,Every Hours
+TodosLos,Todos los,Every
+Y,y,y
+Cada,cada,cada
+Am,AM,AM
+Pm,PM,PM
+Deposito,Depósito,Deposit
+Niveles,Niveles,Levels
+Volumenes,Volumenes,Volumes
+Carga,Carga,Load
+Inicial,Inicial,Initial
+Final,Final,Final
+VerDetalles,Ver detalles,View details
+VeaAMayorDetalle,Vea a mayor detalle,View in greater detail
+AsignarEquipo,Asignar equipo,Assign equipment
+RegistrarMovimiento,Registrar movimiento,Register movement
+InventarioInicial,Inventario Inicial,Initial Inventory
+InventarioFinal,Inventario Final,Final Inventory
+Cantidades,Cantidades,Quantities
+Movimiento,Movimiento,Movement
+Registrado,Registrado,Registered
+Modificado,Modificado,Modified
+EditarMovimiento,Editar Movimiento,Edit Movement
+CrearMovimiento,Crear Movimiento,Create Movement
+Hora,Hora:,Time:
+SeleccioneUnaHora,Seleccione una hora,Select a time
+SeleccionarFecha,Seleccionar fecha,Select date
+InformacionDelSilo,Información del Silo,Silo Information
+ResumenDeCambios,Resumen de Cambios,Summary of Changes
+DiferenciaDeNivel,Diferencia de Nivel,Level Difference
+DiferenciaDePeso,Diferencia de Peso,Weight Difference
+DiferenciaDePorcentaje,Diferencia de Porcentaje,Percentage Difference
+EstadoFinal,Estado Final,Final State
+EstadoInicial,Estado Inicial,Initial State
+Activo,Activo,Active
+SinTitulo,Sin título,Untitled
+SinFecha,Sin fecha,No date
+BuscarEstacion,Buscar estación...,Search station...
+BuscarEquipo,Buscar equipo...,Search equipment...
+MonitoreoEnTiempoRealActivo,Monitoreo en tiempo real activo,Real-time monitoring active
+UltimoGuardadoEnLaBaseDeDatos,Último guardado en la base de datos,Last saved to database
+MaximaOperativa,Máxima / Operativa,Maximum / Operating
+NoHayDatosRecientes,No hay datos recientes,No recent data
+DebeSerMayorA0,Debe ser mayor a 0,Must be greater than 0
+LasCapacidadesTienenQueSerMayoresQue0,Las capacidades tienen que ser mayores que 0,Capacities must be greater than 0
+LaCapacidadOperativaNoPuedeSerMayorQueLaCapacidadMaxima,La capacidad operativa no puede ser mayor que la capacidad máxima,Operating capacity cannot be greater than maximum capacity
+LasAlturasTienenQueSerMayoresQue0,Las alturas tienen que ser mayores que 0,Heights must be greater than 0
+LaAlturaOperativaNoPuedeSerMayorQueLaAlturaMaxima,La altura operativa no puede ser mayor que la altura máxima,Operating height cannot be greater than maximum height
+NoPuedeSerMayorALimiteBajo,No puede ser mayor a límite bajo,Cannot be greater than lower limit
+CantidadInicial,Cantidad Inicial,Initial Quantity
+CantidadFinal,Cantidad Final,Final Quantity
+DebeSerDistintoDe0,Debe ser distinto de 0,Must be different from 0
+NoPuedeRetirarMasDeLaCantidadInicial,No puede retirar más de la cantidad inicial,Cannot withdraw more than initial quantity
+CambiarModoClaro,Cambiar a modo claro,Switch to light mode
+CambiarModoOscuro,Cambiar a modo oscuro,Switch to dark mode
+ModoClaro,Modo Claro,Light Mode
+ModoOscuro,Modo Oscuro,Dark Mode
+RestablecerColores,Restablecer Colores,Reset Colors
+PersonalizarColores,Personalizar Colores,Customize Colors
+primary,Primario,Primary
+secondary,Secundario,Secondary
+accent,Acento,Accent
+positive,Positivo,Positive
+negative,Negativo,Negative
+warning,Advertencia,Warning
+info,Información,Info
+ListaDeAcciones,Realice una acción en el registro seleccionado,Perform an action on the selected 
+NoSeEncontraronPermisos,No se encontraron permisos,No permissions found
+PermisosDisponibles,Permisos Disponibles,Available Permissions
+GuardarCambios,Guardar Cambios,Save Changes
+LLeneLosDatosRequeridos,LLene los datos requeridos,Fill required data
+ModifiqueLaInformacion,Modifique la informacion,Modify the information
+ElimineElRegistro,Elimine el registro,Delete the record
+RegistroEditadoConExito,Registro editado con exito,Record edited successfully
+# Permisos Almacenamiento - Nombres
+CrearCargaDeposito,Crear Carga de Depósito,Create Deposit Load
+EditarCargaDeposito,Editar Carga de Depósito,Edit Deposit Load
+EliminarCargaDeposito,Eliminar Carga de Depósito,Delete Deposit Load
+ListarCargasDepositos,Listar Cargas de Depósitos,List Deposit Loads
+DetallesCargaDeposito,Detalles de Carga de Depósito,Deposit Load Details
+CrearDeposito,Crear Depósito,Create Deposit
+EditarDeposito,Editar Depósito,Edit Deposit
+EliminarDeposito,Eliminar Depósito,Delete Deposit
+ListarDepositos,Listar Depósitos,List Deposits
+DetallesDeposito,Detalles de Depósito,Deposit Details
+CrearEquipoAlmacenamiento,Crear Equipo de Almacenamiento,Create Storage Equipment
+EditarEquipoAlmacenamiento,Editar Equipo de Almacenamiento,Edit Storage Equipment
+EliminarEquipoAlmacenamiento,Eliminar Equipo de Almacenamiento,Delete Storage Equipment
+ListarEquiposAlmacenamiento,Listar Equipos de Almacenamiento,List Storage Equipment
+DetallesEquipoAlmacenamiento,Detalles de Equipo de Almacenamiento,Storage Equipment Details
+CrearEstatusDeposito,Crear Estatus de Depósito,Create Deposit Status
+EditarEstatusDeposito,Editar Estatus de Depósito,Edit Deposit Status
+EliminarEstatusDeposito,Eliminar Estatus de Depósito,Delete Deposit Status
+ListarEstatusDepositos,Listar Estatus de Depósitos,List Deposit Statuses
+DetallesEstatusDeposito,Detalles de Estatus de Depósito,Deposit Status Details
+CrearMovimientoSupersaco,Crear Movimiento de Supersaco,Create Supersack Movement
+EditarMovimientoSupersaco,Editar Movimiento de Supersaco,Edit Supersack Movement
+EliminarMovimientoSupersaco,Eliminar Movimiento de Supersaco,Delete Supersack Movement
+ListarMovimientosSupersacos,Listar Movimientos de Supersacos,List Supersack Movements
+DetallesMovimientoSupersaco,Detalles de Movimiento de Supersaco,Supersack Movement Details
+VerTableroAlmacenamiento,Ver Tablero de Almacenamiento,View Storage Dashboard
+VerMonitoreoAlmacenamiento,Ver Monitoreo de Almacenamiento,View Storage Monitoring
+CrearDescargaPipa,Crear Descarga de Pipa,Create Tank Truck Unload
+EditarDescargaPipa,Editar Descarga de Pipa,Edit Tank Truck Unload
+EliminarDescargaPipa,Eliminar Descarga de Pipa,Delete Tank Truck Unload
+ListarDescargasPipas,Listar Descargas de Pipas,List Tank Truck Unloads
+DetallesDescargaPipa,Detalles de Descarga de Pipa,Tank Truck Unload Details
+# Permisos Almacenamiento - Descripciones
+DescCrearCargaDeposito,Permiso para crear cargas de depósitos,Permission to create deposit loads
+DescEditarCargaDeposito,Permiso para editar cargas de depósitos,Permission to edit deposit loads
+DescEliminarCargaDeposito,Permiso para eliminar cargas de depósitos,Permission to delete deposit loads
+DescListarCargasDepositos,Permiso para listar cargas de depósitos,Permission to list deposit loads
+DescDetallesCargaDeposito,Permiso para ver detalles de cargas de depósitos,Permission to view deposit load details
+DescCrearDeposito,Permiso para crear depósitos,Permission to create deposits
+DescEditarDeposito,Permiso para editar depósitos,Permission to edit deposits
+DescEliminarDeposito,Permiso para eliminar depósitos,Permission to delete deposits
+DescListarDepositos,Permiso para listar depósitos,Permission to list deposits
+DescDetallesDeposito,Permiso para ver detalles de depósitos,Permission to view deposit details
+DescCrearEquipoAlmacenamiento,Permiso para crear equipos de almacenamiento,Permission to create storage equipment
+DescEditarEquipoAlmacenamiento,Permiso para editar equipos de almacenamiento,Permission to edit storage equipment
+DescEliminarEquipoAlmacenamiento,Permiso para eliminar equipos de almacenamiento,Permission to delete storage equipment
+DescListarEquiposAlmacenamiento,Permiso para listar equipos de almacenamiento,Permission to list storage equipment
+DescDetallesEquipoAlmacenamiento,Permiso para ver detalles de equipos de almacenamiento,Permission to view storage equipment details
+DescCrearEstatusDeposito,Permiso para crear estatus de depósitos,Permission to create deposit statuses
+DescEditarEstatusDeposito,Permiso para editar estatus de depósitos,Permission to edit deposit statuses
+DescEliminarEstatusDeposito,Permiso para eliminar estatus de depósitos,Permission to delete deposit statuses
+DescListarEstatusDepositos,Permiso para listar estatus de depósitos,Permission to list deposit statuses
+DescDetallesEstatusDeposito,Permiso para ver detalles de estatus de depósitos,Permission to view deposit status details
+DescCrearMovimientoSupersaco,Permiso para crear movimientos de supersacos,Permission to create supersack movements
+DescEditarMovimientoSupersaco,Permiso para editar movimientos de supersacos,Permission to edit supersack movements
+DescEliminarMovimientoSupersaco,Permiso para eliminar movimientos de supersacos,Permission to delete supersack movements
+DescListarMovimientosSupersacos,Permiso para listar movimientos de supersacos,Permission to list supersack movements
+DescDetallesMovimientoSupersaco,Permiso para ver detalles de movimientos de supersacos,Permission to view supersack movement details
+DescVerTableroAlmacenamiento,Permiso para ver el tablero de almacenamiento,Permission to view storage dashboard
+DescVerMonitoreoAlmacenamiento,Permiso para ver el monitoreo de almacenamiento,Permission to view storage monitoring
+DescCrearDescargaPipa,Permiso para crear descargas de pipas,Permission to create tank truck unloads
+DescEditarDescargaPipa,Permiso para editar descargas de pipas,Permission to edit tank truck unloads
+DescEliminarDescargaPipa,Permiso para eliminar descargas de pipas,Permission to delete tank truck unloads
+DescListarDescargasPipas,Permiso para listar descargas de pipas,Permission to list tank truck unloads
+DescDetallesDescargaPipa,Permiso para ver detalles de descargas de pipas,Permission to view tank truck unload details
+# Secciones Almacenamiento
+SeccionCargasDepositos,Cargas de Depósitos,Deposit Loads
+SeccionDepositos,Depósitos,Deposits
+SeccionEquipos,Equipos,Equipment
+SeccionEstatusDepositos,Estatus de Depósitos,Deposit Statuses
+SeccionMovimientosSupersacos,Movimientos de Supersacos,Supersack Movements
+SeccionAnalisis,Análisis,Analysis
+SeccionDescargasPipas,Descargas de Pipas,Tank Truck Unloads
+# Permisos Administración - Identidad - Nombres
+CrearRol,Crear Rol,Create Role
+AsignarRol,Asignar Rol,Assign Role
+RegistrarUsuario,Registrar Usuario,Register User
+CambiarPassword,Cambiar Contraseña,Change Password
+CambiarEmail,Cambiar Correo Electrónico,Change Email
+CambiarNombre,Cambiar Nombre,Change Name
+ListarUsuarios,Listar Usuarios,List Users
+ListarPermisos,Listar Permisos,List Permissions
+ListarRoles,Listar Roles,List Roles
+EditarRol,Editar Rol,Edit Role
+CambiarEstadoUsuario,Cambiar Estado de Usuario,Change User Status
+CambiarEstadoRol,Cambiar Estado de Rol,Change Role Status
+EditarUsuario,Editar Usuario,Edit User
+BorrarRol,Borrar Rol,Delete Role
+BorrarUsuario,Borrar Usuario,Delete User
+# Permisos Administración - Identidad - Descripciones
+DescCrearRol,Permiso para crear nuevos roles,Permission to create new roles
+DescAsignarRol,Permiso para asignar roles,Permission to assign roles
+DescRegistrarUsuario,Permiso para registrar nuevos usuarios,Permission to register new users
+DescCambiarPassword,Permiso para cambiar contraseña (requiere contraseña actual),Permission to change password (requires current password)
+DescCambiarEmail,Permiso para cambiar correo electrónico,Permission to change email
+DescCambiarNombre,Permiso para cambiar nombre de usuario,Permission to change user name
+DescListarUsuarios,Permiso para visualizar registros de usuarios,Permission to view user records
+DescListarPermisos,Permiso para visualizar permisos de la aplicación,Permission to view application permissions
+DescListarRoles,Permiso para visualizar roles,Permission to view roles
+DescEditarRol,Permiso para editar y asignar roles,Permission to edit and assign roles
+DescCambiarEstadoUsuario,Permiso para activar o desactivar usuarios,Permission to activate or deactivate users
+DescCambiarEstadoRol,Permiso para activar o desactivar roles,Permission to activate or deactivate roles
+DescEditarUsuario,Permiso para editar usuarios,Permission to edit users
+DescBorrarRol,Permiso para eliminar roles adicionales,Permission to delete additional roles
+DescBorrarUsuario,Permiso para eliminar usuarios,Permission to delete users
+# Permisos Administración - Correos Automáticos - Nombres
+ListarCorreosAutomaticosAD,Listar Correos Automáticos,List Automatic Emails
+EditarCorreosAutomaticosAD,Editar Correos Automáticos,Edit Automatic Emails
+CambiarEstadoCorreosAutomaticosAD,Cambiar Estado de Correos Automáticos,Change Automatic Email Status
+# Permisos Administración - Correos Automáticos - Descripciones
+DescListarCorreosAutomaticosAD,Permiso para visualizar correos automáticos,Permission to view automatic emails
+DescEditarCorreosAutomaticosAD,Permiso para editar correos automáticos,Permission to edit automatic emails
+DescCambiarEstadoCorreosAutomaticosAD,Permiso para cambiar estado de correos automáticos,Permission to change automatic email status
+# Permisos Administración - Logs - Nombres
+ListarLogs,Listar Logs,List Logs
+# Permisos Administración - Logs - Descripciones
+DescListarLogs,Permiso para visualizar los logs del sistema,Permission to view system logs
+# Permisos Administración - Módulos - Nombres
+ListarModulos,Listar Módulos,List Modules
+CambiarEstadoModulos,Cambiar Estado de Módulos,Change Module Status
+# Permisos Administración - Módulos - Descripciones
+DescListarModulos,Permiso para visualizar módulos,Permission to view modules
+DescCambiarEstadoModulos,Permiso para cambiar estado de módulos,Permission to change module status
+# Secciones Administración
+SeccionRoles,Roles,Roles
+SeccionPermisos,Permisos,Permissions
+SeccionUsuarios,Usuarios,Users
+SeccionCorreosAutomaticos,Correos Automáticos,Automatic Emails
+SeccionLogs,Logs,Logs
+SeccionModulos,Módulos,Modules
+# Módulos - Nombres
+ModuloAdministracion,Administración,Administration
+ModuloAlmacenamiento,Almacenamiento,Storage
+ModuloRecepcion,Recepción,Reception
+ModuloAccesorios,Accesorios,Accessories
+ModuloGerencia,Gerencia,Management
+# Módulos - Descripciones
+DescModuloAdministracion,Control monitoreo y administración general de la plataforma,General platform control monitoring and administration
+DescModuloAlmacenamiento,Control monitoreo y administración del módulo de almacenamiento,Storage module control monitoring and administration
+DescModuloRecepcion,Control monitoreo y administración del módulo de recepción,Reception module control monitoring and administration
+DescModuloAccesorios,Control monitoreo y administración del módulo de accesorios,Accessories module control monitoring and administration
+DescModuloGerencia,Control monitoreo y administración del módulo de gerencia,Management module control monitoring and administration
+# Grupos de Permisos - Administración
+GrupoIdentidad,Identidad,Identity
+GrupoIdentidadNorm,Roles Usuarios y Permisos,Roles Users and Permissions
+GrupoLogsAdmin,Logs Admin,Logs Admin
+GrupoLogsAdminNorm,Logs,Logs
+GrupoCorreosAutomaticosAdmin,Correos Automáticos Admin,Automatic Emails Admin
+GrupoCorreosAutomaticosAdminNorm,Correos Automáticos Admin,Automatic Emails Admin
+GrupoModulosAdmin,Módulos Admin,Modules Admin
+GrupoModulosAdminNorm,Módulos Admin,Modules Admin
+# Grupos de Permisos - Almacenamiento
+GrupoCargasAlmacenamiento,Cargas Almacenamiento,Storage Loads
+GrupoCargasAlmacenamientoNorm,Cargas Almacenamiento,Storage Loads
+GrupoTanquesAlmacenamiento,Depósitos Almacenamiento,Storage Deposits
+GrupoTanquesAlmacenamientoNorm,Depósitos Almacenamiento,Storage Deposits
+GrupoEquiposAlmacenamiento,Equipos Almacenamiento,Storage Equipment
+GrupoEquiposAlmacenamientoNorm,Equipos Almacenamiento,Storage Equipment
+GrupoEstatusAlmacenamiento,Estatus Almacenamiento,Storage Status
+GrupoEstatusAlmacenamientoNorm,Estatus Almacenamiento,Storage Status
+GrupoMovimientosAlmacenamiento,Movimientos Almacenamiento,Storage Movements
+GrupoMovimientosAlmacenamientoNorm,Movimientos Almacenamiento,Storage Movements
+GrupoAnalisisAlmacenamiento,Análisis Almacenamiento,Storage Analysis
+GrupoAnalisisAlmacenamientoNorm,Análisis Almacenamiento,Storage Analysis
+GrupoDescargasAlmacenamiento,Descargas Almacenamiento,Storage Unloads
+GrupoDescargasAlmacenamientoNorm,Descargas Almacenamiento,Storage Unloads
+# Ayudas de UX - Formulario de Roles
+SeleccioneModulosParaMostrarPermisos,Seleccione los módulos de arriba para ver sus permisos,Select modules above to view their permissions
+ClickParaDesplegarPermisos,Clic para desplegar/contraer permisos del grupo,Click to expand/collapse group permissions
+MarqueParaHabilitar,Marque para habilitar el módulo,Check to enable module
+TotalPermisosSeleccionados,Total de permisos seleccionados,Total permissions selected
+SeleccionarTodosModuloTooltip,Seleccionar o deseleccionar todos los permisos de este módulo,Select or deselect all permissions in this module
+SeleccionarTodosGrupoTooltip,Seleccionar o deseleccionar todos los permisos del grupo,Select or deselect all permissions in this group
+ModuloOperativo,Muestra o oculta todos los permisos del módulo,Show or hide all permissions in the module
+Mensaje404,Página no encontrada,Page not found
+Descripcion404,La página que buscas no existe o ha sido movida,The page you are looking for does not exist or has been moved
+TableroAlmacenamiento,Tablero,Dashboard
+MonitoreoAlmacenamiento,Monitoreo,Monitoring
+CargasAlmacenamiento,Cargas,Loads
+DescargasAlmacenamiento,Descargas,Unloads
+SuperSacosAlmacenamiento,Supersacos,Supersacks
+TanquesAlmacenamiento,Tanques,Tanks
+EquiposAlmacenamiento,Equipos,Equipment
+AlmacenamientoGerencia,Almacenamiento,Storage
+RecepcionGerencia,Recepción,Reception
+TableroAccesorios,Tablero,Dashboard
+MonitoreoAccesorios,Monitoreo,Monitoring
+InventarioAccesorios,Inventario,Inventory
+MovimientosAccesorios,Movimientos,Movements
+CategoriasAccesorios,Categorías,Categories
+AltasAccesorios,Accesorios,Accessories
+ProveedoresAccesorios,Proveedores,Providers
+LimitesSedenaAccesorios,Límites SEDENA,SEDENA Limits
+EquipmentAlmacenamientoGerencia,Equipos,Equipment
+AccesoriosGerencia,Accesorios,Accessories
+AnalisisAlmacenamiento,Análisis,Analysis
+HistorialesAlmacenamiento,Historiales,History
+AltasAlmacenamiento,Altas,Setup
+AnalisisAccesorios,Análisis,Analysis
+AlmacenAccesorios,Almacén,Storage
+AltasAccesoriosGrupo,Altas,Setup
+ConfiguracionesAccesorios,Configuraciones,Settings
+AnalisisGerencia,Análisis,Analysis
+GestionAltasGerencia,Gestión,Setup
+AnalisisRecepcion,Análisis,Analysis
+TableroRecepcion,Tablero,Dashboard
+MonitoreoRecepcion,Monitoreo,Monitoring
+HistorialesRecepciones,Historiales,History
+HistorialesRecepcion,Recepciones,Receptions
+AltasRecepcion,Gestión,Setup
+ProveedoresRecepcion,Proveedores,Providers
+ConductoresRecepcion,Conductores,Drivers
+TransportistaRecepcion,Transportista,Transporter
+OrigenesRecepcion,Origenes,Origins
+EquiposRecepcion,Equipos,Equipment
+UsuarioRegistrado,Usuario Registrado,Registered User
+HistorialDeRecepciones,Historial de Recepciones,Reception History
+MostrarPWD,Mostrar Contraseña,Show Password
+OcultarPWD,Ocultar Contraseña,Hide Password
+SinInternetTitulo,Sin Conexión,No Connection
+SinInternetDescripcion,Necesita una conexión a internet para utilizar la aplicación.,You need an internet connection to use the application.
+NuevaVersionDisponible,Nueva versión disponible,New version available
+ActualizarAhora,Actualizar ahora,Update now
+InstalarAplicacion,Instalar Aplicación,Install Application
+ConfirmarBorrado,Si Quiero borrarlo,Yes I want to delete it

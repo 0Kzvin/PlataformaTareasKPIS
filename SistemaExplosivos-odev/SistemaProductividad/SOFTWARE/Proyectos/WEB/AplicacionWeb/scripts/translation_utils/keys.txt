@@ -1,0 +1,324 @@
+Limpiar Filtros
+Actualizar los datos del Tablero
+No se encontró el módulo
+Sin texto definido
+Presione para seleccionar una hora de corte
+Hora Corte
+Silos
+Piso
+Entradas
+Salidas
+Total (Semana Anterior)
+NITRATO
+Total
+Análisis
+Tablero
+Almacén
+Inventario
+Movimientos
+Altas
+Categorías
+Accesorios
+Proveedores
+Configuraciones
+Límites SEDENA
+Administración
+Usuarios
+Roles
+Correos Automáticos
+Auditoría
+Módulos
+Historiales
+Cargas
+Descargas
+Supersacos
+Tanques
+Equipos
+Recepción
+Gestión de Altas
+Estaciones
+Productos
+Operadores
+Gerencia
+Almacenamiento
+ADM
+ALM
+REC
+ACC
+GER
+Enterado
+Confirmar
+Cancelar
+Cargando
+Configuración de Aplicación
+Ajustes
+Recuperación de Credenciales
+Ingresa tu usuario o correo
+Usuario o Correo
+Contraseña
+Mantener sesión iniciada
+Limpiar
+Iniciar sesión
+¿Olvidaste tu contraseña?
+Ingresa tu usuario o correo electrónico asociado para buscar tu cuenta y enviarte las instrucciones.
+Volver
+Recuperar
+G3 Ingeniería 2025 - Sistema Control de Explosivos ©
+No se encontraron modulos para el usuario
+Por favor ingresa tu usuario o correo
+Acceso Denegado
+Sección en Mantenimiento
+Disponible Próximamente
+Contenido Restringido
+Sin Permisos
+Hola
+Buenos Días
+Buenas Tardes
+Buenas Noches
+Ver perfil y ajustes
+Ver más información
+Expandir menú
+Contraer menú
+CerrarSesion
+Volumen
+Capacidad
+Recuperación
+Cambiar Contraseña
+Ingresa el código enviado a tu correo
+Define tus nuevas credenciales
+Revisa tu bandeja de entrada o spam.
+Listo para reenviar
+¿No llegó?
+Reenviar código
+Espere
+Las contraseñas deben tener al menos 5 caracteres
+Las contraseñas no coinciden
+Cambiar Foto de Perfil
+Nueva
+Vista previa de la nueva imagen
+Imagen actual
+Seleccionar imagen
+Por favor seleccione una imagen válida
+Guardar Foto
+¿Está seguro de asignar esta imagen?
+Error al subir imagen
+Rol no asignado
+Correo Electrónico
+Usuario
+Teléfono
+Fecha de Registro
+Nombre *
+Apellido *
+Usuario *
+Vacío para mantener actual
+Contraseña (Opcional)
+Enviar Cambios
+Formulario Inválido
+¿Está seguro de editar este usuario?
+Limpiar Filtros Descripción
+Opciones Menú Filtros
+Reestablecer Búsquedas
+Reestablecer Búsquedas Descripción
+Reestablecer Opciones Filtrado
+Reestablecer Opciones Filtrado Descripción
+Reestablecer Opciones Totales
+Reestablecer Opciones Totales Descripción
+Exportar Tabla
+Exportar Tabla Descripción
+Opciones Menú Exportación
+CSV
+EXCEL
+PDF
+Opciones Tabla Descripción
+Opciones Menú De Tabla
+Guardar Configuraciones Tabla
+Guardar Filtros De Tabla
+Guardar Orden De Tabla
+Seleccionadas
+Columnas Ocultas
+Separador Celdas
+Quitar Pantalla Completa
+Colocar Pantalla Completa
+Columna Bloqueada
+Opciones
+Tooltip Mover Columna
+Deseleccionar Toda Tabla
+Seleccionar Toda Tabla
+Contraer Toda Tabla
+Expandir Toda Tabla
+Opción Filtrado Descripción
+Opción Filtrado
+Filtro Selector Descripción
+Filtro
+Filtro Descripción
+Filtro Time Descripción
+Filtro Date Descripción
+Hoy
+Cerrar
+Deseleccionar Registro Tabla
+Seleccionar Registro Tabla
+Contraer Registro Tabla
+Expandir Registro Tabla
+Completar Campo
+Sin Opciones
+Título Select
+Seleccionar Fechas
+Tabla Sin Datos
+Tabla Sin Resultados Filtro
+Actualizar Tablero
+Crear Usuario
+Crear Rol
+Crear Producto
+Information
+Warning
+Cancelar
+Nombre del rol
+Descripción
+Módulos Habilitados
+Seleccione un módulo
+Permisos otorgados
+Seleccionar todos
+Módulos operativos
+Crear Estación
+Editar Estación
+Llenar datos requeridos
+Estaciones
+Ip
+Fechas
+Crear Operador
+Editar Operador
+Editar Productos
+Crear Productos
+Editar Producto
+Crear Producto
+Apodo
+Color
+Código Aplicación
+Crear Equipo
+Editar Equipo
+Crear Tanque
+Editar Tanque
+Crear correo
+Editar Correo
+Número Económico
+No. Eco
+Cantidad Actual
+Capacidad
+Es Externo
+Externo
+Local
+Fecha de Creación
+Capacidades
+Alturas
+Limites
+Máximo
+Alto
+Bajo
+Mínimo
+Operativa
+Máxima
+Ubicación
+Tipo
+Llenar datos requeridos
+La capacidad del equipo debe de ser mayor a 0
+La cantidad actual del equipo debe de ser mayor a 0
+Capacidad Operativa
+Altura
+Altura Operativa
+Límite Máximo
+Límite Alto
+Límite Bajo
+Límite Mínimo
+No puede ser mayor a la capacidad máximo
+No puede ser mayor a la altura máxima
+No puede ser mayor a límite máximo
+No puede ser mayor a límite alto
+Todos los límites deben tener un valor numérico
+Configure límites válidos para este depósito
+El límite alto no puede ser mayor que el límite máximo
+El límite bajo no puede ser mayor que el límite alto
+El límite mínimo no puede ser mayor que el límite bajo
+El límite máximo debe ser mayor que el límite mínimo
+LLene los datos requeridos
+A las
+Cada Horas
+Todos los Dias
+Todos los
+Domingo
+Lunes
+Martes
+Miercoles
+Jueves
+Viernes
+Sabado
+y
+Cada
+Horas
+AM
+PM
+Opciones
+Depósito
+Producto
+Ubicación
+Niveles
+Volumenes
+Carga
+Fechas
+Inicial
+Final
+Total
+Inicio
+Fin
+Ver detalles
+Vea a mayor detalle
+Equipo
+Asignar equipo
+Registrar movimiento
+Inventario Inicial
+Entradas
+Salidas
+Inventario Final
+Cantidades
+Movimiento
+Observaciones
+Registrado
+Modificado
+Editar Movimiento
+Crear Movimiento
+Fecha:
+Hora:
+Guardar
+Seleccione una hora
+Seleccionar fecha
+Información del Silo
+Cerrar
+Resumen de Cambios
+Diferencia de Nivel
+Diferencia de Peso
+Diferencia de Porcentaje
+Estado Final
+Estado Inicial
+Activo
+Sin título
+Sin fecha
+Buscar estación...
+Buscar equipo...
+Ver más información
+Monitoreo en tiempo real activo
+Último guardado en la base de datos
+Máxima / Operativa
+No hay datos recientes
+
+Debe ser mayor a 0
+Las capacidades tienen que ser mayores que 0
+La capacidad operativa no puede ser mayor que la capacidad máxima
+Las alturas tienen que ser mayores que 0
+La altura operativa no puede ser mayor que la altura máxima
+No puede ser mayor a límite bajo
+
+Cantidad Inicial
+Cantidad Final
+
+Debe ser distinto de 0
+
+No puede retirar más de la cantidad inicial

@@ -1,0 +1,30 @@
+@import './themes';
+@import './text-sizes';
+@import './globales';
+
+@import 'primeicons/primeicons.css';
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Quita el fondo gris del autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  /* Mantiene el fondo original de la aplicación usando una transición infinita */
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: var(--q-text-primary) !important;
+  /* El box-shadow pinta el fondo del input con el color de fondo2 (que usan los inputs) */
+  box-shadow: 0 0 0px 1000px var(--q-fondo2) inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px var(--q-fondo2) inset !important;
+  background-clip: content-box !important;
+}
+
+/* Fix Sweetalert checkbox background */
+.swal2-checkbox {
+  background: transparent !important;
+  color: var(--q-text-primary) !important;
+}

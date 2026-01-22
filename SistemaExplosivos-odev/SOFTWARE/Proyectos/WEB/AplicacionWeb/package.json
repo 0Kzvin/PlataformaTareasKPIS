@@ -1,0 +1,63 @@
+{
+  "name": "sistemagmms",
+  "version": "3.0.0",
+  "description": "Sistema Explosivos",
+  "productName": "G+Blast",
+  "author": "Oscar Garcia <oscartlgarciatl@gmail.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint -c ./eslint.config.js \"./src*/**/*.{js,cjs,mjs,vue}\"",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev -m pwa",
+    "build": "quasar build",
+    "postinstall": "quasar prepare"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.14",
+    "@quasar/extras": "^1.17.0",
+    "@vueuse/core": "^14.1.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.13.2",
+    "echarts": "^6.0.0",
+    "es-toolkit": "^1.43.0",
+    "jwt-decode": "4.0.0",
+    "pinia": "^3.0.4",
+    "primeicons": "^7.0.0",
+    "quasar": "^2.18.6",
+    "register-service-worker": "^1.7.2",
+    "signature_pad": "^4.2.0",
+    "vue": "^3.5.26",
+    "vue-i18n": "^11.2.8",
+    "vue-router": "^4.6.4",
+    "vue-sweetalert2": "^5.0.11",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@quasar/app-vite": "^2.4.0",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "autoprefixer": "^10.4.23",
+    "baseline-browser-mapping": "^2.9.11",
+    "eslint": "^9.39.2",
+    "eslint-plugin-vue": "^9.33.0",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "vite-plugin-checker": "^0.9.3",
+    "workbox-build": "^7.4.0",
+    "workbox-cacheable-response": "^7.4.0",
+    "workbox-core": "^7.4.0",
+    "workbox-expiration": "^7.4.0",
+    "workbox-precaching": "^7.4.0",
+    "workbox-routing": "^7.4.0",
+    "workbox-strategies": "^7.4.0"
+  },
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

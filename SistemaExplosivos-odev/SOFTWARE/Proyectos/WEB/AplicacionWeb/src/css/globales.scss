@@ -1,0 +1,92 @@
+//Destinado para todos los dialogos de decisiones 'si o no'
+//Evita que estos dialogos aparezcan debajo de los demas
+.swal2-container {
+  z-index: 6500 !important;
+}
+
+// Estilos base del viewport
+html,
+body {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+// Evitar scroll horizontal durante transiciones de página
+// y ajustar el q-page para evitar scroll innecesario
+.q-page-container {
+  overflow-x: hidden;
+
+  // Estilos específicos del scrollbar para el contenedor principal
+  &::-webkit-scrollbar {
+    width: 8px !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--q-primary, #f4f4f4) !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--q-primary) !important;
+    border-radius: 6px !important;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--q-primary) !important;
+    filter: brightness(0.8);
+  }
+}
+
+// Scrollbar-color específico por modo para el q-page-container
+body:not(.body--dark) .q-page-container {
+  scrollbar-color: var(--q-primary) #f4f4f4 !important;
+}
+
+body.body--dark .q-page-container {
+  scrollbar-color: var(--q-primary) #2d2d2d !important;
+}
+
+// ... (keep existing padding styles)
+
+// Scrollbar general (vertical y horizontal)
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+// Track
+::-webkit-scrollbar-track {
+  background: var(--q-fondo2) !important;
+  border-radius: 6px !important;
+}
+
+// Thumb
+::-webkit-scrollbar-thumb {
+  background: var(--q-primary) !important;
+  border-radius: 6px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--q-primary) !important;
+  filter: brightness(0.8);
+}
+
+// Esquina
+::-webkit-scrollbar-corner {
+  background: var(--q-fondo2) !important;
+}
+
+// Firefox y scrollbar-color global
+* {
+  scrollbar-width: auto !important;
+}
+
+// Modo claro
+body:not(.body--dark) * {
+  scrollbar-color: var(--q-primary) #f4f4f4 !important;
+}
+
+// Modo oscuro
+body.body--dark * {
+  scrollbar-color: var(--q-primary) #2d2d2d !important;
+}

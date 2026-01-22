@@ -1,0 +1,90 @@
+// Definición de variables CSS globales dependientes del modo (Light/Dark)
+// Quasar añade automáticamente la clase .body--dark o .body--light al tag body
+
+body {
+  // Valores por defecto (Light Mode)
+  --q-fondo: #ededed;
+  --q-fondo2: #f4f4f4;
+  --q-fondo3: #ffffff;
+
+  // Textos base para contrastar con fondos claros
+  --q-text-primary: #000000;
+  --q-text-secondary: #6c6c6c;
+}
+
+body.body--dark {
+  // Valores para Dark Mode
+  --q-fondo: #1a1a1a;
+  --q-fondo2: #2d2d2d;
+  --q-fondo3: #383838;
+
+  // Textos base para contrastar con fondos oscuros
+  --q-text-primary: #ffffff;
+  --q-text-secondary: #b0b0b0;
+}
+
+// Clases de utilidad para usar estas variables
+.bg-fondo {
+  background-color: var(--q-fondo) !important;
+}
+
+.bg-fondo2 {
+  background-color: var(--q-fondo2) !important;
+}
+
+.bg-fondo3 {
+  background-color: var(--q-fondo3) !important;
+}
+
+.text-textprimary {
+  color: var(--q-text-primary) !important;
+}
+
+.text-textsecondary {
+  color: var(--q-text-secondary) !important;
+}
+
+// Utilidad para texto que contrasta con el color primary
+.text-primary-contrast {
+  color: var(--q-primary-contrast) !important;
+}
+
+.text-secondary-contrast {
+  color: var(--q-secondary-contrast) !important;
+}
+
+.text-positive-contrast {
+  color: var(--q-positive-contrast) !important;
+}
+
+.text-negative-contrast {
+  color: var(--q-negative-contrast) !important;
+}
+
+.text-warning-contrast {
+  color: var(--q-warning-contrast) !important;
+}
+
+.text-info-contrast {
+  color: var(--q-info-contrast) !important;
+}
+
+// Override para q-date selected day (force contrast)
+.q-date__calendar-item--selected .block {
+  background: var(--q-primary-contrast) !important;
+  color: var(--q-primary) !important;
+}
+
+// Override para q-date range (from/to)
+.q-date__range,
+.q-date__range-from,
+.q-date__range-to {
+  color: var(--q-primary-contrast) !important;
+}
+// Force selected range background to primary (if it was grey)
+.q-date__range:before,
+.q-date__range-from:before,
+.q-date__range-to:before {
+  background: var(--q-primary) !important;
+  opacity: 0.3; // Light transparency for range
+}

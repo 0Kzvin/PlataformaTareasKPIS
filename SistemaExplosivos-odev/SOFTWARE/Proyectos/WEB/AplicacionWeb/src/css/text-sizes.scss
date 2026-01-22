@@ -1,0 +1,200 @@
+$texto-proporciones: 10, 12, 14, 16, 18, 20, 21, 24, 28, 32;
+
+$texto-proporcion-opciones: (
+  "sm": 0.95,
+  "md": 1.0,
+  "lg": 1.05,
+  "xl": 1.1,
+);
+
+@each $texto-proporcion, $multiplicador in $texto-proporcion-opciones {
+  [datos-tamano-texto="#{$texto-proporcion}"] {
+
+    // Override Quasar Typography Classes
+    // Base sizes taken from Quasar defaults (approximate/standard)
+    .text-h1 {
+      font-size: 96px * $multiplicador;
+      line-height: 1.1;
+    }
+
+    .text-h2 {
+      font-size: 60px * $multiplicador;
+      line-height: 1.1;
+    }
+
+    .text-h3 {
+      font-size: 48px * $multiplicador;
+      line-height: 1.1;
+    }
+
+    .text-h4 {
+      font-size: 34px * $multiplicador;
+      line-height: 1.1;
+    }
+
+    .text-h5 {
+      font-size: 24px * $multiplicador;
+      line-height: 1.1;
+    }
+
+    .text-h6 {
+      font-size: 20px * $multiplicador;
+      line-height: 1.1;
+    }
+
+    .text-subtitle1 {
+      font-size: 16px * $multiplicador;
+      line-height: 1.5;
+    }
+
+    .text-subtitle2 {
+      font-size: 14px * $multiplicador;
+      line-height: 1.5;
+    }
+
+    .text-body1 {
+      font-size: 16px * $multiplicador;
+      line-height: 1.5;
+    }
+
+    .text-body2 {
+      font-size: 14px * $multiplicador;
+      line-height: 1.5;
+    }
+
+    .text-caption {
+      font-size: 12px * $multiplicador;
+      line-height: 1.25;
+    }
+
+    .text-overline {
+      font-size: 10px * $multiplicador;
+      line-height: 1.5;
+    }
+
+    @each $texto-proporcion in $texto-proporciones {
+      .text-size-#{$texto-proporcion} {
+        font-size: #{$texto-proporcion * $multiplicador}px;
+
+        //q-input sobreescritura
+        &.q-field--labeled {
+          .q-field__native {
+            line-height: 24px * $multiplicador;
+            font-size: #{$texto-proporcion * $multiplicador}px;
+          }
+
+          .q-field__label {
+            font-size: 16px * $multiplicador;
+          }
+        }
+
+        &.q-field {
+
+          // Ensure non-dense fields also scale
+          .q-field__control,
+          .q-field__marginal {
+            min-height: 56px * $multiplicador;
+            height: auto;
+          }
+
+          .q-field__native {
+            font-size: #{$texto-proporcion * $multiplicador}px;
+          }
+        }
+
+        // Specific override for dense fields to re-apply their smaller height if needed
+        &.q-field--dense {
+
+          .q-field__control,
+          .q-field__marginal {
+            min-height: 40px * $multiplicador;
+            height: auto;
+          }
+
+          .q-field__label {
+            top: calc((40px * $multiplicador) / 4);
+            font-size: 14px * $multiplicador;
+          }
+        }
+
+        // q-checkbox override
+        &.q-checkbox {
+          align-items: center !important; // Force vertical centering
+
+          .q-checkbox__label {
+            font-size: #{$texto-proporcion * $multiplicador}px;
+            padding-left: 0; // Removed; utilizing margin on inner instead
+            line-height: 1.2;
+          }
+
+          .q-checkbox__inner {
+            font-size: #{$texto-proporcion * $multiplicador * 1.5}px; // Scales the icon container often
+            width: 1em;
+            height: 1em;
+            min-width: 1em; // prevents squishing
+            margin: 0 !important; // Remove any Quasar default negative margins
+            margin-right: 8px * $multiplicador !important; // Move padding/spacing here instead of label for better control? No, keep label padding.
+          }
+
+          .q-checkbox__bg {
+            width: 100%;
+            height: 100%;
+            position: static !important; // Fix vertical alignment issue identified by user
+          }
+
+          .q-checkbox__svg {
+            padding: 2px * $multiplicador; // Add internal padding so checkmark doesn't hit borders
+          }
+        }
+
+        //q-select sobreescritura
+        &.q-select {
+          .q-field__label {
+            font-size: 16px * $multiplicador;
+            top: 18px * $multiplicador;
+            line-height: 23px * $multiplicador;
+          }
+
+          .q-field__marginal {
+            min-height: 56px * $multiplicador; // Changed to min-height
+            height: auto;
+          }
+
+          &.q-field--auto-height.q-field--labeled .q-field__control-container {
+            padding-top: 24px * $multiplicador;
+          }
+        }
+
+        //q-tab sobreescritura
+        &q-tab {
+          .q-tab__icon {
+            width: 24px * $multiplicador;
+            height: 24px * $multiplicador;
+            font-size: 24px * $multiplicador;
+          }
+
+          .q-tab__label {
+            font-size: #{$texto-proporcion * $multiplicador}px;
+          }
+        }
+      }
+    }
+
+    // q-expansion-item sobreescritura (fuera de text-size-X para aplicar globalmente)
+    .q-expansion-item {
+      .q-item__section--side {
+
+        // Escalar el icono de expansión (chevron)
+        .q-icon {
+          font-size: 24px * $multiplicador;
+        }
+      }
+    }
+  }
+}
+
+@each $texto-proporcion in $texto-proporciones {
+  .text-size-fixed-#{$texto-proporcion} {
+    font-size: #{$texto-proporcion}px;
+  }
+}

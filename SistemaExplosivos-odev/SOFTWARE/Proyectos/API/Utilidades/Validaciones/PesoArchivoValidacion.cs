@@ -1,0 +1,37 @@
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+
+namespace API.Validaciones
+{
+    public class PesoArchivoValidacion : ValidationAttribute
+    {
+        private readonly int pesoMaximoEnMegaBytes;
+
+        public PesoArchivoValidacion(int PesoMaximoEnMegaBytes)
+        {
+            pesoMaximoEnMegaBytes = PesoMaximoEnMegaBytes;
+        }
+
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            if (value == null)
+            {
+                return ValidationResult.Success;
+            }
+
+            IFormFile formFile = value as IFormFile;
+
+            if (formFile == null)
+            {
+                return ValidationResult.Success;
+            }
+
+            if (formFile.Length > pesoMaximoEnMegaBytes * 1024 * 1024)
+            {
+                return new ValidationResult($"El Peso del Archivo no debe ser Mayor a {pesoMaximoEnMegaBytes}MB");
+            }
+
+            return ValidationResult.Success;
+        }
+    }
+}
