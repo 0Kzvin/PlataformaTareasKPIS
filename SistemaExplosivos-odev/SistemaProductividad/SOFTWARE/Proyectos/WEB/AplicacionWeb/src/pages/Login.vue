@@ -227,12 +227,6 @@ const onSubmit = async () => {
     }
 
     // Pinia
-    console.log('Login response:', resp)
-    console.log('Payload:', resp.payload)
-    console.log('Inner payload:', resp.payload.payload)
-    console.log('Token:', resp.payload.payload?.token)
-    console.log('Token type:', typeof resp.payload.payload?.token)
-    
     await storeSesion.guardarTokenBotonLogin({
       tokenInfo: resp.payload.payload,  // Access the inner payload
       mantenerSesionF: deseaMantenerSesion.value,
