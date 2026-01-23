@@ -1,12 +1,36 @@
 import { HubConnectionBuilder } from '@microsoft/signalr'
+import { date } from 'quasar'
 import { obtenerDireccionAPI } from 'src/services/AxiosService.js'
 import { useSesionStore } from 'src/stores/sesion'
 
 const baseUrl = obtenerDireccionAPI()
 
-const obtenerTokenSesion = () => {
+const obtenerTokenInfo = () => {
   const sesionStore = useSesionStore()
-  return sesionStore?.tokenInfo?.token || ''
+  if (sesionStore?.tokenInfo?.token) {
+    return sesionStore.tokenInfo
+  }
+  const tokenPersistido = localStorage.getItem('tokenInfo')
+  if (!tokenPersistido) {
+    return null
+  }
+  try {
+    return JSON.parse(tokenPersistido)
+  } catch {
+    return null
+  }
+}
+
+const tokenExpirado = (tokenInfo) => {
+  if (!tokenInfo?.expiracion) {
+    return false
+  }
+  const segundosRestantes = date.getDateDiff(tokenInfo.expiracion, new Date(), 'seconds')
+  return segundosRestantes <= 0
+}
+
+const obtenerTokenSesion = () => {
+  return obtenerTokenInfo()?.token || ''
 }
 
 export const connection = new HubConnectionBuilder()
@@ -18,9 +42,13 @@ export const connection = new HubConnectionBuilder()
 
 export async function iniciarSignalR() {
   try {
-    const token = obtenerTokenSesion()
-    if (!token) {
+    const tokenInfo = obtenerTokenInfo()
+    if (!tokenInfo?.token) {
       console.warn('SignalR no iniciado: token inexistente')
+      return
+    }
+    if (tokenExpirado(tokenInfo)) {
+      console.warn('SignalR no iniciado: token expirado')
       return
     }
     if (connection.state === 'Disconnected') {
