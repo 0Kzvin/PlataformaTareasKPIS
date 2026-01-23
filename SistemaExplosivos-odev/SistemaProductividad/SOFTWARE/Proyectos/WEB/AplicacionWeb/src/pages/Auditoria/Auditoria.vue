@@ -19,6 +19,10 @@
 import { ref, onMounted } from 'vue'
 import { api } from 'boot/axios'
 
+defineOptions({
+  name: 'AuditoriaPage',
+})
+
 const registros = ref([])
 const cargando = ref(false)
 const columns = [

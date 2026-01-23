@@ -18,6 +18,10 @@
 import { ref, onMounted } from 'vue'
 import { api } from 'boot/axios'
 
+defineOptions({
+  name: 'UsuariosPage',
+})
+
 const usuarios = ref([])
 const cargando = ref(false)
 const columns = [

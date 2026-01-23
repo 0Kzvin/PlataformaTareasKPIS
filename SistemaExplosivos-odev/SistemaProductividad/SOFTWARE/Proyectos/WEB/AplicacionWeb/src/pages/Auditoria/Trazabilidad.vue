@@ -10,5 +10,9 @@
 <script setup>
 import { inject } from 'vue'
 
+defineOptions({
+  name: 'TrazabilidadPage',
+})
+
 const traducir = inject('traducir', (key) => key)
 </script>
